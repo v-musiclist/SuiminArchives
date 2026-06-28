@@ -1,267 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suimin Archives | 酔眠はやね曲リスト</title>
-    <link rel="icon" href="./assets/siteicon.png" type="image/png" />
-    <link rel="stylesheet" href="./styles.css" />
-    <style>
-      :root {
-        color-scheme: dark;
-        --bg: #04080f;
-        --bg2: #141b29;
-        --card: rgba(255, 255, 255, 0.07);
-        --border: rgba(255, 255, 255, 0.12);
-        --text: #f6f8ff;
-        --muted: #a0aec0;
-        --accent: #e08af3;
-        --accent2: #5fd7ff;
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Suimin Archives | 酔眠はやね曲リスト</title>
+  <link rel="icon" href="./assets/siteicon.png" type="image/png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        font-family: "Inter", "Noto Sans JP", system-ui, sans-serif;
-        background: radial-gradient(circle at top left, rgba(96, 165, 250, 0.24), transparent 24%),
-          radial-gradient(circle at bottom right, rgba(236, 72, 153, 0.15), transparent 22%),
-          linear-gradient(180deg, #08101d 0%, #05060b 100%);
-        color: var(--text);
-      }
-
-      body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
-        background-image: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.08), transparent 18%),
-          radial-gradient(circle at 80% 15%, rgba(109, 40, 217, 0.14), transparent 15%),
-          radial-gradient(circle at 50% 80%, rgba(56, 189, 248, 0.12), transparent 18%);
-        pointer-events: none;
-      }
-
-      .page {
-        position: relative;
-        max-width: 1080px;
-        margin: 0 auto;
-        padding: 36px 20px 64px;
-      }
-
-      .hero {
-        display: grid;
-        gap: 24px;
-        padding: 40px 32px;
-        border: 1px solid var(--border);
-        border-radius: 28px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
-        backdrop-filter: blur(18px);
-      }
-
-      .hero h1 {
-        margin: 0;
-        font-size: clamp(2.6rem, 5vw, 4.4rem);
-        line-height: 0.98;
-        letter-spacing: -0.06em;
-      }
-
-      .hero p {
-        margin: 0;
-        max-width: 760px;
-        line-height: 1.7;
-        color: var(--muted);
-        font-size: 1.05rem;
-      }
-
-      .hero .badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        padding: 10px 16px;
-        border-radius: 999px;
-        border: 1px solid rgba(255, 255, 255, 0.15);
-        background: rgba(255, 255, 255, 0.05);
-        font-size: 0.95rem;
-      }
-
-      .highlight {
-        color: var(--accent);
-      }
-
-      .tracks {
-        margin-top: 40px;
-        display: grid;
-        gap: 24px;
-      }
-
-      .track-card {
-        border: 1px solid var(--border);
-        border-radius: 24px;
-        overflow: hidden;
-        background: var(--card);
-        box-shadow: 0 20px 80px rgba(0, 0, 0, 0.24);
-      }
-
-      .track-card header {
-        padding: 24px 28px;
-        display: flex;
-        justify-content: space-between;
-        gap: 16px;
-        align-items: center;
-        background: linear-gradient(90deg, rgba(88, 96, 255, 0.16), rgba(81, 200, 245, 0.1));
-        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-      }
-
-      .track-card header h2 {
-        margin: 0;
-        font-size: 1.25rem;
-      }
-
-      .track-card header span {
-        color: var(--muted);
-        font-size: 0.95rem;
-      }
-
-      .track-list {
-        margin: 0;
-        padding: 24px 28px 28px;
-        display: grid;
-        gap: 16px;
-      }
-
-      .track-item {
-        display: flex;
-        justify-content: space-between;
-        gap: 16px;
-        padding: 18px 20px;
-        border-radius: 18px;
-        background: rgba(255, 255, 255, 0.03);
-        border: 1px solid rgba(255, 255, 255, 0.05);
-      }
-
-      .track-item strong {
-        color: #fff;
-      }
-
-      .track-item small {
-        color: var(--muted);
-        min-width: 110px;
-        text-align: right;
-      }
-
-      .footer {
-        margin-top: 46px;
-        padding: 24px 28px;
-        border-radius: 24px;
-        border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.04);
-      }
-
-      .footer p {
-        margin: 0 0 12px;
-        color: var(--muted);
-      }
-
-      .footer a {
-        color: var(--accent2);
-        text-decoration: none;
-      }
-
-      @media (max-width: 720px) {
-        .hero, .track-card, .footer {
-          padding: 24px 20px;
-        }
-
-        .track-item {
-          flex-direction: column;
-          align-items: flex-start;
-          text-align: left;
-        }
-
-        .track-item small {
-          width: 100%;
-          text-align: left;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="page">
-      <section class="hero">
-        <span class="badge">酔眠はやね Live Archive</span>
-        <h1>Suimin Archives</h1>
-        <p>
-          酔眠はやねのYouTubeライブで披露された楽曲を、ライブ配信ごとに整理して掲載します。
-          曲名・配信日・セットリストを見やすくまとめて、アーカイブとして残せるページにします。
-        </p>
-      </section>
-
-      <section class="tracks">
-        <article class="track-card">
-          <header>
-            <div>
-              <h2>ライブ配信セットリスト</h2>
-              <p>最新の放送順に追加されます</p>
-            </div>
-            <span>2026 season</span>
-          </header>
-          <div class="track-list">
-            <div class="track-item">
-              <strong>01 - カバー曲タイトル / ライブ名</strong>
-              <small>放送日: 2026-06-28</small>
-            </div>
-            <div class="track-item">
-              <strong>02 - ヒット曲タイトル / ライブ名</strong>
-              <small>放送日: 2026-06-21</small>
-            </div>
-            <div class="track-item">
-              <strong>03 - オリジナル楽曲 / ライブ名</strong>
-              <small>放送日: 2026-06-14</small>
-            </div>
-            <div class="track-item">
-              <strong>04 - ボーナスセットリスト</strong>
-              <small>放送日: 2026-06-07</small>
-            </div>
-          </div>
-        </article>
-
-        <article class="track-card">
-          <header>
-            <div>
-              <h2>ライブアーカイブのつかいかた</h2>
-              <p>それぞれの放送で歌われた楽曲を、近日中に追加していきます。</p>
-            </div>
-            <span>更新予定</span>
-          </header>
-          <div class="track-list">
-            <div class="track-item">
-              <strong>曲名を追加</strong>
-              <small>ライブタイトル / 配信日</small>
-            </div>
-            <div class="track-item">
-              <strong>曲名を追加</strong>
-              <small>ライブタイトル / 配信日</small>
-            </div>
-            <div class="track-item">
-              <strong>曲名を追加</strong>
-              <small>ライブタイトル / 配信日</small>
-            </div>
-          </div>
-        </article>
-      </section>
-
-      <footer class="footer">
-        <p>
-          このページは「酔眠はやね」のYouTubeライブで披露された楽曲を集めるためのアーカイブです。
-          実際のセットリストは配信のアーカイブやコメントを見ながら更新してください。
-        </p>
-        <p>
-          GitHub Pages で公開中: <a href="https://v-musiclist.github.io/SuiminArchives/" target="_blank" rel="noopener noreferrer">https://v-musiclist.github.io/SuiminArchives/</a>
-        </p>
-      </footer>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand__title" id="siteTitle"></div>
+      <div class="brand__sub" id="siteSub"></div>
     </div>
-    <script src="./app.js"></script>
-  </body>
+
+  <div class="actions">
+    <!-- SNS（PC表示用） -->
+    <div class="social">
+      <a class="sns-img-btn" href="https://x.com/SuiminHayane" target="_blank" rel="noopener">
+      	<font width="80" height="40">X<font/>
+      </a>
+      <a class="sns-img-btn" href="https://www.youtube.com/@SuiminHayane" target="_blank" rel="noopener">
+      	<font width="80" height="40">YouTube<font/>
+      </a>
+      <a class="sns-img-btn" href="https://lit.link/SuiminHayane" target="_blank" rel="noopener">
+      	<font width="80" height="40">LitLink<font/>
+      </a>
+    </div>
+
+    <!-- ハンバーガー（スマホ用） -->
+    <button class="nav-toggle" id="navToggle"
+      aria-label="menu" aria-expanded="false">☰</button>
+  </div>
+
+  </header>
+
+  <!-- スマホ用メニュー（SNS＋タブ） -->
+  <div class="navpanel" id="navPanel" aria-hidden="true">
+    <div class="navpanel__backdrop" id="navBackdrop"></div>
+
+    <div class="navpanel__inner">
+      <div class="navpanel__title">メニュー</div>
+
+      <!-- SNS（ハンバーガーの中だけ） -->
+      <div class="navpanel__group">
+        <a class="sns-img-btn" href="https://x.com/SuiminHayane" target="_blank" rel="noopener">
+        	<font width="80" height="40">X<font/>
+        </a>
+        <a class="sns-img-btn" href="https://www.youtube.com/@SuiminHayane" target="_blank" rel="noopener">
+        	<font width="80" height="40">YouTube<font/>
+        </a>
+        <a class="sns-img-btn" href="https://lit.link/SuiminHayane" target="_blank" rel="noopener">
+        	<font width="80" height="40">LitLink<font/>
+        </a>
+      </div>
+
+      <div class="ruleline"></div>
+
+      <!-- タブ（スマホではこれを使う） -->
+      <div class="navpanel__grid">
+        <a href="#home" class="tab tab--mobile" data-tab="home"></a>
+        <a href="#about" class="tab tab--mobile" data-tab="about"></a>
+        <a href="#support" class="tab tab--mobile" data-tab="support"></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
 </html>
