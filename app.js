@@ -36,6 +36,7 @@
 
   const liveList = document.getElementById("liveList");
   const subpanel = document.getElementById("liveSubpanel");
+  const subpanelPanel = subpanel?.querySelector(".live-subpanel__panel");
   const subpanelBackdrop = document.getElementById("liveSubpanelBackdrop");
   const subpanelClose = document.getElementById("liveSubpanelClose");
   const subpanelContent = document.getElementById("liveSubpanelContent");
@@ -49,6 +50,10 @@
 
   const closeSubpanel = () => {
     if (!subpanel) return;
+    if (subpanelPanel) {
+      subpanelPanel.scrollTop = 0;
+      subpanelPanel.scrollLeft = 0;
+    }
     subpanel.classList.remove("open");
     subpanel.setAttribute("aria-hidden", "true");
     document.body.classList.remove("modal-open");
@@ -56,6 +61,10 @@
 
   const openSubpanel = (live, songs) => {
     if (!subpanel || !subpanelContent) return;
+    if (subpanelPanel) {
+      subpanelPanel.scrollTop = 0;
+      subpanelPanel.scrollLeft = 0;
+    }
 
     const songMarkup = songs.length
       ? `<div class="live-subpanel__songs">${songs.map((song) => `
