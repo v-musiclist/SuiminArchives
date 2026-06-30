@@ -1,0 +1,374 @@
+[
+	{
+		"live_id": "L001",
+		"url": "https://youtu.be/tgniu4jozz0",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/tgniu4jozz0/hq720.jpg"
+	},
+	{
+		"live_id": "L002",
+		"url": "https://youtu.be/ewNCnGUn52o",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/ewNCnGUn52o/hq720.jpg"
+	},
+	{
+		"live_id": "L003",
+		"url": "https://youtu.be/UIIzT2tMonU",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/UIIzT2tMonU/hq720.jpg"
+	},
+	{
+		"live_id": "L004",
+		"url": "https://youtu.be/EE2Wel-pL1Y",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/EE2Wel-pL1Y/hq720.jpg"
+	},
+	{
+		"live_id": "L005",
+		"url": "https://youtu.be/JIUnhUWxEG8",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/JIUnhUWxEG8/hq720.jpg"
+	},
+	{
+		"live_id": "L006",
+		"url": "https://youtu.be/SgQzOA2lSJE",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/SgQzOA2lSJE/hq720.jpg"
+	},
+	{
+		"live_id": "L007",
+		"url": "https://youtu.be/Hk3My1uNVaQ",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/Hk3My1uNVaQ/hq720.jpg"
+	},
+	{
+		"live_id": "L008",
+		"url": "https://youtu.be/4xyd6BYvkHo",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/4xyd6BYvkHo/hq720.jpg"
+	},
+	{
+		"live_id": "L009",
+		"url": "https://youtu.be/xV439GgATPg",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/xV439GgATPg/hq720.jpg"
+	},
+	{
+		"live_id": "L010",
+		"url": "https://youtu.be/pyRYt01mRK0",
+		"live_setting": "限定公開",
+		"live_image": "https://i.ytimg.com/vi/pyRYt01mRK0/hq720.jpg"
+	},
+	{
+		"live_id": "L011",
+		"url": "https://youtu.be/SIa0SzQfcq0",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/SIa0SzQfcq0/hq720.jpg"
+	},
+	{
+		"live_id": "L012",
+		"url": "https://youtu.be/qeE9Yq9Gbx0",
+		"live_setting": "限定公開",
+		"live_image": "https://i.ytimg.com/vi/qeE9Yq9Gbx0/hq720.jpg"
+	},
+	{
+		"live_id": "L013",
+		"url": "https://youtu.be/wG1iLY7WoLg",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/wG1iLY7WoLg/hq720.jpg"
+	},
+	{
+		"live_id": "L014",
+		"url": "https://youtu.be/YxrFlOjVHt8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/YxrFlOjVHt8/hq720.jpg"
+	},
+	{
+		"live_id": "L015",
+		"url": "https://youtu.be/fckDNCkzvps",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/fckDNCkzvps/hq720.jpg"
+	},
+	{
+		"live_id": "L016",
+		"url": "https://youtu.be/siHanvREikw",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/siHanvREikw/hq720.jpg"
+	},
+	{
+		"live_id": "L017",
+		"url": "https://youtu.be/v3H8yDfl-kg",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/v3H8yDfl-kg/hq720.jpg"
+	},
+	{
+		"live_id": "L018",
+		"url": "https://youtu.be/qKLfMAwFJQ4",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/qKLfMAwFJQ4/hq720.jpg"
+	},
+	{
+		"live_id": "L019",
+		"url": "https://youtu.be/Jgd1OHWZ5As",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/Jgd1OHWZ5As/hq720.jpg"
+	},
+	{
+		"live_id": "L020",
+		"url": "https://youtu.be/SgYcOeVuPVg",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/SgYcOeVuPVg/hq720.jpg"
+	},
+	{
+		"live_id": "L021",
+		"url": "https://youtu.be/IfzlKlk2EA4",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/IfzlKlk2EA4/hq720.jpg"
+	},
+	{
+		"live_id": "L022",
+		"url": "https://youtu.be/nXQb45O7lUo",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/nXQb45O7lUo/hq720.jpg"
+	},
+	{
+		"live_id": "L023",
+		"url": "https://youtu.be/aRbfHsc5rC4",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/aRbfHsc5rC4/hq720.jpg"
+	},
+	{
+		"live_id": "L024",
+		"url": "https://youtu.be/QteOCz4GhP0",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/QteOCz4GhP0/hq720.jpg"
+	},
+	{
+		"live_id": "L025",
+		"url": "https://youtu.be/tHd7s_EcCy8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/tHd7s_EcCy8/hq720.jpg"
+	},
+	{
+		"live_id": "L026",
+		"url": "https://youtu.be/pD2a12SNZAg",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/pD2a12SNZAg/hq720.jpg"
+	},
+	{
+		"live_id": "L027",
+		"url": "https://youtu.be/QlhUoRZrIH8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/QlhUoRZrIH8/hq720.jpg"
+	},
+	{
+		"live_id": "L028",
+		"url": "https://youtu.be/nS-wcBhaB_k",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/nS-wcBhaB_k/hq720.jpg"
+	},
+	{
+		"live_id": "L029",
+		"url": "https://youtu.be/6iF8zhhO20k",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/6iF8zhhO20k/hq720.jpg"
+	},
+	{
+		"live_id": "L030",
+		"url": "https://youtu.be/kJFM72yd53w",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/kJFM72yd53w/hq720.jpg"
+	},
+	{
+		"live_id": "L031",
+		"url": "https://youtu.be/Wx6Sk2SFzxA",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/Wx6Sk2SFzxA/hq720.jpg"
+	},
+	{
+		"live_id": "L032",
+		"url": "https://youtu.be/5iiN5ciEFME",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/5iiN5ciEFME/hq720.jpg"
+	},
+	{
+		"live_id": "L033",
+		"url": "https://youtu.be/okTiiyIvp10",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/okTiiyIvp10/hq720.jpg"
+	},
+	{
+		"live_id": "L034",
+		"url": "https://youtu.be/D7pNWwjKgpI",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/D7pNWwjKgpI/hq720.jpg"
+	},
+	{
+		"live_id": "L035",
+		"url": "https://youtu.be/ti59E0Y2DW0",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/ti59E0Y2DW0/hq720.jpg"
+	},
+	{
+		"live_id": "L036",
+		"url": "https://youtu.be/1fcMJwTrFgE",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/1fcMJwTrFgE/hq720.jpg"
+	},
+	{
+		"live_id": "L037",
+		"url": "https://youtu.be/QcklyBBbtvA",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/QcklyBBbtvA/hq720.jpg"
+	},
+	{
+		"live_id": "L038",
+		"url": "https://youtu.be/hyjsvNxxebE",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/hyjsvNxxebE/hq720.jpg"
+	},
+	{
+		"live_id": "L039",
+		"url": "https://youtu.be/M8qPmwqfUqk",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/M8qPmwqfUqk/hq720.jpg"
+	},
+	{
+		"live_id": "L040",
+		"url": "https://youtu.be/3TN6tjfCQDw",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/3TN6tjfCQDw/hq720.jpg"
+	},
+	{
+		"live_id": "L041",
+		"url": "https://youtu.be/ji0p-IW0f-E",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/ji0p-IW0f-E/hq720.jpg"
+	},
+	{
+		"live_id": "L042",
+		"url": "https://youtu.be/z9Vmknq6g-M",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/z9Vmknq6g-M/hq720.jpg"
+	},
+	{
+		"live_id": "L043",
+		"url": "https://youtu.be/MCSf66nsyYo",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/MCSf66nsyYo/hq720.jpg"
+	},
+	{
+		"live_id": "L044",
+		"url": "https://youtu.be/DpYBxC7D_pI",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/DpYBxC7D_pI/hq720.jpg"
+	},
+	{
+		"live_id": "L045",
+		"url": "https://youtu.be/7_8EpXntvh8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/7_8EpXntvh8/hq720.jpg"
+	},
+	{
+		"live_id": "L046",
+		"url": "https://youtu.be/MegNnWqlpro",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/MegNnWqlpro/hq720.jpg"
+	},
+	{
+		"live_id": "L047",
+		"url": "https://youtu.be/oDfyDf56pHo",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/oDfyDf56pHo/hq720.jpg"
+	},
+	{
+		"live_id": "L048",
+		"url": "https://youtu.be/vH1LRJVcrWM",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/vH1LRJVcrWM/hq720.jpg"
+	},
+	{
+		"live_id": "L049",
+		"url": "https://youtu.be/QYnf1CMOzpg",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/QYnf1CMOzpg/hq720.jpg"
+	},
+	{
+		"live_id": "L050",
+		"url": "https://youtu.be/OPgNJUFWd7k",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/OPgNJUFWd7k/hq720.jpg"
+	},
+	{
+		"live_id": "L051",
+		"url": "https://youtu.be/ObCh_5pXiqI",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/ObCh_5pXiqI/hq720.jpg"
+	},
+	{
+		"live_id": "L052",
+		"url": "https://youtu.be/LgKkg5Hl584",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/LgKkg5Hl584/hq720.jpg"
+	},
+	{
+		"live_id": "L053",
+		"url": "https://youtu.be/GnknaZU6Gm8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/GnknaZU6Gm8/hq720.jpg"
+	},
+	{
+		"live_id": "L054",
+		"url": "https://youtu.be/8SoMZYV-iu8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/8SoMZYV-iu8/hq720.jpg"
+	},
+	{
+		"live_id": "L055",
+		"url": "https://youtu.be/bifjIs2UHGI",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/bifjIs2UHGI/hq720.jpg"
+	},
+	{
+		"live_id": "L056",
+		"url": "https://youtu.be/Yz-xqLfH-S8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/Yz-xqLfH-S8/hq720.jpg"
+	},
+	{
+		"live_id": "L057",
+		"url": "https://youtu.be/d6wRj3_yDYI",
+		"live_setting": "非公開",
+		"live_image": "https://i.ytimg.com/vi/d6wRj3_yDYI/hq720.jpg"
+	},
+	{
+		"live_id": "L058",
+		"url": "https://youtu.be/Q34amvANA5I",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/Q34amvANA5I/hq720.jpg"
+	},
+	{
+		"live_id": "L059",
+		"url": "https://youtu.be/Y_6UDfkIJ0E",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/Y_6UDfkIJ0E/hq720.jpg"
+	},
+	{
+		"live_id": "L060",
+		"url": "https://youtu.be/POZerWTfGF4",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/POZerWTfGF4/hq720.jpg"
+	},
+	{
+		"live_id": "L061",
+		"url": "https://youtu.be/krIBWDSc3i8",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/krIBWDSc3i8/hq720.jpg"
+	},
+	{
+		"live_id": "L062",
+		"url": "https://youtu.be/GF8VuInYK64",
+		"live_setting": "通常",
+		"live_image": "https://i.ytimg.com/vi/GF8VuInYK64/hq720.jpg"
+	}
+]

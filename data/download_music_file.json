@@ -1,0 +1,6115 @@
+[
+	{
+		"live_id": "L001",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/tgniu4jozz0&t=377s"
+			},
+			{
+				"song_id": "S002",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/tgniu4jozz0&t=658s"
+			},
+			{
+				"song_id": "S003",
+				"title": "世界は恋に落ちている",
+				"singer": "GUMI",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/tgniu4jozz0&t=1071s"
+			},
+			{
+				"song_id": "S004",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/tgniu4jozz0&t=1542s"
+			},
+			{
+				"song_id": "S005",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/tgniu4jozz0&t=1955s"
+			},
+			{
+				"song_id": "S006",
+				"title": "アイロニ",
+				"singer": "初音ミク",
+				"lyrics_composition": "すこっぷ",
+				"url": "https://youtu.be/tgniu4jozz0&t=2349s"
+			},
+			{
+				"song_id": "S007",
+				"title": "アイドル",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/tgniu4jozz0&t=2693s"
+			},
+			{
+				"song_id": "S008",
+				"title": "小悪魔だってかまわない！",
+				"singer": "めいちゃん",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/tgniu4jozz0&t=3062s"
+			},
+			{
+				"song_id": "S009",
+				"title": "夜に駆ける",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/tgniu4jozz0&t=3428s"
+			},
+			{
+				"song_id": "S010",
+				"title": "わたしの一番かわいいところ",
+				"singer": "FRUITS ZIPPER",
+				"lyrics_composition": "ヤマモトショウ",
+				"url": "https://youtu.be/tgniu4jozz0&t=3967s"
+			},
+			{
+				"song_id": "S011",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/tgniu4jozz0&t=4407s"
+			},
+			{
+				"song_id": "S012",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/tgniu4jozz0&t=4785s"
+			},
+			{
+				"song_id": "S013",
+				"title": "Tell Your World",
+				"singer": "初音ミク",
+				"lyrics_composition": "kz",
+				"url": "https://youtu.be/tgniu4jozz0&t=5185s"
+			},
+			{
+				"song_id": "S014",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/tgniu4jozz0&t=5754s"
+			},
+			{
+				"song_id": "S015",
+				"title": "Mela!",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,小林壱誓,peppe,穴見真吾",
+				"url": "https://youtu.be/tgniu4jozz0&t=6266s"
+			}
+		]
+	},
+	{
+		"live_id": "L002",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "INVOKE",
+				"singer": "T.M.Revolution",
+				"lyrics_composition": "井上秋緒,浅倉大介",
+				"url": "https://youtu.be/ewNCnGUn52o&t=462s"
+			},
+			{
+				"song_id": "S002",
+				"title": "moment",
+				"singer": "Vivian or Kazuma",
+				"lyrics_composition": "Vivian or Kazuma,土橋安騎夫",
+				"url": "https://youtu.be/ewNCnGUn52o&t=883s"
+			},
+			{
+				"song_id": "S003",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/ewNCnGUn52o&t=1397s"
+			},
+			{
+				"song_id": "S004",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/ewNCnGUn52o&t=2013s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Realize",
+				"singer": "玉置成実",
+				"lyrics_composition": "BOUNCEBACK,大谷靖夫",
+				"url": "https://youtu.be/ewNCnGUn52o&t=2507s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ignited -イグナイテッド-",
+				"singer": "T.M.Revolution",
+				"lyrics_composition": "井上秋緒,浅倉大介",
+				"url": "https://youtu.be/ewNCnGUn52o&t=3055s"
+			},
+			{
+				"song_id": "S007",
+				"title": "Reason",
+				"singer": "玉置成実",
+				"lyrics_composition": "shungo.,y@suo otani",
+				"url": "https://youtu.be/ewNCnGUn52o&t=3530s"
+			},
+			{
+				"song_id": "S008",
+				"title": "PRIDE",
+				"singer": "HIGH and MIGHTY COLOR",
+				"lyrics_composition": "HIGH and MIGHTY COLOR",
+				"url": "https://youtu.be/ewNCnGUn52o&t=4043s"
+			},
+			{
+				"song_id": "S009",
+				"title": "Life Goes On",
+				"singer": "有坂美香",
+				"lyrics_composition": "有坂美香,梶浦由記",
+				"url": "https://youtu.be/ewNCnGUn52o&t=4537s"
+			},
+			{
+				"song_id": "S010",
+				"title": "僕たちの行方",
+				"singer": "高橋瞳",
+				"lyrics_composition": "Yuta Nakano,shungo.",
+				"url": "https://youtu.be/ewNCnGUn52o&t=5043s"
+			},
+			{
+				"song_id": "S011",
+				"title": "君は僕に似ている",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川智晶,梶浦由記",
+				"url": "https://youtu.be/ewNCnGUn52o&t=5595s"
+			}
+		]
+	},
+	{
+		"live_id": "L003",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "デビルじゃないもん",
+				"singer": "DECO*27,ピノキオピー,ピノキオP",
+				"lyrics_composition": "DECO*27,ピノキオピー,ピノキオP",
+				"url": "https://youtu.be/UIIzT2tMonU&t=338s"
+			},
+			{
+				"song_id": "S002",
+				"title": "Flyway",
+				"singer": "望月穂波,鏡音レン,星乃一歌,天馬咲希,日野森志歩",
+				"lyrics_composition": "halyosy",
+				"url": "https://youtu.be/UIIzT2tMonU&t=4109s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/UIIzT2tMonU&t=4331s"
+			},
+			{
+				"song_id": "S004",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/UIIzT2tMonU&t=4627s"
+			}
+		]
+	},
+	{
+		"live_id": "L004",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "海賊戦隊ゴーカイジャー",
+				"singer": "松原剛志",
+				"lyrics_composition": "岩里祐穂,持田裕輔 ",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=104s"
+			},
+			{
+				"song_id": "S002",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=252s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=591s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=915s"
+			},
+			{
+				"song_id": "S005",
+				"title": "呪文降臨~マジカル・フォース",
+				"singer": "Sister MAYO",
+				"lyrics_composition": "岩里祐穂,YOFFY ",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=1247s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Anything Goes!",
+				"singer": "大黒摩季",
+				"lyrics_composition": "藤林聖子,Tatsuo",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=1392s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/EE2Wel-pL1Y&t=1632s"
+			}
+		]
+	},
+	{
+		"live_id": "L005",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=500s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=1074s"
+			},
+			{
+				"song_id": "S003",
+				"title": "お呪い",
+				"singer": "花隈千冬",
+				"lyrics_composition": "なきそ,輝星,ななきそなきそ",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=1481s"
+			},
+			{
+				"song_id": "S004",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=2013s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ダーリン(須田景凪)",
+				"singer": "重音テト",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=2586s"
+			},
+			{
+				"song_id": "S006",
+				"title": "メルト",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=2898s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=3291s"
+			},
+			{
+				"song_id": "S008",
+				"title": "革命デュアリズム",
+				"singer": "水樹奈々,T.M.Revolution",
+				"lyrics_composition": "Hibiki,上松範康",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=3804s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=4542s"
+			},
+			{
+				"song_id": "S010",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=4993s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=5524s"
+			},
+			{
+				"song_id": "S012",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=6031s"
+			},
+			{
+				"song_id": "S013",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=6538s"
+			},
+			{
+				"song_id": "S014",
+				"title": "だいしきゅーだいしゅき",
+				"singer": "femme fatale",
+				"lyrics_composition": "佐々木喫茶",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=7199s"
+			},
+			{
+				"song_id": "S015",
+				"title": "マトリョシカ",
+				"singer": "初音ミク,GUMI",
+				"lyrics_composition": "ハチ,米津玄師",
+				"url": "https://youtu.be/JIUnhUWxEG8&t=7874s"
+			}
+		]
+	},
+	{
+		"live_id": "L006",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=353s"
+			},
+			{
+				"song_id": "S002",
+				"title": "マリーゴールド",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=747s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=1173s"
+			},
+			{
+				"song_id": "S004",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=1865s"
+			},
+			{
+				"song_id": "S005",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=2421s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ダーリン(須田景凪)",
+				"singer": "重音テト",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=2986s"
+			},
+			{
+				"song_id": "S007",
+				"title": "千本桜",
+				"singer": "初音ミク",
+				"lyrics_composition": "黒うさP",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=3260s"
+			},
+			{
+				"song_id": "S008",
+				"title": "フォニイ",
+				"singer": "可不",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=3567s"
+			},
+			{
+				"song_id": "S009",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=3947s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ラビットホール",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=4271s"
+			},
+			{
+				"song_id": "S011",
+				"title": "射手座☆午後九時Don't be late",
+				"singer": "May'n",
+				"lyrics_composition": "佐藤大,hal,マイクスギヤマ,菅野よう子",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=4649s"
+			},
+			{
+				"song_id": "S012",
+				"title": "Best Friend",
+				"singer": "西野カナ",
+				"lyrics_composition": "西野カナ,GIORGIO13,GIORGIO CANCEMI",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=5342s"
+			},
+			{
+				"song_id": "S013",
+				"title": "if",
+				"singer": "西野カナ",
+				"lyrics_composition": "西野カナ,GIORGIO13,GIORGIO CANCEMI",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=5562s"
+			},
+			{
+				"song_id": "S014",
+				"title": "真夜中のオーケストラ",
+				"singer": "Aqua Timez",
+				"lyrics_composition": "Aqua Timez",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=6136s"
+			},
+			{
+				"song_id": "S015",
+				"title": "GO!!!",
+				"singer": "FLOW",
+				"lyrics_composition": "KOHSHI,TAKE",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=6424s"
+			},
+			{
+				"song_id": "S016",
+				"title": "Climax Jump",
+				"singer": "AAA",
+				"lyrics_composition": "藤林聖子,鳴瀬シュウヘイ",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=6911s"
+			},
+			{
+				"song_id": "S017",
+				"title": "Be The One",
+				"singer": "Beverly,PANDORA",
+				"lyrics_composition": "小室哲哉,浅倉大介",
+				"url": "https://youtu.be/SgQzOA2lSJE&t=7304s"
+			}
+		]
+	},
+	{
+		"live_id": "L007",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "可愛くてごめん",
+				"singer": "早見沙織",
+				"lyrics_composition": "チョリスP,shito,使徒",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=247s"
+			},
+			{
+				"song_id": "S002",
+				"title": "サリシノハラ",
+				"singer": "りぶ",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=616s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ハロ／ハワユ",
+				"singer": "初音ミク",
+				"lyrics_composition": "ナノウ,月面,コヤマヒデカズ",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=1053s"
+			},
+			{
+				"song_id": "S004",
+				"title": "アイロニ",
+				"singer": "初音ミク",
+				"lyrics_composition": "すこっぷ",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=1483s"
+			},
+			{
+				"song_id": "S005",
+				"title": "唱",
+				"singer": "Ado",
+				"lyrics_composition": "トップハムハット狂,TOPHAMHAT-KYO,Giga,ギガP,TeddyLoid",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=1920s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Dokkin♢魔法つかいプリキュア！",
+				"singer": "北川理恵",
+				"lyrics_composition": "森雪之丞,奥村愛子",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=2775s"
+			},
+			{
+				"song_id": "S007",
+				"title": "Miracle Go!プリンセスプリキュア",
+				"singer": "礒部花凜",
+				"lyrics_composition": "大森祥子,渡辺亮希",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=3087s"
+			},
+			{
+				"song_id": "S008",
+				"title": "NEXT LEVEL",
+				"singer": "YU-KI",
+				"lyrics_composition": "藤林聖子,渡部チェル",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=3489s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ココロのちず",
+				"singer": "BOYSTYLE",
+				"lyrics_composition": "ＭＩＺＵＥ,渡辺和紀",
+				"url": "https://youtu.be/Hk3My1uNVaQ&t=3694s"
+			}
+		]
+	},
+	{
+		"live_id": "L008",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=426s"
+			},
+			{
+				"song_id": "S002",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=808s"
+			},
+			{
+				"song_id": "S003",
+				"title": "からくりピエロ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=1537s"
+			},
+			{
+				"song_id": "S004",
+				"title": "魂のルフラン",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,大森俊之",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=2194s"
+			},
+			{
+				"song_id": "S005",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=2714s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=3378s"
+			},
+			{
+				"song_id": "S007",
+				"title": "magnet",
+				"singer": "巡音ルカ,初音ミク",
+				"lyrics_composition": "湊貴大,流星P,minato",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=4064s"
+			},
+			{
+				"song_id": "S008",
+				"title": "メルト",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=4973s"
+			},
+			{
+				"song_id": "S009",
+				"title": "モザイクロール",
+				"singer": "GUMI",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=5330s"
+			},
+			{
+				"song_id": "S010",
+				"title": "繰り返し一粒",
+				"singer": "初音ミク",
+				"lyrics_composition": "猫虫P",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=5765s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=6162s"
+			},
+			{
+				"song_id": "S012",
+				"title": "千本桜",
+				"singer": "初音ミク",
+				"lyrics_composition": "黒うさP",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=6861s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ワールズエンド・ダンスホール",
+				"singer": "初音ミク・巡音ルカ",
+				"lyrics_composition": "wowaka,現実逃避P",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=7381s"
+			},
+			{
+				"song_id": "S014",
+				"title": "グッバイ宣言",
+				"singer": "flower",
+				"lyrics_composition": "Chinozo,ひきこもりP",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=7773s"
+			},
+			{
+				"song_id": "S015",
+				"title": "いーあるふぁんくらぶ",
+				"singer": "GUMI,鏡音リン",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/4xyd6BYvkHo&t=8115s"
+			}
+		]
+	},
+	{
+		"live_id": "L009",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "マリーゴールド",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/xV439GgATPg&t=250s"
+			},
+			{
+				"song_id": "S002",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/xV439GgATPg&t=619s"
+			},
+			{
+				"song_id": "S003",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/xV439GgATPg&t=1044s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ホタルノヒカリ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/xV439GgATPg&t=1228s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/xV439GgATPg&t=1633s"
+			}
+		]
+	},
+	{
+		"live_id": "L010",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "オトナブルー",
+				"singer": "新しい学校のリーダーズ",
+				"lyrics_composition": "新しい学校のリーダー達,yonkey",
+				"url": "https://youtu.be/pyRYt01mRK0&t=595s"
+			},
+			{
+				"song_id": "S002",
+				"title": "高嶺の花子さん",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/pyRYt01mRK0&t=1343s"
+			},
+			{
+				"song_id": "S003",
+				"title": "怪物",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/pyRYt01mRK0&t=2129s"
+			},
+			{
+				"song_id": "S004",
+				"title": "心拍数♯0822",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/pyRYt01mRK0&t=2883s"
+			},
+			{
+				"song_id": "S005",
+				"title": "魂のルフラン",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,大森俊之",
+				"url": "https://youtu.be/pyRYt01mRK0&t=4018s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/pyRYt01mRK0&t=5290s"
+			}
+		]
+	},
+	{
+		"live_id": "L011",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=309s"
+			},
+			{
+				"song_id": "S002",
+				"title": "小悪魔だってかまわない！",
+				"singer": "めいちゃん",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=698s"
+			},
+			{
+				"song_id": "S003",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=1183s"
+			},
+			{
+				"song_id": "S004",
+				"title": "星間飛行",
+				"singer": "中島愛",
+				"lyrics_composition": "松本隆,菅野よう子",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=1838s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Tell Your World",
+				"singer": "初音ミク",
+				"lyrics_composition": "kz",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=2354s"
+			},
+			{
+				"song_id": "S006",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=3224s"
+			},
+			{
+				"song_id": "S007",
+				"title": "世界は恋に落ちている",
+				"singer": "GUMI",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/SIa0SzQfcq0&t=4075s"
+			}
+		]
+	},
+	{
+		"live_id": "L012",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ダーリン(須田景凪)",
+				"singer": "重音テト",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=302s"
+			},
+			{
+				"song_id": "S002",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=643s"
+			},
+			{
+				"song_id": "S003",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=867s"
+			},
+			{
+				"song_id": "S004",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=1386s"
+			},
+			{
+				"song_id": "S005",
+				"title": "変わらないもの",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=2083s"
+			},
+			{
+				"song_id": "S006",
+				"title": "楔 -くさび-",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=2240s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ハム太郎とっとこうた",
+				"singer": "ハムちゃんず",
+				"lyrics_composition": "河井リツ子",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=2744s"
+			},
+			{
+				"song_id": "S008",
+				"title": "おジャ魔女カーニバル!!",
+				"singer": "MAHO堂",
+				"lyrics_composition": "大森祥子,池毅",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=2965s"
+			},
+			{
+				"song_id": "S009",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=3569s"
+			},
+			{
+				"song_id": "S010",
+				"title": "INVOKE",
+				"singer": "T.M.Revolution",
+				"lyrics_composition": "井上秋緒,浅倉大介",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=4014s"
+			},
+			{
+				"song_id": "S011",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=4446s"
+			},
+			{
+				"song_id": "S012",
+				"title": "お呪い",
+				"singer": "花隈千冬",
+				"lyrics_composition": "なきそ,輝星,ななきそなきそ",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=4747s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ハオ",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=0s"
+			},
+			{
+				"song_id": "S014",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=5133s"
+			},
+			{
+				"song_id": "S015",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=5558s"
+			},
+			{
+				"song_id": "S016",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=5869s"
+			},
+			{
+				"song_id": "S017",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=6254s"
+			},
+			{
+				"song_id": "S018",
+				"title": "Don't say“lazy”",
+				"singer": "桜高軽音部,放課後ティータイム",
+				"lyrics_composition": "大森祥子,前澤寛之",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=6586s"
+			},
+			{
+				"song_id": "S019",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=7164s"
+			},
+			{
+				"song_id": "S020",
+				"title": "射手座☆午後九時Don't be late",
+				"singer": "May'n",
+				"lyrics_composition": "佐藤大,hal,マイクスギヤマ,菅野よう子",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=7581s"
+			},
+			{
+				"song_id": "S021",
+				"title": "ダイアモンド クレバス",
+				"singer": "May'n",
+				"lyrics_composition": "hal,菅野よう子",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=8004s"
+			},
+			{
+				"song_id": "S022",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/qeE9Yq9Gbx0&t=8511s"
+			}
+		]
+	},
+	{
+		"live_id": "L013",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/wG1iLY7WoLg&t=274s"
+			},
+			{
+				"song_id": "S002",
+				"title": "Bunny Girl",
+				"singer": "AKASAKI",
+				"lyrics_composition": "AKASAKI",
+				"url": "https://youtu.be/wG1iLY7WoLg&t=522s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/wG1iLY7WoLg&t=814s"
+			},
+			{
+				"song_id": "S004",
+				"title": "寄り酔い",
+				"singer": "和ぬか",
+				"lyrics_composition": "和ぬか",
+				"url": "https://youtu.be/wG1iLY7WoLg&t=1176s"
+			},
+			{
+				"song_id": "S005",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/wG1iLY7WoLg&t=1620s"
+			}
+		]
+	},
+	{
+		"live_id": "L014",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "マリーゴールド",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/YxrFlOjVHt8&t=347s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ドライフラワー",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/YxrFlOjVHt8&t=831s"
+			},
+			{
+				"song_id": "S003",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/YxrFlOjVHt8&t=1240s"
+			},
+			{
+				"song_id": "S004",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/YxrFlOjVHt8&t=1695s"
+			}
+		]
+	},
+	{
+		"live_id": "L015",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/fckDNCkzvps&t=236s"
+			},
+			{
+				"song_id": "S002",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/fckDNCkzvps&t=654s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/fckDNCkzvps&t=1052s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/fckDNCkzvps&t=1617s"
+			},
+			{
+				"song_id": "S005",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/fckDNCkzvps&t=2093s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ウィーアー!",
+				"singer": "きただにひろし",
+				"lyrics_composition": "藤林聖子,田中公平",
+				"url": "https://youtu.be/fckDNCkzvps&t=2761s"
+			},
+			{
+				"song_id": "S007",
+				"title": "めざせポケモンマスター",
+				"singer": "松本梨香",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/fckDNCkzvps&t=3170s"
+			},
+			{
+				"song_id": "S008",
+				"title": "唱",
+				"singer": "Ado",
+				"lyrics_composition": "トップハムハット狂,TOPHAMHAT-KYO,Giga,ギガP,TeddyLoid",
+				"url": "https://youtu.be/fckDNCkzvps&t=3509s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ベテルギウス",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/fckDNCkzvps&t=3973s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ドライフラワー",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/fckDNCkzvps&t=4045s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/fckDNCkzvps&t=4303s"
+			},
+			{
+				"song_id": "S012",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/fckDNCkzvps&t=4567s"
+			},
+			{
+				"song_id": "S013",
+				"title": "Snow halation",
+				"singer": "μ's",
+				"lyrics_composition": "畑亜貴,山田高弘",
+				"url": "https://youtu.be/fckDNCkzvps&t=4920s"
+			},
+			{
+				"song_id": "S014",
+				"title": "だいしきゅーだいしゅき",
+				"singer": "femme fatale",
+				"lyrics_composition": "佐々木喫茶",
+				"url": "https://youtu.be/fckDNCkzvps&t=5458s"
+			}
+		]
+	},
+	{
+		"live_id": "L016",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/siHanvREikw&t=531s"
+			},
+			{
+				"song_id": "S002",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/siHanvREikw&t=1076s"
+			},
+			{
+				"song_id": "S003",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/siHanvREikw&t=1533s"
+			},
+			{
+				"song_id": "S004",
+				"title": "Just Be Friends",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "Dixie Flatline",
+				"url": "https://youtu.be/siHanvREikw&t=2226s"
+			},
+			{
+				"song_id": "S005",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/siHanvREikw&t=2851s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ちゅ、多様性。",
+				"singer": "ano,あの",
+				"lyrics_composition": "ano,あの,真部脩一",
+				"url": "https://youtu.be/siHanvREikw&t=3159s"
+			},
+			{
+				"song_id": "S007",
+				"title": "水平線",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/siHanvREikw&t=3482s"
+			},
+			{
+				"song_id": "S008",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/siHanvREikw&t=3817s"
+			},
+			{
+				"song_id": "S009",
+				"title": "アイドル",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/siHanvREikw&t=4219s"
+			},
+			{
+				"song_id": "S010",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/siHanvREikw&t=4701s"
+			},
+			{
+				"song_id": "S011",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/siHanvREikw&t=5128s"
+			},
+			{
+				"song_id": "S012",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/siHanvREikw&t=5516s"
+			},
+			{
+				"song_id": "S013",
+				"title": "タイプ:ワイルド",
+				"singer": "松本梨香",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/siHanvREikw&t=6255s"
+			},
+			{
+				"song_id": "S014",
+				"title": "小さきもの",
+				"singer": "林明日香",
+				"lyrics_composition": "三浦徳子,山移高寛",
+				"url": "https://youtu.be/siHanvREikw&t=6782s"
+			},
+			{
+				"song_id": "S015",
+				"title": "風といっしょに",
+				"singer": "小林幸子",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/siHanvREikw&t=7336s"
+			},
+			{
+				"song_id": "S016",
+				"title": "ゴールデンタイムラバー",
+				"singer": "スキマスイッチ",
+				"lyrics_composition": "スキマスイッチ",
+				"url": "https://youtu.be/siHanvREikw&t=8090s"
+			},
+			{
+				"song_id": "S017",
+				"title": "瞬間センチメンタル",
+				"singer": "SCANDAL",
+				"lyrics_composition": "SCANDAL,小林夏海,田鹿祐一",
+				"url": "https://youtu.be/siHanvREikw&t=8266s"
+			},
+			{
+				"song_id": "S018",
+				"title": "少女S",
+				"singer": "SCANDAL",
+				"lyrics_composition": "TOMOMI,田鹿祐一",
+				"url": "https://youtu.be/siHanvREikw&t=8617s"
+			}
+		]
+	},
+	{
+		"live_id": "L017",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "サリシノハラ",
+				"singer": "りぶ",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=456s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ハロ／ハワユ",
+				"singer": "初音ミク",
+				"lyrics_composition": "ナノウ,月面,コヤマヒデカズ",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=1137s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ダブルラリアット",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "アゴアニキP",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=1825s"
+			},
+			{
+				"song_id": "S004",
+				"title": "モザイクロール",
+				"singer": "GUMI",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=2117s"
+			},
+			{
+				"song_id": "S005",
+				"title": "お呪い",
+				"singer": "花隈千冬",
+				"lyrics_composition": "なきそ,輝星,ななきそなきそ",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=2360s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=2629s"
+			},
+			{
+				"song_id": "S007",
+				"title": "magnet",
+				"singer": "巡音ルカ,初音ミク",
+				"lyrics_composition": "湊貴大,流星P,minato",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=3472s"
+			},
+			{
+				"song_id": "S008",
+				"title": "嘘",
+				"singer": "シド",
+				"lyrics_composition": "マオ,ゆうや",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=3869s"
+			},
+			{
+				"song_id": "S009",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=4360s"
+			},
+			{
+				"song_id": "S010",
+				"title": "Rolling star",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=4620s"
+			},
+			{
+				"song_id": "S011",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=5373s"
+			},
+			{
+				"song_id": "S012",
+				"title": "きゅうくらりん",
+				"singer": "可不",
+				"lyrics_composition": "いよわ",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=5904s"
+			},
+			{
+				"song_id": "S013",
+				"title": "鎖の少女",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=6218s"
+			},
+			{
+				"song_id": "S014",
+				"title": "115万キロのフィルム",
+				"singer": "Official髭男dism",
+				"lyrics_composition": "藤原聡",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=6820s"
+			},
+			{
+				"song_id": "S015",
+				"title": "高嶺の花子さん",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=7235s"
+			},
+			{
+				"song_id": "S016",
+				"title": "本能",
+				"singer": "椎名林檎",
+				"lyrics_composition": "椎名林檎",
+				"url": "https://youtu.be/v3H8yDfl-kg&t=8261s"
+			}
+		]
+	},
+	{
+		"live_id": "L018",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "プラチナ",
+				"singer": "坂本真綾",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/qKLfMAwFJQ4&t=176s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/qKLfMAwFJQ4&t=508s"
+			},
+			{
+				"song_id": "S003",
+				"title": "LOVE & ROLL",
+				"singer": "supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/qKLfMAwFJQ4&t=858s"
+			},
+			{
+				"song_id": "S004",
+				"title": "メルト",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/qKLfMAwFJQ4&t=1171s"
+			},
+			{
+				"song_id": "S005",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/qKLfMAwFJQ4&t=1501s"
+			}
+		]
+	},
+	{
+		"live_id": "L019",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ハロ／ハワユ",
+				"singer": "初音ミク",
+				"lyrics_composition": "ナノウ,月面,コヤマヒデカズ",
+				"url": "https://youtu.be/Jgd1OHWZ5As&t=43s"
+			},
+			{
+				"song_id": "S002",
+				"title": "きみの て",
+				"singer": "Every Little Thing",
+				"lyrics_composition": "持田香織,HIKARI",
+				"url": "https://youtu.be/Jgd1OHWZ5As&t=354s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Lemon",
+				"singer": "ハチ,米津玄師",
+				"lyrics_composition": "ハチ,米津玄師",
+				"url": "https://youtu.be/Jgd1OHWZ5As&t=628s"
+			},
+			{
+				"song_id": "S004",
+				"title": "心拍数♯0822",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/Jgd1OHWZ5As&t=915s"
+			}
+		]
+	},
+	{
+		"live_id": "L020",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "スイートマジック",
+				"singer": "ろん",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/SgYcOeVuPVg&t=278s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/SgYcOeVuPVg&t=601s"
+			},
+			{
+				"song_id": "S003",
+				"title": "腐れ外道とチョコレゐト",
+				"singer": "初音ミク",
+				"lyrics_composition": "ピノキオピー,ピノキオP",
+				"url": "https://youtu.be/SgYcOeVuPVg&t=977s"
+			},
+			{
+				"song_id": "S004",
+				"title": "けーきのまほう",
+				"singer": "天草フラン",
+				"lyrics_composition": "天草フラン,Kurio,Toshiya Watanabe",
+				"url": "https://youtu.be/SgYcOeVuPVg&t=1278s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Booo!",
+				"singer": "音街ウナ",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/SgYcOeVuPVg&t=1732s"
+			}
+		]
+	},
+	{
+		"live_id": "L021",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "君は僕に似ている",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川智晶,梶浦由記",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=386s"
+			},
+			{
+				"song_id": "S002",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=648s"
+			},
+			{
+				"song_id": "S003",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=1013s"
+			},
+			{
+				"song_id": "S004",
+				"title": "INVOKE",
+				"singer": "T.M.Revolution",
+				"lyrics_composition": "井上秋緒,浅倉大介",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=1703s"
+			},
+			{
+				"song_id": "S005",
+				"title": "だいしきゅーだいしゅき",
+				"singer": "femme fatale",
+				"lyrics_composition": "佐々木喫茶",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=2586s"
+			},
+			{
+				"song_id": "S006",
+				"title": "恋愛サーキュレーション",
+				"singer": "花澤香菜",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,神前暁",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=2988s"
+			},
+			{
+				"song_id": "S007",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=3454s"
+			},
+			{
+				"song_id": "S008",
+				"title": "DAN DAN 心魅かれてく",
+				"singer": "FIELD OF VIEW",
+				"lyrics_composition": "坂井泉水,織田哲郎",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=4187s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=4481s"
+			},
+			{
+				"song_id": "S010",
+				"title": "限界突破×サバイバー",
+				"singer": "氷川きよし",
+				"lyrics_composition": "森雪之丞,岩崎貴文",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=4817s"
+			},
+			{
+				"song_id": "S011",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=5615s"
+			},
+			{
+				"song_id": "S012",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=6047s"
+			},
+			{
+				"song_id": "S013",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=6375s"
+			},
+			{
+				"song_id": "S014",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=6699s"
+			},
+			{
+				"song_id": "S015",
+				"title": "射手座☆午後九時Don't be late",
+				"singer": "May'n",
+				"lyrics_composition": "佐藤大,hal,マイクスギヤマ,菅野よう子",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=7296s"
+			},
+			{
+				"song_id": "S016",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/IfzlKlk2EA4&t=7934s"
+			}
+		]
+	},
+	{
+		"live_id": "L022",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/nXQb45O7lUo&t=637s"
+			},
+			{
+				"song_id": "S002",
+				"title": "魔訶不思議アドベンチャー!",
+				"singer": "高橋洋樹",
+				"lyrics_composition": "森由里子,いけたけし",
+				"url": "https://youtu.be/nXQb45O7lUo&t=1145s"
+			},
+			{
+				"song_id": "S003",
+				"title": "DAN DAN 心魅かれてく",
+				"singer": "FIELD OF VIEW",
+				"lyrics_composition": "坂井泉水,織田哲郎",
+				"url": "https://youtu.be/nXQb45O7lUo&t=1430s"
+			},
+			{
+				"song_id": "S004",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/nXQb45O7lUo&t=1976s"
+			},
+			{
+				"song_id": "S005",
+				"title": "シャルル",
+				"singer": "flower",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/nXQb45O7lUo&t=2568s"
+			},
+			{
+				"song_id": "S006",
+				"title": "変わらないもの",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/nXQb45O7lUo&t=2975s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/nXQb45O7lUo&t=3338s"
+			},
+			{
+				"song_id": "S008",
+				"title": "Climax Jump",
+				"singer": "AAA",
+				"lyrics_composition": "藤林聖子,鳴瀬シュウヘイ",
+				"url": "https://youtu.be/nXQb45O7lUo&t=3702s"
+			},
+			{
+				"song_id": "S009",
+				"title": "天ノ弱",
+				"singer": "GUMI",
+				"lyrics_composition": "164",
+				"url": "https://youtu.be/nXQb45O7lUo&t=4190s"
+			},
+			{
+				"song_id": "S010",
+				"title": "世界は恋に落ちている",
+				"singer": "GUMI",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/nXQb45O7lUo&t=4790s"
+			},
+			{
+				"song_id": "S011",
+				"title": "小悪魔だってかまわない！",
+				"singer": "めいちゃん",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/nXQb45O7lUo&t=5320s"
+			},
+			{
+				"song_id": "S012",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/nXQb45O7lUo&t=5952s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/nXQb45O7lUo&t=6503s"
+			}
+		]
+	},
+	{
+		"live_id": "L023",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ハオ",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=408s"
+			},
+			{
+				"song_id": "S002",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=789s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Just Be Friends",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "Dixie Flatline",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=1197s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ルカルカ★ナイトフィーバー",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "samfree",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=1680s"
+			},
+			{
+				"song_id": "S005",
+				"title": "寄り酔い",
+				"singer": "和ぬか",
+				"lyrics_composition": "和ぬか",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=2117s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ライラック",
+				"singer": "Mrs. GREEN APPLE",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=2624s"
+			},
+			{
+				"song_id": "S007",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=3164s"
+			},
+			{
+				"song_id": "S008",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=4217s"
+			},
+			{
+				"song_id": "S009",
+				"title": "Justiφ's",
+				"singer": "ISSA",
+				"lyrics_composition": "藤林聖子,佐藤和豊",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=4664s"
+			},
+			{
+				"song_id": "S010",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=5656s"
+			},
+			{
+				"song_id": "S011",
+				"title": "メリッサ",
+				"singer": "ポルノグラフィティ",
+				"lyrics_composition": "新藤晴一,ak.homma",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=6037s"
+			},
+			{
+				"song_id": "S012",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=6526s"
+			},
+			{
+				"song_id": "S013",
+				"title": "純潔パラドックス",
+				"singer": "水樹奈々",
+				"lyrics_composition": "水樹奈々,吉木絵里子",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=6881s"
+			},
+			{
+				"song_id": "S014",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=7870s"
+			},
+			{
+				"song_id": "S015",
+				"title": "Climax Jump",
+				"singer": "AAA",
+				"lyrics_composition": "藤林聖子,鳴瀬シュウヘイ",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=8177s"
+			},
+			{
+				"song_id": "S016",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/aRbfHsc5rC4&t=8581s"
+			}
+		]
+	},
+	{
+		"live_id": "L024",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/QteOCz4GhP0&t=319s"
+			},
+			{
+				"song_id": "S002",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/QteOCz4GhP0&t=730s"
+			},
+			{
+				"song_id": "S003",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/QteOCz4GhP0&t=1210s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/QteOCz4GhP0&t=1588s"
+			}
+		]
+	},
+	{
+		"live_id": "L025",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "プラチナ",
+				"singer": "坂本真綾",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=264s"
+			},
+			{
+				"song_id": "S002",
+				"title": "POP IN 2",
+				"singer": "ルビー,有馬かな,MEMちょ",
+				"lyrics_composition": "久下真音,つむぎしゃち",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=757s"
+			},
+			{
+				"song_id": "S003",
+				"title": "サインはB",
+				"singer": "ルビー,有馬かな,MEMちょ",
+				"lyrics_composition": "オーイシマサヨシ,大石昌良",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=1425s"
+			},
+			{
+				"song_id": "S004",
+				"title": "アイドル",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=1921s"
+			},
+			{
+				"song_id": "S005",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=2477s"
+			},
+			{
+				"song_id": "S006",
+				"title": "恋愛サーキュレーション",
+				"singer": "花澤香菜",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,神前暁",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=2942s"
+			},
+			{
+				"song_id": "S007",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=3375s"
+			},
+			{
+				"song_id": "S008",
+				"title": "Magic Music",
+				"singer": "木村カエラ",
+				"lyrics_composition": "木村カエラ,Linus",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=4108s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ドライフラワー",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=4570s"
+			},
+			{
+				"song_id": "S010",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=5026s"
+			},
+			{
+				"song_id": "S011",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=5243s"
+			},
+			{
+				"song_id": "S012",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=5718s"
+			},
+			{
+				"song_id": "S013",
+				"title": "シル・ヴ・プレジデント",
+				"singer": "P丸様。",
+				"lyrics_composition": "ナナホシ管弦楽団,岩見 陸,モナカ",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=6129s"
+			},
+			{
+				"song_id": "S014",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/tHd7s_EcCy8&t=6515s"
+			}
+		]
+	},
+	{
+		"live_id": "L026",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "Dokkin◇魔法つかいプリキュア！！Part3～MIRAI DAYS～",
+				"singer": "北川理恵",
+				"lyrics_composition": "森雪之丞,奥村愛子",
+				"url": "https://youtu.be/pD2a12SNZAg&t=1130s"
+			},
+			{
+				"song_id": "S002",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/pD2a12SNZAg&t=1298s"
+			},
+			{
+				"song_id": "S003",
+				"title": "DISCOTHEQUE",
+				"singer": "水樹奈々",
+				"lyrics_composition": "園田凌士,上松範康",
+				"url": "https://youtu.be/pD2a12SNZAg&t=1805s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/pD2a12SNZAg&t=2597s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/pD2a12SNZAg&t=2925s"
+			},
+			{
+				"song_id": "S006",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/pD2a12SNZAg&t=3467s"
+			}
+		]
+	},
+	{
+		"live_id": "L027",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "奏",
+				"singer": "スキマスイッチ",
+				"lyrics_composition": "スキマスイッチ",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=167s"
+			},
+			{
+				"song_id": "S002",
+				"title": "水平線",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=390s"
+			},
+			{
+				"song_id": "S003",
+				"title": "点描の唄",
+				"singer": "大森元貴,井上苑子",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=737s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ドライフラワー",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=1367s"
+			},
+			{
+				"song_id": "S005",
+				"title": "愛をこめて花束を",
+				"singer": "Superfly",
+				"lyrics_composition": "越智志帆,多保孝一,いしわたり淳治",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=1780s"
+			},
+			{
+				"song_id": "S006",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=2116s"
+			},
+			{
+				"song_id": "S007",
+				"title": "Mela!",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,小林壱誓,peppe,穴見真吾",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=2446s"
+			},
+			{
+				"song_id": "S008",
+				"title": "Miracle Go!プリンセスプリキュア",
+				"singer": "礒部花凜",
+				"lyrics_composition": "大森祥子,渡辺亮希",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=2857s"
+			},
+			{
+				"song_id": "S009",
+				"title": "SHINE!! キラキラ☆プリキュアアラモード",
+				"singer": "駒形友梨",
+				"lyrics_composition": "大森祥子,大竹智之",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=3107s"
+			},
+			{
+				"song_id": "S010",
+				"title": "START:DASH!!",
+				"singer": "μ's",
+				"lyrics_composition": "畑亜貴,佐々木裕",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=3634s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ハロ／ハワユ",
+				"singer": "初音ミク",
+				"lyrics_composition": "ナノウ,月面,コヤマヒデカズ",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=3986s"
+			},
+			{
+				"song_id": "S012",
+				"title": "天ノ弱",
+				"singer": "GUMI",
+				"lyrics_composition": "164",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=4400s"
+			},
+			{
+				"song_id": "S013",
+				"title": "リンネ",
+				"singer": "初音ミク",
+				"lyrics_composition": "ハチ,米津玄師",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=4759s"
+			},
+			{
+				"song_id": "S014",
+				"title": "十面相",
+				"singer": "GUMI",
+				"lyrics_composition": "YM",
+				"url": "https://youtu.be/QlhUoRZrIH8&t=5053s"
+			}
+		]
+	},
+	{
+		"live_id": "L028",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=340s"
+			},
+			{
+				"song_id": "S002",
+				"title": "お呪い",
+				"singer": "花隈千冬",
+				"lyrics_composition": "なきそ,輝星,ななきそなきそ",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=792s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=988s"
+			},
+			{
+				"song_id": "S004",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=1444s"
+			},
+			{
+				"song_id": "S005",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=1995s"
+			},
+			{
+				"song_id": "S006",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=2639s"
+			},
+			{
+				"song_id": "S007",
+				"title": "打上花火",
+				"singer": "DAOKO",
+				"lyrics_composition": "米津玄師 ",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=3446s"
+			},
+			{
+				"song_id": "S008",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=4006s"
+			},
+			{
+				"song_id": "S009",
+				"title": "高嶺の花子さん",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=4522s"
+			},
+			{
+				"song_id": "S010",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=5544s"
+			},
+			{
+				"song_id": "S011",
+				"title": "射手座☆午後九時Don't be late",
+				"singer": "May'n",
+				"lyrics_composition": "佐藤大,hal,マイクスギヤマ,菅野よう子",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=5989s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=6421s"
+			},
+			{
+				"song_id": "S013",
+				"title": "星間飛行",
+				"singer": "中島愛",
+				"lyrics_composition": "松本隆,菅野よう子",
+				"url": "https://youtu.be/nS-wcBhaB_k&t=6786s"
+			}
+		]
+	},
+	{
+		"live_id": "L029",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "からくりピエロ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/6iF8zhhO20k&t=277s"
+			},
+			{
+				"song_id": "S002",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/6iF8zhhO20k&t=756s"
+			},
+			{
+				"song_id": "S003",
+				"title": "千本桜",
+				"singer": "初音ミク",
+				"lyrics_composition": "黒うさP",
+				"url": "https://youtu.be/6iF8zhhO20k&t=1333s"
+			},
+			{
+				"song_id": "S004",
+				"title": "Flyway",
+				"singer": "望月穂波,鏡音レン,星乃一歌,天馬咲希,日野森志歩",
+				"lyrics_composition": "halyosy",
+				"url": "https://youtu.be/6iF8zhhO20k&t=1766s"
+			},
+			{
+				"song_id": "S005",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/6iF8zhhO20k&t=2144s"
+			},
+			{
+				"song_id": "S006",
+				"title": "未来への咆哮",
+				"singer": "JAM Project",
+				"lyrics_composition": "影山ヒロノブ",
+				"url": "https://youtu.be/6iF8zhhO20k&t=2607s"
+			},
+			{
+				"song_id": "S007",
+				"title": "タイプ:ワイルド",
+				"singer": "松本梨香",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/6iF8zhhO20k&t=3108s"
+			},
+			{
+				"song_id": "S008",
+				"title": "嗚呼、素晴らしきニャン生",
+				"singer": "GUMI,鏡音レン",
+				"lyrics_composition": "Nem",
+				"url": "https://youtu.be/6iF8zhhO20k&t=3485s"
+			},
+			{
+				"song_id": "S009",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/6iF8zhhO20k&t=4025s"
+			},
+			{
+				"song_id": "S010",
+				"title": "DISCOTHEQUE",
+				"singer": "水樹奈々",
+				"lyrics_composition": "園田凌士,上松範康",
+				"url": "https://youtu.be/6iF8zhhO20k&t=4320s"
+			},
+			{
+				"song_id": "S011",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/6iF8zhhO20k&t=5071s"
+			},
+			{
+				"song_id": "S012",
+				"title": "Booo!",
+				"singer": "音街ウナ",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/6iF8zhhO20k&t=5717s"
+			},
+			{
+				"song_id": "S013",
+				"title": "こっち向いて Baby",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/6iF8zhhO20k&t=6018s"
+			}
+		]
+	},
+	{
+		"live_id": "L030",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/kJFM72yd53w&t=5972s"
+			},
+			{
+				"song_id": "S002",
+				"title": "嘘",
+				"singer": "シド",
+				"lyrics_composition": "マオ,ゆうや",
+				"url": "https://youtu.be/kJFM72yd53w&t=6483s"
+			},
+			{
+				"song_id": "S003",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/kJFM72yd53w&t=6840s"
+			},
+			{
+				"song_id": "S004",
+				"title": "瞬間センチメンタル",
+				"singer": "SCANDAL",
+				"lyrics_composition": "SCANDAL,小林夏海,田鹿祐一",
+				"url": "https://youtu.be/kJFM72yd53w&t=7194s"
+			},
+			{
+				"song_id": "S005",
+				"title": "リライト",
+				"singer": "ASIAN KUNG-FU GENERATION",
+				"lyrics_composition": "後藤正文",
+				"url": "https://youtu.be/kJFM72yd53w&t=7513s"
+			},
+			{
+				"song_id": "S006",
+				"title": "消せない罪",
+				"singer": "北出菜奈",
+				"lyrics_composition": "北出菜奈,西川進",
+				"url": "https://youtu.be/kJFM72yd53w&t=7817s"
+			},
+			{
+				"song_id": "S007",
+				"title": "メリッサ",
+				"singer": "ポルノグラフィティ",
+				"lyrics_composition": "新藤晴一,ak.homma",
+				"url": "https://youtu.be/kJFM72yd53w&t=8182s"
+			}
+		]
+	},
+	{
+		"live_id": "L031",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "打上花火",
+				"singer": "DAOKO",
+				"lyrics_composition": "米津玄師 ",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=284s"
+			},
+			{
+				"song_id": "S002",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=715s"
+			},
+			{
+				"song_id": "S003",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=1142s"
+			},
+			{
+				"song_id": "S004",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=1713s"
+			},
+			{
+				"song_id": "S005",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=2155s"
+			},
+			{
+				"song_id": "S006",
+				"title": "高嶺の花子さん",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=2490s"
+			},
+			{
+				"song_id": "S007",
+				"title": "マリーゴールド",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=3048s"
+			},
+			{
+				"song_id": "S008",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/Wx6Sk2SFzxA&t=3793s"
+			}
+		]
+	},
+	{
+		"live_id": "L032",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "アイロニ",
+				"singer": "初音ミク",
+				"lyrics_composition": "すこっぷ",
+				"url": "https://youtu.be/5iiN5ciEFME&t=210s"
+			},
+			{
+				"song_id": "S002",
+				"title": "心拍数♯0822",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/5iiN5ciEFME&t=555s"
+			},
+			{
+				"song_id": "S003",
+				"title": "楔 -くさび-",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/5iiN5ciEFME&t=1020s"
+			},
+			{
+				"song_id": "S004",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/5iiN5ciEFME&t=1592s"
+			},
+			{
+				"song_id": "S005",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/5iiN5ciEFME&t=1887s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/5iiN5ciEFME&t=2260s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ダーリン(須田景凪)",
+				"singer": "重音テト",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/5iiN5ciEFME&t=2535s"
+			},
+			{
+				"song_id": "S008",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/5iiN5ciEFME&t=2878s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ドライフラワー",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/5iiN5ciEFME&t=3218s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ベテルギウス",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/5iiN5ciEFME&t=3648s"
+			},
+			{
+				"song_id": "S011",
+				"title": "magnet",
+				"singer": "巡音ルカ,初音ミク",
+				"lyrics_composition": "湊貴大,流星P,minato",
+				"url": "https://youtu.be/5iiN5ciEFME&t=4013s"
+			}
+		]
+	},
+	{
+		"live_id": "L033",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/okTiiyIvp10&t=380s"
+			},
+			{
+				"song_id": "S002",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/okTiiyIvp10&t=769s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ハム太郎とっとこうた",
+				"singer": "ハムちゃんず",
+				"lyrics_composition": "河井リツ子",
+				"url": "https://youtu.be/okTiiyIvp10&t=1260s"
+			},
+			{
+				"song_id": "S004",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/okTiiyIvp10&t=1475s"
+			},
+			{
+				"song_id": "S005",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/okTiiyIvp10&t=1796s"
+			},
+			{
+				"song_id": "S006",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/okTiiyIvp10&t=2204s"
+			},
+			{
+				"song_id": "S007",
+				"title": "魂のルフラン",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,大森俊之",
+				"url": "https://youtu.be/okTiiyIvp10&t=2602s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/okTiiyIvp10&t=3089s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ホタルノヒカリ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/okTiiyIvp10&t=3336s"
+			}
+		]
+	},
+	{
+		"live_id": "L034",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "Happy Halloween",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/D7pNWwjKgpI&t=221s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ロウワー",
+				"singer": "MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名",
+				"lyrics_composition": "ぬゆり,ヌルット,Lanndo",
+				"url": "https://youtu.be/D7pNWwjKgpI&t=603s"
+			},
+			{
+				"song_id": "S003",
+				"title": "唱",
+				"singer": "Ado",
+				"lyrics_composition": "トップハムハット狂,TOPHAMHAT-KYO,Giga,ギガP,TeddyLoid",
+				"url": "https://youtu.be/D7pNWwjKgpI&t=956s"
+			},
+			{
+				"song_id": "S004",
+				"title": "シザーハンズ",
+				"singer": "初音ミク",
+				"lyrics_composition": "Nem",
+				"url": "https://youtu.be/D7pNWwjKgpI&t=1258s"
+			},
+			{
+				"song_id": "S005",
+				"title": "デビルじゃないもん",
+				"singer": "DECO*27,ピノキオピー,ピノキオP",
+				"lyrics_composition": "DECO*27,ピノキオピー,ピノキオP",
+				"url": "https://youtu.be/D7pNWwjKgpI&t=1733s"
+			}
+		]
+	},
+	{
+		"live_id": "L035",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "千本桜",
+				"singer": "初音ミク",
+				"lyrics_composition": "黒うさP",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=432s"
+			},
+			{
+				"song_id": "S002",
+				"title": "アイドル",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=829s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ビンクスの酒",
+				"singer": "麦わら海賊団",
+				"lyrics_composition": "尾田栄一郎,田中公平",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=1120s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=1537s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ウィーアー!",
+				"singer": "きただにひろし",
+				"lyrics_composition": "藤林聖子,田中公平",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=1952s"
+			},
+			{
+				"song_id": "S006",
+				"title": "新時代",
+				"singer": "Ado",
+				"lyrics_composition": "中田ヤスタカ",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=2395s"
+			},
+			{
+				"song_id": "S007",
+				"title": "魂のルフラン",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,大森俊之",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=2872s"
+			},
+			{
+				"song_id": "S008",
+				"title": "かわいいだけじゃだめですか?",
+				"singer": "CUTIE STREET",
+				"lyrics_composition": "早川博隆,渡邉俊彦",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=3664s"
+			},
+			{
+				"song_id": "S009",
+				"title": "モエチャッカファイア",
+				"singer": "弌誠",
+				"lyrics_composition": "弌誠",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=3905s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=4106s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=4625s"
+			},
+			{
+				"song_id": "S012",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=5096s"
+			},
+			{
+				"song_id": "S013",
+				"title": "私は最強",
+				"singer": "Ado",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=5704s"
+			},
+			{
+				"song_id": "S014",
+				"title": "丸の内サディスティック",
+				"singer": "椎名林檎",
+				"lyrics_composition": "椎名林檎",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=6080s"
+			},
+			{
+				"song_id": "S015",
+				"title": "神っぽいな",
+				"singer": "初音ミク",
+				"lyrics_composition": "ピノキオピー,ピノキオP",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=6604s"
+			},
+			{
+				"song_id": "S016",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=6810s"
+			},
+			{
+				"song_id": "S017",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=7148s"
+			},
+			{
+				"song_id": "S018",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=7685s"
+			},
+			{
+				"song_id": "S019",
+				"title": "強風オールバック",
+				"singer": "歌愛ユキ",
+				"lyrics_composition": "ゆこぴ",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=8047s"
+			},
+			{
+				"song_id": "S020",
+				"title": "ロウワー",
+				"singer": "MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名",
+				"lyrics_composition": "ぬゆり,ヌルット,Lanndo",
+				"url": "https://youtu.be/ti59E0Y2DW0&t=8208s"
+			}
+		]
+	},
+	{
+		"live_id": "L036",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "吉原ラメント",
+				"singer": "重音テト",
+				"lyrics_composition": "亜沙",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=475s"
+			},
+			{
+				"song_id": "S002",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=1073s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=1377s"
+			},
+			{
+				"song_id": "S004",
+				"title": "右肩の蝶",
+				"singer": "鏡音リン",
+				"lyrics_composition": "水野悠良,のりP",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=1885s"
+			},
+			{
+				"song_id": "S005",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=2502s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=2986s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=3625s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ライラック",
+				"singer": "Mrs. GREEN APPLE",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=4149s"
+			},
+			{
+				"song_id": "S009",
+				"title": "気まぐれロマンティック",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹,山下穂尊",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=4420s"
+			},
+			{
+				"song_id": "S010",
+				"title": "桜",
+				"singer": "コブクロ",
+				"lyrics_composition": "小渕健太郎,黒田俊介",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=5324s"
+			},
+			{
+				"song_id": "S011",
+				"title": "遥か彼方",
+				"singer": "ASIAN KUNG-FU GENERATION",
+				"lyrics_composition": "後藤正文",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=6010s"
+			},
+			{
+				"song_id": "S012",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=6692s"
+			},
+			{
+				"song_id": "S013",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=7245s"
+			},
+			{
+				"song_id": "S014",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=7582s"
+			},
+			{
+				"song_id": "S015",
+				"title": "点描の唄",
+				"singer": "大森元貴,井上苑子",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=8024s"
+			},
+			{
+				"song_id": "S016",
+				"title": "脳漿炸裂ガール",
+				"singer": "初音ミク,GUMI",
+				"lyrics_composition": "れるりり,当社比P",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=8912s"
+			},
+			{
+				"song_id": "S017",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=9206s"
+			},
+			{
+				"song_id": "S018",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/1fcMJwTrFgE&t=9567s"
+			}
+		]
+	},
+	{
+		"live_id": "L037",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/QcklyBBbtvA&t=316s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/QcklyBBbtvA&t=701s"
+			},
+			{
+				"song_id": "S003",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/QcklyBBbtvA&t=1181s"
+			},
+			{
+				"song_id": "S004",
+				"title": "メルト",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/QcklyBBbtvA&t=1951s"
+			},
+			{
+				"song_id": "S005",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/QcklyBBbtvA&t=2573s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/QcklyBBbtvA&t=3179s"
+			},
+			{
+				"song_id": "S007",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/QcklyBBbtvA&t=4175s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/QcklyBBbtvA&t=4629s"
+			}
+		]
+	},
+	{
+		"live_id": "L038",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/hyjsvNxxebE&t=1233s"
+			},
+			{
+				"song_id": "S002",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/hyjsvNxxebE&t=1709s"
+			},
+			{
+				"song_id": "S003",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/hyjsvNxxebE&t=2539s"
+			},
+			{
+				"song_id": "S004",
+				"title": "かわいいだけじゃだめですか?",
+				"singer": "CUTIE STREET",
+				"lyrics_composition": "早川博隆,渡邉俊彦",
+				"url": "https://youtu.be/hyjsvNxxebE&t=3053s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/hyjsvNxxebE&t=3736s"
+			},
+			{
+				"song_id": "S006",
+				"title": "好き！雪！本気マジック",
+				"singer": "初音ミク",
+				"lyrics_composition": "Mitchie M,Tucada",
+				"url": "https://youtu.be/hyjsvNxxebE&t=4377s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/hyjsvNxxebE&t=5861s"
+			}
+		]
+	},
+	{
+		"live_id": "L039",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=471s"
+			},
+			{
+				"song_id": "S002",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=1210s"
+			},
+			{
+				"song_id": "S003",
+				"title": "READY STEADY GO",
+				"singer": "L'Arc〜en〜Ciel",
+				"lyrics_composition": "hyde,tetsu",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=1783s"
+			},
+			{
+				"song_id": "S004",
+				"title": "嘘",
+				"singer": "シド",
+				"lyrics_composition": "マオ,ゆうや",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=2021s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Snow halation",
+				"singer": "μ's",
+				"lyrics_composition": "畑亜貴,山田高弘",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=2557s"
+			},
+			{
+				"song_id": "S006",
+				"title": "START:DASH!!",
+				"singer": "μ's",
+				"lyrics_composition": "畑亜貴,佐々木裕",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=3108s"
+			},
+			{
+				"song_id": "S007",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=3507s"
+			},
+			{
+				"song_id": "S008",
+				"title": "シルシ",
+				"singer": "LiSA",
+				"lyrics_composition": "LiSA,カヨコ",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=3915s"
+			},
+			{
+				"song_id": "S009",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=4206s"
+			},
+			{
+				"song_id": "S010",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=4660s"
+			},
+			{
+				"song_id": "S011",
+				"title": "Butter-Fly",
+				"singer": "和田光司",
+				"lyrics_composition": "千綿偉功",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=5338s"
+			},
+			{
+				"song_id": "S012",
+				"title": "世界は恋に落ちている",
+				"singer": "GUMI",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=6335s"
+			},
+			{
+				"song_id": "S013",
+				"title": "からくりピエロ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=6739s"
+			},
+			{
+				"song_id": "S014",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/M8qPmwqfUqk&t=7119s"
+			}
+		]
+	},
+	{
+		"live_id": "L040",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=317s"
+			},
+			{
+				"song_id": "S002",
+				"title": "水流のロック",
+				"singer": "日食なつこ",
+				"lyrics_composition": "日食なつこ",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=615s"
+			},
+			{
+				"song_id": "S003",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=901s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=1324s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=1780s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Miracle Go!プリンセスプリキュア",
+				"singer": "礒部花凜",
+				"lyrics_composition": "大森祥子,渡辺亮希",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=2440s"
+			},
+			{
+				"song_id": "S007",
+				"title": "悪ノ召使",
+				"singer": "鏡音レン,鏡音リン",
+				"lyrics_composition": "悪ノP,mothy",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=2932s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=3639s"
+			},
+			{
+				"song_id": "S009",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=4026s"
+			},
+			{
+				"song_id": "S010",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=4528s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=4919s"
+			},
+			{
+				"song_id": "S012",
+				"title": "トリノコシティ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=5570s"
+			},
+			{
+				"song_id": "S013",
+				"title": "カゲロウデイズ",
+				"singer": "初音ミク",
+				"lyrics_composition": "じん,自然の敵P",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=6055s"
+			},
+			{
+				"song_id": "S014",
+				"title": "メルト",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=6515s"
+			},
+			{
+				"song_id": "S015",
+				"title": "ムーンライト伝説",
+				"singer": "DALI",
+				"lyrics_composition": "小田佳奈子,小諸鉄矢",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=6996s"
+			},
+			{
+				"song_id": "S016",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=7319s"
+			},
+			{
+				"song_id": "S017",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=8052s"
+			},
+			{
+				"song_id": "S018",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=8449s"
+			},
+			{
+				"song_id": "S019",
+				"title": "嘘",
+				"singer": "シド",
+				"lyrics_composition": "マオ,ゆうや",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=9110s"
+			},
+			{
+				"song_id": "S020",
+				"title": "Bunny Girl",
+				"singer": "AKASAKI",
+				"lyrics_composition": "AKASAKI",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=9743s"
+			},
+			{
+				"song_id": "S021",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=10105s"
+			},
+			{
+				"song_id": "S022",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/3TN6tjfCQDw&t=11093s"
+			}
+		]
+	},
+	{
+		"live_id": "L041",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "消せない罪",
+				"singer": "北出菜奈",
+				"lyrics_composition": "北出菜奈,西川進",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=351s"
+			},
+			{
+				"song_id": "S002",
+				"title": "青春狂騒曲",
+				"singer": "サンボマスター",
+				"lyrics_composition": "山口隆",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=851s"
+			},
+			{
+				"song_id": "S003",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=1304s"
+			},
+			{
+				"song_id": "S004",
+				"title": "フォニイ",
+				"singer": "可不",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=1641s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ダーリン(須田景凪)",
+				"singer": "重音テト",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=1927s"
+			},
+			{
+				"song_id": "S006",
+				"title": "気まぐれロマンティック",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹,山下穂尊",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=2114s"
+			},
+			{
+				"song_id": "S007",
+				"title": "水流のロック",
+				"singer": "日食なつこ",
+				"lyrics_composition": "日食なつこ",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=2460s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=2813s"
+			},
+			{
+				"song_id": "S009",
+				"title": "マトリョシカ",
+				"singer": "初音ミク,GUMI",
+				"lyrics_composition": "ハチ,米津玄師",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=3251s"
+			},
+			{
+				"song_id": "S010",
+				"title": "結ンデ開イテ羅刹ト骸",
+				"singer": "初音ミク",
+				"lyrics_composition": "ハチ,米津玄師",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=3634s"
+			},
+			{
+				"song_id": "S011",
+				"title": "初音ミクの消失 -DEAD END-",
+				"singer": "初音ミク",
+				"lyrics_composition": "cosMo,暴走P",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=3908s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ラビットホール",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=4606s"
+			},
+			{
+				"song_id": "S013",
+				"title": "夜に駆ける",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=5280s"
+			},
+			{
+				"song_id": "S014",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=6164s"
+			},
+			{
+				"song_id": "S015",
+				"title": "天ノ弱",
+				"singer": "GUMI",
+				"lyrics_composition": "164",
+				"url": "https://youtu.be/ji0p-IW0f-E&t=6543s"
+			}
+		]
+	},
+	{
+		"live_id": "L042",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=338s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=726s"
+			},
+			{
+				"song_id": "S003",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=1326s"
+			},
+			{
+				"song_id": "S004",
+				"title": "愛をこめて花束を",
+				"singer": "Superfly",
+				"lyrics_composition": "越智志帆,多保孝一,いしわたり淳治",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=1763s"
+			},
+			{
+				"song_id": "S005",
+				"title": "空も飛べるはず",
+				"singer": "スピッツ",
+				"lyrics_composition": "草野正宗",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=2341s"
+			},
+			{
+				"song_id": "S006",
+				"title": "君は僕に似ている",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川智晶,梶浦由記",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=2841s"
+			},
+			{
+				"song_id": "S007",
+				"title": "Just Be Friends",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "Dixie Flatline",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=3649s"
+			},
+			{
+				"song_id": "S008",
+				"title": "点描の唄",
+				"singer": "大森元貴,井上苑子",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=4050s"
+			},
+			{
+				"song_id": "S009",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/z9Vmknq6g-M&t=4566s"
+			}
+		]
+	},
+	{
+		"live_id": "L043",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/MCSf66nsyYo&t=362s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/MCSf66nsyYo&t=945s"
+			},
+			{
+				"song_id": "S003",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/MCSf66nsyYo&t=1267s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ドライフラワー",
+				"singer": "優里",
+				"lyrics_composition": "優里",
+				"url": "https://youtu.be/MCSf66nsyYo&t=1540s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/MCSf66nsyYo&t=1895s"
+			},
+			{
+				"song_id": "S006",
+				"title": "シャルル",
+				"singer": "flower",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/MCSf66nsyYo&t=2265s"
+			},
+			{
+				"song_id": "S007",
+				"title": "アイロニ",
+				"singer": "初音ミク",
+				"lyrics_composition": "すこっぷ",
+				"url": "https://youtu.be/MCSf66nsyYo&t=2697s"
+			},
+			{
+				"song_id": "S008",
+				"title": "シリョクケンサ",
+				"singer": "GUMI",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/MCSf66nsyYo&t=3232s"
+			},
+			{
+				"song_id": "S009",
+				"title": "小さきもの",
+				"singer": "林明日香",
+				"lyrics_composition": "三浦徳子,山移高寛",
+				"url": "https://youtu.be/MCSf66nsyYo&t=3408s"
+			},
+			{
+				"song_id": "S010",
+				"title": "トリノコシティ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/MCSf66nsyYo&t=4058s"
+			},
+			{
+				"song_id": "S011",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/MCSf66nsyYo&t=4594s"
+			},
+			{
+				"song_id": "S012",
+				"title": "弱虫モンブラン",
+				"singer": "GUMI",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/MCSf66nsyYo&t=5092s"
+			},
+			{
+				"song_id": "S013",
+				"title": "タッチ",
+				"singer": "岩崎良美",
+				"lyrics_composition": "康珍化,森田記,芹澤廣明",
+				"url": "https://youtu.be/MCSf66nsyYo&t=5556s"
+			},
+			{
+				"song_id": "S014",
+				"title": "Snow halation",
+				"singer": "μ's",
+				"lyrics_composition": "畑亜貴,山田高弘",
+				"url": "https://youtu.be/MCSf66nsyYo&t=6035s"
+			}
+		]
+	},
+	{
+		"live_id": "L044",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "サリシノハラ",
+				"singer": "りぶ",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=352s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=791s"
+			},
+			{
+				"song_id": "S003",
+				"title": "二息歩行",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=1217s"
+			},
+			{
+				"song_id": "S004",
+				"title": "気まぐれロマンティック",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹,山下穂尊",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=1569s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=1923s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ホタルノヒカリ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=2174s"
+			},
+			{
+				"song_id": "S007",
+				"title": "コイスルオトメ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=2753s"
+			},
+			{
+				"song_id": "S008",
+				"title": "リードコントロール",
+				"singer": "なるみや",
+				"lyrics_composition": "なるみや",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=3268s"
+			},
+			{
+				"song_id": "S009",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=3568s"
+			},
+			{
+				"song_id": "S010",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=3906s"
+			},
+			{
+				"song_id": "S011",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=4815s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ハートキャッチ☆パラダイス!",
+				"singer": "工藤真由",
+				"lyrics_composition": "六ツ見純代,marhy",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=5256s"
+			},
+			{
+				"song_id": "S013",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=5804s"
+			},
+			{
+				"song_id": "S014",
+				"title": "水流のロック",
+				"singer": "日食なつこ",
+				"lyrics_composition": "日食なつこ",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=6284s"
+			},
+			{
+				"song_id": "S015",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=7024s"
+			},
+			{
+				"song_id": "S016",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=7617s"
+			},
+			{
+				"song_id": "S017",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=8105s"
+			},
+			{
+				"song_id": "S018",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=8644s"
+			},
+			{
+				"song_id": "S019",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=9193s"
+			},
+			{
+				"song_id": "S020",
+				"title": "世界は恋に落ちている",
+				"singer": "GUMI",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=9768s"
+			},
+			{
+				"song_id": "S021",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/DpYBxC7D_pI&t=10248s"
+			}
+		]
+	},
+	{
+		"live_id": "L045",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/7_8EpXntvh8&t=466s"
+			},
+			{
+				"song_id": "S002",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/7_8EpXntvh8&t=917s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ラビットホール",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/7_8EpXntvh8&t=1386s"
+			},
+			{
+				"song_id": "S004",
+				"title": "アイデンティティ",
+				"singer": "宵崎奏,初音ミク",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/7_8EpXntvh8&t=1899s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ボルテッカー",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27,Project VOLTAGE",
+				"url": "https://youtu.be/7_8EpXntvh8&t=2233s"
+			},
+			{
+				"song_id": "S006",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/7_8EpXntvh8&t=2560s"
+			},
+			{
+				"song_id": "S007",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/7_8EpXntvh8&t=3196s"
+			},
+			{
+				"song_id": "S008",
+				"title": "高嶺の花子さん",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/7_8EpXntvh8&t=3685s"
+			},
+			{
+				"song_id": "S009",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/7_8EpXntvh8&t=4144s"
+			},
+			{
+				"song_id": "S010",
+				"title": "小さきもの",
+				"singer": "林明日香",
+				"lyrics_composition": "三浦徳子,山移高寛",
+				"url": "https://youtu.be/7_8EpXntvh8&t=5147s"
+			},
+			{
+				"song_id": "S011",
+				"title": "可愛くてごめん",
+				"singer": "早見沙織",
+				"lyrics_composition": "チョリスP,shito,使徒",
+				"url": "https://youtu.be/7_8EpXntvh8&t=5809s"
+			},
+			{
+				"song_id": "S012",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/7_8EpXntvh8&t=6128s"
+			},
+			{
+				"song_id": "S013",
+				"title": "かわいいだけじゃだめですか?",
+				"singer": "CUTIE STREET",
+				"lyrics_composition": "早川博隆,渡邉俊彦",
+				"url": "https://youtu.be/7_8EpXntvh8&t=6643s"
+			},
+			{
+				"song_id": "S014",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/7_8EpXntvh8&t=7191s"
+			},
+			{
+				"song_id": "S015",
+				"title": "世界は恋に落ちている",
+				"singer": "GUMI",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/7_8EpXntvh8&t=7986s"
+			},
+			{
+				"song_id": "S016",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/7_8EpXntvh8&t=8344s"
+			},
+			{
+				"song_id": "S017",
+				"title": "射手座☆午後九時Don't be late",
+				"singer": "May'n",
+				"lyrics_composition": "佐藤大,hal,マイクスギヤマ,菅野よう子",
+				"url": "https://youtu.be/7_8EpXntvh8&t=8619s"
+			},
+			{
+				"song_id": "S018",
+				"title": "初音ミクの消失 -DEAD END-",
+				"singer": "初音ミク",
+				"lyrics_composition": "cosMo,暴走P",
+				"url": "https://youtu.be/7_8EpXntvh8&t=9064s"
+			},
+			{
+				"song_id": "S019",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/7_8EpXntvh8&t=9754s"
+			},
+			{
+				"song_id": "S020",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/7_8EpXntvh8&t=10100s"
+			}
+		]
+	},
+	{
+		"live_id": "L046",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "夜に駆ける",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/MegNnWqlpro&t=336s"
+			},
+			{
+				"song_id": "S002",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/MegNnWqlpro&t=721s"
+			},
+			{
+				"song_id": "S003",
+				"title": "♡桃色片想い♡",
+				"singer": "松浦亜弥",
+				"lyrics_composition": "つんく",
+				"url": "https://youtu.be/MegNnWqlpro&t=1072s"
+			},
+			{
+				"song_id": "S004",
+				"title": "シリョクケンサ",
+				"singer": "GUMI",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/MegNnWqlpro&t=1471s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/MegNnWqlpro&t=1628s"
+			},
+			{
+				"song_id": "S006",
+				"title": "点描の唄",
+				"singer": "大森元貴,井上苑子",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/MegNnWqlpro&t=2069s"
+			},
+			{
+				"song_id": "S007",
+				"title": "マリーゴールド",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/MegNnWqlpro&t=2446s"
+			},
+			{
+				"song_id": "S008",
+				"title": "プラチナ",
+				"singer": "坂本真綾",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/MegNnWqlpro&t=2858s"
+			},
+			{
+				"song_id": "S009",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/MegNnWqlpro&t=3201s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/MegNnWqlpro&t=3695s"
+			},
+			{
+				"song_id": "S011",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/MegNnWqlpro&t=4031s"
+			}
+		]
+	},
+	{
+		"live_id": "L047",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/oDfyDf56pHo&t=336s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/oDfyDf56pHo&t=937s"
+			},
+			{
+				"song_id": "S003",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/oDfyDf56pHo&t=1393s"
+			},
+			{
+				"song_id": "S004",
+				"title": "if",
+				"singer": "西野カナ",
+				"lyrics_composition": "西野カナ,GIORGIO13,GIORGIO CANCEMI",
+				"url": "https://youtu.be/oDfyDf56pHo&t=1682s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Snow halation",
+				"singer": "μ's",
+				"lyrics_composition": "畑亜貴,山田高弘",
+				"url": "https://youtu.be/oDfyDf56pHo&t=2183s"
+			},
+			{
+				"song_id": "S006",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/oDfyDf56pHo&t=2612s"
+			},
+			{
+				"song_id": "S007",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/oDfyDf56pHo&t=3059s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ホタルノヒカリ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/oDfyDf56pHo&t=3704s"
+			},
+			{
+				"song_id": "S009",
+				"title": "Reason",
+				"singer": "玉置成実",
+				"lyrics_composition": "shungo.,y@suo otani",
+				"url": "https://youtu.be/oDfyDf56pHo&t=4025s"
+			},
+			{
+				"song_id": "S010",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/oDfyDf56pHo&t=4495s"
+			},
+			{
+				"song_id": "S011",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/oDfyDf56pHo&t=4933s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/oDfyDf56pHo&t=5273s"
+			},
+			{
+				"song_id": "S013",
+				"title": "微笑みの爆弾",
+				"singer": "馬渡松子",
+				"lyrics_composition": "リーシャウロン,馬渡松子",
+				"url": "https://youtu.be/oDfyDf56pHo&t=5568s"
+			},
+			{
+				"song_id": "S014",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/oDfyDf56pHo&t=5891s"
+			},
+			{
+				"song_id": "S015",
+				"title": "吉原ラメント",
+				"singer": "重音テト",
+				"lyrics_composition": "亜沙",
+				"url": "https://youtu.be/oDfyDf56pHo&t=6481s"
+			},
+			{
+				"song_id": "S016",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/oDfyDf56pHo&t=6916s"
+			},
+			{
+				"song_id": "S017",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/oDfyDf56pHo&t=7194s"
+			}
+		]
+	},
+	{
+		"live_id": "L048",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ハルカ",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/vH1LRJVcrWM&t=167s"
+			},
+			{
+				"song_id": "S002",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/vH1LRJVcrWM&t=715s"
+			},
+			{
+				"song_id": "S003",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/vH1LRJVcrWM&t=1037s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/vH1LRJVcrWM&t=1477s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/vH1LRJVcrWM&t=1866s"
+			},
+			{
+				"song_id": "S006",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/vH1LRJVcrWM&t=2448s"
+			}
+		]
+	},
+	{
+		"live_id": "L049",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=362s"
+			},
+			{
+				"song_id": "S002",
+				"title": "キューにストップできません！",
+				"singer": "CUTIE STREET",
+				"lyrics_composition": "早川博隆,宇田川翔",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=977s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=1534s"
+			},
+			{
+				"song_id": "S004",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=1870s"
+			},
+			{
+				"song_id": "S005",
+				"title": "高嶺の花子さん",
+				"singer": "back number",
+				"lyrics_composition": "清水依与吏",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=2256s"
+			},
+			{
+				"song_id": "S006",
+				"title": "僕たちの行方",
+				"singer": "高橋瞳",
+				"lyrics_composition": "Yuta Nakano,shungo.",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=2779s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ライラック",
+				"singer": "Mrs. GREEN APPLE",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=3270s"
+			},
+			{
+				"song_id": "S008",
+				"title": "君は僕に似ている",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川智晶,梶浦由記",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=3648s"
+			},
+			{
+				"song_id": "S009",
+				"title": "泪のムコウ",
+				"singer": "ステレオポニー",
+				"lyrics_composition": "AIMI",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=4060s"
+			},
+			{
+				"song_id": "S010",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=4382s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=5034s"
+			},
+			{
+				"song_id": "S012",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=5954s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ハルカ",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=6354s"
+			},
+			{
+				"song_id": "S014",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=6784s"
+			},
+			{
+				"song_id": "S015",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=7152s"
+			},
+			{
+				"song_id": "S016",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=7600s"
+			},
+			{
+				"song_id": "S017",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=8019s"
+			},
+			{
+				"song_id": "S018",
+				"title": "サリシノハラ",
+				"singer": "りぶ",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=8374s"
+			},
+			{
+				"song_id": "S019",
+				"title": "消せない罪",
+				"singer": "北出菜奈",
+				"lyrics_composition": "北出菜奈,西川進",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=8816s"
+			},
+			{
+				"song_id": "S020",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/QYnf1CMOzpg&t=9375s"
+			}
+		]
+	},
+	{
+		"live_id": "L050",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "悲しみをやさしさに",
+				"singer": "little by little",
+				"lyrics_composition": "tetsuhiko,十川知司",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=370s"
+			},
+			{
+				"song_id": "S002",
+				"title": "キミモノガタリ",
+				"singer": "little by little",
+				"lyrics_composition": "tetsuhiko",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=780s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ホタルノヒカリ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=1261s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=1743s"
+			},
+			{
+				"song_id": "S005",
+				"title": "新時代",
+				"singer": "Ado",
+				"lyrics_composition": "中田ヤスタカ",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=2236s"
+			},
+			{
+				"song_id": "S006",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=2657s"
+			},
+			{
+				"song_id": "S007",
+				"title": "千本桜",
+				"singer": "初音ミク",
+				"lyrics_composition": "黒うさP",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=3192s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ハム太郎とっとこうた",
+				"singer": "ハムちゃんず",
+				"lyrics_composition": "河井リツ子",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=3620s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ハナミズキ",
+				"singer": "一青窈",
+				"lyrics_composition": "一青窈,マシコタツロウ",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=3849s"
+			},
+			{
+				"song_id": "S010",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=4364s"
+			},
+			{
+				"song_id": "S011",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=4748s"
+			},
+			{
+				"song_id": "S012",
+				"title": "寄り酔い",
+				"singer": "和ぬか",
+				"lyrics_composition": "和ぬか",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=5235s"
+			},
+			{
+				"song_id": "S013",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=5655s"
+			},
+			{
+				"song_id": "S014",
+				"title": "愛包ダンスホール",
+				"singer": "田中ヒメ,鈴木ヒナ",
+				"lyrics_composition": "Gohgo,幽世55番街,涼木シンジ",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=5926s"
+			},
+			{
+				"song_id": "S015",
+				"title": "魂のルフラン",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,大森俊之",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=6517s"
+			},
+			{
+				"song_id": "S016",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=6963s"
+			},
+			{
+				"song_id": "S017",
+				"title": "高音厨音域テスト",
+				"singer": "初音ミク",
+				"lyrics_composition": "木村わいP",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=7468s"
+			},
+			{
+				"song_id": "S018",
+				"title": "Bunny Girl",
+				"singer": "AKASAKI",
+				"lyrics_composition": "AKASAKI",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=7850s"
+			},
+			{
+				"song_id": "S019",
+				"title": "ラビットホール",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=8226s"
+			},
+			{
+				"song_id": "S020",
+				"title": "ムーンライト伝説",
+				"singer": "DALI",
+				"lyrics_composition": "小田佳奈子,小諸鉄矢",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=8810s"
+			},
+			{
+				"song_id": "S021",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=9133s"
+			},
+			{
+				"song_id": "S022",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=9513s"
+			},
+			{
+				"song_id": "S023",
+				"title": "ハルカ",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=9986s"
+			},
+			{
+				"song_id": "S024",
+				"title": "magnet",
+				"singer": "巡音ルカ,初音ミク",
+				"lyrics_composition": "湊貴大,流星P,minato",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=10397s"
+			},
+			{
+				"song_id": "S025",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=10845s"
+			},
+			{
+				"song_id": "S026",
+				"title": "瞬間センチメンタル",
+				"singer": "SCANDAL",
+				"lyrics_composition": "SCANDAL,小林夏海,田鹿祐一",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=11329s"
+			},
+			{
+				"song_id": "S027",
+				"title": "少女S",
+				"singer": "SCANDAL",
+				"lyrics_composition": "TOMOMI,田鹿祐一",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=11638s"
+			},
+			{
+				"song_id": "S028",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/OPgNJUFWd7k&t=11930s"
+			}
+		]
+	},
+	{
+		"live_id": "L051",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "十面相",
+				"singer": "GUMI",
+				"lyrics_composition": "YM",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=371s"
+			},
+			{
+				"song_id": "S002",
+				"title": "夜に駆ける",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=855s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Realize",
+				"singer": "玉置成実",
+				"lyrics_composition": "BOUNCEBACK,大谷靖夫",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=1405s"
+			},
+			{
+				"song_id": "S004",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=1969s"
+			},
+			{
+				"song_id": "S005",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=2334s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ダーリン(須田景凪)",
+				"singer": "重音テト",
+				"lyrics_composition": "バルーン,須田景凪",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=2942s"
+			},
+			{
+				"song_id": "S007",
+				"title": "右肩の蝶",
+				"singer": "鏡音リン",
+				"lyrics_composition": "水野悠良,のりP",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=3520s"
+			},
+			{
+				"song_id": "S008",
+				"title": "Don't say“lazy”",
+				"singer": "桜高軽音部,放課後ティータイム",
+				"lyrics_composition": "大森祥子,前澤寛之",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=3955s"
+			},
+			{
+				"song_id": "S009",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=4607s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ハートキャッチ☆パラダイス!",
+				"singer": "工藤真由",
+				"lyrics_composition": "六ツ見純代,marhy",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=5164s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ダイアモンド クレバス",
+				"singer": "May'n",
+				"lyrics_composition": "hal,菅野よう子",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=5546s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=6092s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ハルカ",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=6801s"
+			},
+			{
+				"song_id": "S014",
+				"title": "心拍数♯0822",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=7159s"
+			},
+			{
+				"song_id": "S015",
+				"title": "リードコントロール",
+				"singer": "なるみや",
+				"lyrics_composition": "なるみや",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=7831s"
+			},
+			{
+				"song_id": "S016",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=8086s"
+			},
+			{
+				"song_id": "S017",
+				"title": "コイスルオトメ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=8336s"
+			},
+			{
+				"song_id": "S018",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/ObCh_5pXiqI&t=8915s"
+			}
+		]
+	},
+	{
+		"live_id": "L052",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "未来への咆哮",
+				"singer": "JAM Project",
+				"lyrics_composition": "影山ヒロノブ",
+				"url": "https://youtu.be/LgKkg5Hl584&t=332s"
+			},
+			{
+				"song_id": "S002",
+				"title": "唱",
+				"singer": "Ado",
+				"lyrics_composition": "トップハムハット狂,TOPHAMHAT-KYO,Giga,ギガP,TeddyLoid",
+				"url": "https://youtu.be/LgKkg5Hl584&t=804s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ignited -イグナイテッド-",
+				"singer": "T.M.Revolution",
+				"lyrics_composition": "井上秋緒,浅倉大介",
+				"url": "https://youtu.be/LgKkg5Hl584&t=1310s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/LgKkg5Hl584&t=1764s"
+			},
+			{
+				"song_id": "S005",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/LgKkg5Hl584&t=2101s"
+			},
+			{
+				"song_id": "S006",
+				"title": "NEXT LEVEL",
+				"singer": "YU-KI",
+				"lyrics_composition": "藤林聖子,渡部チェル",
+				"url": "https://youtu.be/LgKkg5Hl584&t=2546s"
+			},
+			{
+				"song_id": "S007",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/LgKkg5Hl584&t=3094s"
+			},
+			{
+				"song_id": "S008",
+				"title": "魂のルフラン",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,大森俊之",
+				"url": "https://youtu.be/LgKkg5Hl584&t=3521s"
+			},
+			{
+				"song_id": "S009",
+				"title": "INVOKE",
+				"singer": "T.M.Revolution",
+				"lyrics_composition": "井上秋緒,浅倉大介",
+				"url": "https://youtu.be/LgKkg5Hl584&t=4154s"
+			},
+			{
+				"song_id": "S010",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/LgKkg5Hl584&t=4613s"
+			},
+			{
+				"song_id": "S011",
+				"title": "オトナブルー",
+				"singer": "新しい学校のリーダーズ",
+				"lyrics_composition": "新しい学校のリーダー達,yonkey",
+				"url": "https://youtu.be/LgKkg5Hl584&t=4947s"
+			},
+			{
+				"song_id": "S012",
+				"title": "射手座☆午後九時Don't be late",
+				"singer": "May'n",
+				"lyrics_composition": "佐藤大,hal,マイクスギヤマ,菅野よう子",
+				"url": "https://youtu.be/LgKkg5Hl584&t=5366s"
+			},
+			{
+				"song_id": "S013",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/LgKkg5Hl584&t=6027s"
+			},
+			{
+				"song_id": "S014",
+				"title": "ボルテッカー",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27,Project VOLTAGE",
+				"url": "https://youtu.be/LgKkg5Hl584&t=6488s"
+			},
+			{
+				"song_id": "S015",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/LgKkg5Hl584&t=6768s"
+			},
+			{
+				"song_id": "S016",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/LgKkg5Hl584&t=7278s"
+			},
+			{
+				"song_id": "S017",
+				"title": "ブロッケンスワン",
+				"singer": "天草フラン.酔眠はやね",
+				"lyrics_composition": "司/19G",
+				"url": "https://youtu.be/LgKkg5Hl584&t=7689s"
+			},
+			{
+				"song_id": "S018",
+				"title": "酔いどれ知らず",
+				"singer": "GUMI",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/LgKkg5Hl584&t=8064s"
+			},
+			{
+				"song_id": "S019",
+				"title": "Realize",
+				"singer": "玉置成実",
+				"lyrics_composition": "BOUNCEBACK,大谷靖夫",
+				"url": "https://youtu.be/LgKkg5Hl584&t=8405s"
+			},
+			{
+				"song_id": "S020",
+				"title": "フォニイ",
+				"singer": "可不",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/LgKkg5Hl584&t=8825s"
+			},
+			{
+				"song_id": "S021",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/LgKkg5Hl584&t=9122s"
+			},
+			{
+				"song_id": "S022",
+				"title": "消せない罪",
+				"singer": "北出菜奈",
+				"lyrics_composition": "北出菜奈,西川進",
+				"url": "https://youtu.be/LgKkg5Hl584&t=9685s"
+			},
+			{
+				"song_id": "S023",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/LgKkg5Hl584&t=10259s"
+			},
+			{
+				"song_id": "S024",
+				"title": "Anything Goes!",
+				"singer": "大黒摩季",
+				"lyrics_composition": "藤林聖子,Tatsuo",
+				"url": "https://youtu.be/LgKkg5Hl584&t=10711s"
+			},
+			{
+				"song_id": "S025",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/LgKkg5Hl584&t=11265s"
+			},
+			{
+				"song_id": "S026",
+				"title": "GO!!!",
+				"singer": "FLOW",
+				"lyrics_composition": "KOHSHI,TAKE",
+				"url": "https://youtu.be/LgKkg5Hl584&t=11650s"
+			},
+			{
+				"song_id": "S027",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/LgKkg5Hl584&t=12026s"
+			}
+		]
+	},
+	{
+		"live_id": "L053",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=562s"
+			},
+			{
+				"song_id": "S002",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=1075s"
+			},
+			{
+				"song_id": "S003",
+				"title": "君の知らない物語",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=1511s"
+			},
+			{
+				"song_id": "S004",
+				"title": "PRIDE",
+				"singer": "HIGH and MIGHTY COLOR",
+				"lyrics_composition": "HIGH and MIGHTY COLOR",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=2113s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=2508s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=3110s"
+			},
+			{
+				"song_id": "S007",
+				"title": "シリョクケンサ",
+				"singer": "GUMI",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=3520s"
+			},
+			{
+				"song_id": "S008",
+				"title": "キセキ",
+				"singer": "GReeeeN",
+				"lyrics_composition": "GReeeeN",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=3907s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ゴールデンタイムラバー",
+				"singer": "スキマスイッチ",
+				"lyrics_composition": "スキマスイッチ",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=4373s"
+			},
+			{
+				"song_id": "S010",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=4953s"
+			},
+			{
+				"song_id": "S011",
+				"title": "天ノ弱",
+				"singer": "GUMI",
+				"lyrics_composition": "164",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=5453s"
+			},
+			{
+				"song_id": "S012",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=5783s"
+			},
+			{
+				"song_id": "S013",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=6240s"
+			},
+			{
+				"song_id": "S014",
+				"title": "地球最後の告白を",
+				"singer": "GUMI",
+				"lyrics_composition": "kemu,堀江晶太,中村イネ",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=7046s"
+			},
+			{
+				"song_id": "S015",
+				"title": "いーあるふぁんくらぶ",
+				"singer": "GUMI,鏡音リン",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=7512s"
+			},
+			{
+				"song_id": "S016",
+				"title": "栄光の架橋",
+				"singer": "ゆず",
+				"lyrics_composition": "北川悠仁",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=8099s"
+			},
+			{
+				"song_id": "S017",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=8375s"
+			},
+			{
+				"song_id": "S018",
+				"title": "小悪魔だってかまわない！",
+				"singer": "めいちゃん",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=8749s"
+			},
+			{
+				"song_id": "S019",
+				"title": "シル・ヴ・プレジデント",
+				"singer": "P丸様。",
+				"lyrics_composition": "ナナホシ管弦楽団,岩見 陸,モナカ",
+				"url": "https://youtu.be/GnknaZU6Gm8&t=9047s"
+			}
+		]
+	},
+	{
+		"live_id": "L054",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "そばかす",
+				"singer": "JUDY AND MARY",
+				"lyrics_composition": "YUKI,恩田快人",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=474s"
+			},
+			{
+				"song_id": "S002",
+				"title": "気まぐれロマンティック",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹,山下穂尊",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=1141s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ボーイフレンド",
+				"singer": "aiko",
+				"lyrics_composition": "aiko",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=1574s"
+			},
+			{
+				"song_id": "S004",
+				"title": "カブトムシ",
+				"singer": "aiko",
+				"lyrics_composition": "aiko",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=2089s"
+			},
+			{
+				"song_id": "S005",
+				"title": "アスノヨゾラ哨戒班",
+				"singer": "IA",
+				"lyrics_composition": "Orangestar,蜜柑星P",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=2629s"
+			},
+			{
+				"song_id": "S006",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=2824s"
+			},
+			{
+				"song_id": "S007",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=3378s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ラビットホール",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=3953s"
+			},
+			{
+				"song_id": "S009",
+				"title": "DAN DAN 心魅かれてく",
+				"singer": "FIELD OF VIEW",
+				"lyrics_composition": "坂井泉水,織田哲郎",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=4280s"
+			},
+			{
+				"song_id": "S010",
+				"title": "少女S",
+				"singer": "SCANDAL",
+				"lyrics_composition": "TOMOMI,田鹿祐一",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=4733s"
+			},
+			{
+				"song_id": "S011",
+				"title": "瞬間センチメンタル",
+				"singer": "SCANDAL",
+				"lyrics_composition": "SCANDAL,小林夏海,田鹿祐一",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=5007s"
+			},
+			{
+				"song_id": "S012",
+				"title": "プラチナ",
+				"singer": "坂本真綾",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=6127s"
+			},
+			{
+				"song_id": "S013",
+				"title": "千本桜",
+				"singer": "初音ミク",
+				"lyrics_composition": "黒うさP",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=6567s"
+			},
+			{
+				"song_id": "S014",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=7240s"
+			},
+			{
+				"song_id": "S015",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=7694s"
+			},
+			{
+				"song_id": "S016",
+				"title": "コイスルオトメ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=8293s"
+			},
+			{
+				"song_id": "S017",
+				"title": "departure!",
+				"singer": "小野正利",
+				"lyrics_composition": "羽場仁志",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=8672s"
+			},
+			{
+				"song_id": "S018",
+				"title": "BLOODY STREAM",
+				"singer": "Coda",
+				"lyrics_composition": "こだまさおり,大森俊之",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=8826s"
+			},
+			{
+				"song_id": "S019",
+				"title": "ジョジョ 〜その血の運命〜",
+				"singer": "富永TOMMY弘明",
+				"lyrics_composition": "藤林聖子,田中公平",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=8921s"
+			},
+			{
+				"song_id": "S020",
+				"title": "Listen!!",
+				"singer": "桜高軽音部,放課後ティータイム",
+				"lyrics_composition": "大森祥子,前澤寛之",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=9528s"
+			},
+			{
+				"song_id": "S021",
+				"title": "変わらないもの",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=9876s"
+			},
+			{
+				"song_id": "S022",
+				"title": "Mela!",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,小林壱誓,peppe,穴見真吾",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=10251s"
+			},
+			{
+				"song_id": "S023",
+				"title": "Lemon",
+				"singer": "ハチ,米津玄師",
+				"lyrics_composition": "ハチ,米津玄師",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=10645s"
+			},
+			{
+				"song_id": "S024",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=11052s"
+			},
+			{
+				"song_id": "S025",
+				"title": "残酷な天使のテーゼ",
+				"singer": "高橋洋子",
+				"lyrics_composition": "及川眠子,佐藤英敏",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=11547s"
+			},
+			{
+				"song_id": "S026",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/8SoMZYV-iu8&t=11899s"
+			}
+		]
+	},
+	{
+		"live_id": "L055",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "magnet",
+				"singer": "巡音ルカ,初音ミク",
+				"lyrics_composition": "湊貴大,流星P,minato",
+				"url": "https://youtu.be/bifjIs2UHGI&t=538s"
+			},
+			{
+				"song_id": "S002",
+				"title": "桜ロック",
+				"singer": "CHERRYBLOSSOM",
+				"lyrics_composition": "MEEKO",
+				"url": "https://youtu.be/bifjIs2UHGI&t=1116s"
+			},
+			{
+				"song_id": "S003",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/bifjIs2UHGI&t=1746s"
+			},
+			{
+				"song_id": "S004",
+				"title": "シルシ",
+				"singer": "LiSA",
+				"lyrics_composition": "LiSA,カヨコ",
+				"url": "https://youtu.be/bifjIs2UHGI&t=2596s"
+			},
+			{
+				"song_id": "S005",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/bifjIs2UHGI&t=3189s"
+			},
+			{
+				"song_id": "S006",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/bifjIs2UHGI&t=4019s"
+			},
+			{
+				"song_id": "S007",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/bifjIs2UHGI&t=4466s"
+			},
+			{
+				"song_id": "S008",
+				"title": "神っぽいな",
+				"singer": "初音ミク",
+				"lyrics_composition": "ピノキオピー,ピノキオP",
+				"url": "https://youtu.be/bifjIs2UHGI&t=4875s"
+			},
+			{
+				"song_id": "S009",
+				"title": "リライト",
+				"singer": "ASIAN KUNG-FU GENERATION",
+				"lyrics_composition": "後藤正文",
+				"url": "https://youtu.be/bifjIs2UHGI&t=5361s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ハム太郎とっとこうた",
+				"singer": "ハムちゃんず",
+				"lyrics_composition": "河井リツ子",
+				"url": "https://youtu.be/bifjIs2UHGI&t=5665s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ハッピーシンセサイザ",
+				"singer": "巡音ルカ,GUMI",
+				"lyrics_composition": "Easy Pop",
+				"url": "https://youtu.be/bifjIs2UHGI&t=5926s"
+			},
+			{
+				"song_id": "S012",
+				"title": "吉原ラメント",
+				"singer": "重音テト",
+				"lyrics_composition": "亜沙",
+				"url": "https://youtu.be/bifjIs2UHGI&t=6247s"
+			},
+			{
+				"song_id": "S013",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/bifjIs2UHGI&t=6640s"
+			},
+			{
+				"song_id": "S014",
+				"title": "Miracle Go!プリンセスプリキュア",
+				"singer": "礒部花凜",
+				"lyrics_composition": "大森祥子,渡辺亮希",
+				"url": "https://youtu.be/bifjIs2UHGI&t=7056s"
+			},
+			{
+				"song_id": "S015",
+				"title": "Dokkin♢魔法つかいプリキュア！",
+				"singer": "北川理恵",
+				"lyrics_composition": "森雪之丞,奥村愛子",
+				"url": "https://youtu.be/bifjIs2UHGI&t=7540s"
+			},
+			{
+				"song_id": "S016",
+				"title": "水流のロック",
+				"singer": "日食なつこ",
+				"lyrics_composition": "日食なつこ",
+				"url": "https://youtu.be/bifjIs2UHGI&t=8032s"
+			},
+			{
+				"song_id": "S017",
+				"title": "Surges",
+				"singer": "IA,初音ミク",
+				"lyrics_composition": "Orangestar,蜜柑星P",
+				"url": "https://youtu.be/bifjIs2UHGI&t=8347s"
+			},
+			{
+				"song_id": "S018",
+				"title": "モザイクロール",
+				"singer": "GUMI",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/bifjIs2UHGI&t=8646s"
+			},
+			{
+				"song_id": "S019",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/bifjIs2UHGI&t=8982s"
+			},
+			{
+				"song_id": "S020",
+				"title": "鳥の詩",
+				"singer": "Lia",
+				"lyrics_composition": "麻枝准,折戸伸治",
+				"url": "https://youtu.be/bifjIs2UHGI&t=9405s"
+			},
+			{
+				"song_id": "S021",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/bifjIs2UHGI&t=10267s"
+			},
+			{
+				"song_id": "S022",
+				"title": "DISCOTHEQUE",
+				"singer": "水樹奈々",
+				"lyrics_composition": "園田凌士,上松範康",
+				"url": "https://youtu.be/bifjIs2UHGI&t=10699s"
+			},
+			{
+				"song_id": "S023",
+				"title": "そばかす",
+				"singer": "JUDY AND MARY",
+				"lyrics_composition": "YUKI,恩田快人",
+				"url": "https://youtu.be/bifjIs2UHGI&t=11203s"
+			},
+			{
+				"song_id": "S024",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/bifjIs2UHGI&t=11641s"
+			},
+			{
+				"song_id": "S025",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/bifjIs2UHGI&t=12072s"
+			},
+			{
+				"song_id": "S026",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/bifjIs2UHGI&t=12822s"
+			},
+			{
+				"song_id": "S027",
+				"title": "恋するフォーチュンクッキー",
+				"singer": "AKB48",
+				"lyrics_composition": "秋元康,伊藤心太郎",
+				"url": "https://youtu.be/bifjIs2UHGI&t=13370s"
+			}
+		]
+	},
+	{
+		"live_id": "L056",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ray",
+				"singer": "BUMP OF CHICKEN",
+				"lyrics_composition": "藤原基央",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=407s"
+			},
+			{
+				"song_id": "S002",
+				"title": "♡桃色片想い♡",
+				"singer": "松浦亜弥",
+				"lyrics_composition": "つんく",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=963s"
+			},
+			{
+				"song_id": "S003",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=1435s"
+			},
+			{
+				"song_id": "S004",
+				"title": "青春狂騒曲",
+				"singer": "サンボマスター",
+				"lyrics_composition": "山口隆",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=1972s"
+			},
+			{
+				"song_id": "S005",
+				"title": "波風サテライト",
+				"singer": "シュノーケル",
+				"lyrics_composition": "西村晋弥",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=2354s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ブルーバード",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=2796s"
+			},
+			{
+				"song_id": "S007",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=3223s"
+			},
+			{
+				"song_id": "S008",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=3806s"
+			},
+			{
+				"song_id": "S009",
+				"title": "めざせポケモンマスター",
+				"singer": "松本梨香",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=4307s"
+			},
+			{
+				"song_id": "S010",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=4990s"
+			},
+			{
+				"song_id": "S011",
+				"title": "アイロニ",
+				"singer": "初音ミク",
+				"lyrics_composition": "すこっぷ",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=5395s"
+			},
+			{
+				"song_id": "S012",
+				"title": "真夜中のオーケストラ",
+				"singer": "Aqua Timez",
+				"lyrics_composition": "Aqua Timez",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=5810s"
+			},
+			{
+				"song_id": "S013",
+				"title": "だいしきゅーだいしゅき",
+				"singer": "femme fatale",
+				"lyrics_composition": "佐々木喫茶",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=6079s"
+			},
+			{
+				"song_id": "S014",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/Yz-xqLfH-S8&t=6446s"
+			}
+		]
+	},
+	{
+		"live_id": "L057",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=233s"
+			},
+			{
+				"song_id": "S002",
+				"title": "甲賀忍法帖",
+				"singer": "陰陽座",
+				"lyrics_composition": "瞬火",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=708s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Butter-Fly",
+				"singer": "和田光司",
+				"lyrics_composition": "千綿偉功",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=1056s"
+			},
+			{
+				"song_id": "S004",
+				"title": "君をのせて",
+				"singer": "井上杏美,井上あずみ",
+				"lyrics_composition": "宮崎駿,久石譲",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=1777s"
+			},
+			{
+				"song_id": "S005",
+				"title": "いつも何度でも",
+				"singer": "木村弓",
+				"lyrics_composition": "覚和歌子,木村弓",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=2033s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=2315s"
+			},
+			{
+				"song_id": "S007",
+				"title": "NEXT LEVEL",
+				"singer": "YU-KI",
+				"lyrics_composition": "藤林聖子,渡部チェル",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=2660s"
+			},
+			{
+				"song_id": "S008",
+				"title": "我ら思う、故に我らあり",
+				"singer": "氣志團",
+				"lyrics_composition": "綾小路翔",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=3053s"
+			},
+			{
+				"song_id": "S009",
+				"title": "Anything Goes!",
+				"singer": "大黒摩季",
+				"lyrics_composition": "藤林聖子,Tatsuo",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=3433s"
+			},
+			{
+				"song_id": "S010",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=3769s"
+			},
+			{
+				"song_id": "S011",
+				"title": "リードコントロール",
+				"singer": "なるみや",
+				"lyrics_composition": "なるみや",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=4098s"
+			},
+			{
+				"song_id": "S012",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/d6wRj3_yDYI&t=4254s"
+			}
+		]
+	},
+	{
+		"live_id": "L058",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "アイロニ",
+				"singer": "初音ミク",
+				"lyrics_composition": "すこっぷ",
+				"url": "https://youtu.be/Q34amvANA5I&t=305s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ダイアモンド クレバス",
+				"singer": "May'n",
+				"lyrics_composition": "hal,菅野よう子",
+				"url": "https://youtu.be/Q34amvANA5I&t=840s"
+			},
+			{
+				"song_id": "S003",
+				"title": "小さきもの",
+				"singer": "林明日香",
+				"lyrics_composition": "三浦徳子,山移高寛",
+				"url": "https://youtu.be/Q34amvANA5I&t=1366s"
+			},
+			{
+				"song_id": "S004",
+				"title": "点描の唄",
+				"singer": "大森元貴,井上苑子",
+				"lyrics_composition": "大森元貴",
+				"url": "https://youtu.be/Q34amvANA5I&t=1926s"
+			},
+			{
+				"song_id": "S005",
+				"title": "いつも何度でも",
+				"singer": "木村弓",
+				"lyrics_composition": "覚和歌子,木村弓",
+				"url": "https://youtu.be/Q34amvANA5I&t=2470s"
+			},
+			{
+				"song_id": "S006",
+				"title": "カブトムシ",
+				"singer": "aiko",
+				"lyrics_composition": "aiko",
+				"url": "https://youtu.be/Q34amvANA5I&t=3004s"
+			},
+			{
+				"song_id": "S007",
+				"title": "裸の心",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/Q34amvANA5I&t=3510s"
+			},
+			{
+				"song_id": "S008",
+				"title": "変わらないもの",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/Q34amvANA5I&t=3989s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ハナミズキ",
+				"singer": "一青窈",
+				"lyrics_composition": "一青窈,マシコタツロウ",
+				"url": "https://youtu.be/Q34amvANA5I&t=4637s"
+			},
+			{
+				"song_id": "S010",
+				"title": "風といっしょに",
+				"singer": "小林幸子",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/Q34amvANA5I&t=5139s"
+			}
+		]
+	},
+	{
+		"live_id": "L059",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=252s"
+			},
+			{
+				"song_id": "S002",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=673s"
+			},
+			{
+				"song_id": "S003",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=1182s"
+			},
+			{
+				"song_id": "S004",
+				"title": "only my railgun",
+				"singer": "FripSide",
+				"lyrics_composition": "八木沼悟志,yuki-ka",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=1601s"
+			},
+			{
+				"song_id": "S005",
+				"title": "テトリス",
+				"singer": "重音テト",
+				"lyrics_composition": "柊マグネタイト,磁鉄鉱P,薩摩P",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=1983s"
+			},
+			{
+				"song_id": "S006",
+				"title": "星間飛行",
+				"singer": "中島愛",
+				"lyrics_composition": "松本隆,菅野よう子",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=2360s"
+			},
+			{
+				"song_id": "S007",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=2698s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ray",
+				"singer": "BUMP OF CHICKEN",
+				"lyrics_composition": "藤原基央",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=3434s"
+			},
+			{
+				"song_id": "S009",
+				"title": "吉原ラメント",
+				"singer": "重音テト",
+				"lyrics_composition": "亜沙",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=3863s"
+			},
+			{
+				"song_id": "S010",
+				"title": "裏表ラバーズ",
+				"singer": "初音ミク",
+				"lyrics_composition": "wowaka,現実逃避P",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=4203s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ローリンガール",
+				"singer": "初音ミク",
+				"lyrics_composition": "wowaka,現実逃避P",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=4385s"
+			},
+			{
+				"song_id": "S012",
+				"title": "真夜中のオーケストラ",
+				"singer": "Aqua Timez",
+				"lyrics_composition": "Aqua Timez",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=4896s"
+			},
+			{
+				"song_id": "S013",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=5267s"
+			},
+			{
+				"song_id": "S014",
+				"title": "ユラユラ",
+				"singer": "Hearts Grow",
+				"lyrics_composition": "Hearts Grow",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=5892s"
+			},
+			{
+				"song_id": "S015",
+				"title": "キミモノガタリ",
+				"singer": "little by little",
+				"lyrics_composition": "tetsuhiko",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=6303s"
+			},
+			{
+				"song_id": "S016",
+				"title": "ホタルノヒカリ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=7093s"
+			},
+			{
+				"song_id": "S017",
+				"title": "Reason",
+				"singer": "玉置成実",
+				"lyrics_composition": "shungo.,y@suo otani",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=7581s"
+			},
+			{
+				"song_id": "S018",
+				"title": "Alive A life",
+				"singer": "松本梨香",
+				"lyrics_composition": "海老根祐子,和田耕平",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=7992s"
+			},
+			{
+				"song_id": "S019",
+				"title": "めざせポケモンマスター",
+				"singer": "松本梨香",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=8489s"
+			},
+			{
+				"song_id": "S020",
+				"title": "水流のロック",
+				"singer": "日食なつこ",
+				"lyrics_composition": "日食なつこ",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=9221s"
+			},
+			{
+				"song_id": "S021",
+				"title": "コイスルオトメ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=9549s"
+			},
+			{
+				"song_id": "S022",
+				"title": "創聖のアクエリオン",
+				"singer": "AKINO",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/Y_6UDfkIJ0E&t=9900s"
+			}
+		]
+	},
+	{
+		"live_id": "L060",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "Calc.",
+				"singer": "初音ミク",
+				"lyrics_composition": "ジミーサムP,OneRoom",
+				"url": "https://youtu.be/POZerWTfGF4&t=415s"
+			},
+			{
+				"song_id": "S002",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/POZerWTfGF4&t=828s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ダイダイダイダイダイキライ",
+				"singer": "初音ミク,重音テト",
+				"lyrics_composition": "雨良,Amala",
+				"url": "https://youtu.be/POZerWTfGF4&t=1425s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/POZerWTfGF4&t=1906s"
+			},
+			{
+				"song_id": "S005",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/POZerWTfGF4&t=2209s"
+			},
+			{
+				"song_id": "S006",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/POZerWTfGF4&t=2630s"
+			},
+			{
+				"song_id": "S007",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/POZerWTfGF4&t=3043s"
+			},
+			{
+				"song_id": "S008",
+				"title": "儚くも永久のカナシ",
+				"singer": "UVERworld",
+				"lyrics_composition": "TAKUYA∞,克哉,TAKUYA∞",
+				"url": "https://youtu.be/POZerWTfGF4&t=3388s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ray",
+				"singer": "BUMP OF CHICKEN",
+				"lyrics_composition": "藤原基央",
+				"url": "https://youtu.be/POZerWTfGF4&t=3933s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ヴァンパイア",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/POZerWTfGF4&t=4554s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ラビットホール",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/POZerWTfGF4&t=4961s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/POZerWTfGF4&t=5389s"
+			},
+			{
+				"song_id": "S013",
+				"title": "Anything Goes!",
+				"singer": "大黒摩季",
+				"lyrics_composition": "藤林聖子,Tatsuo",
+				"url": "https://youtu.be/POZerWTfGF4&t=5674s"
+			},
+			{
+				"song_id": "S014",
+				"title": "残響散歌",
+				"singer": "Aimer,aimerrhythm",
+				"lyrics_composition": "Aimer,aimerrhythm,飛内将大",
+				"url": "https://youtu.be/POZerWTfGF4&t=5981s"
+			},
+			{
+				"song_id": "S015",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/POZerWTfGF4&t=6203s"
+			},
+			{
+				"song_id": "S016",
+				"title": "God knows...",
+				"singer": "涼宮ハルヒ",
+				"lyrics_composition": "畑亜貴,神前暁",
+				"url": "https://youtu.be/POZerWTfGF4&t=6538s"
+			}
+		]
+	},
+	{
+		"live_id": "L061",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "Calc.",
+				"singer": "初音ミク",
+				"lyrics_composition": "ジミーサムP,OneRoom",
+				"url": "https://youtu.be/krIBWDSc3i8&t=213s"
+			},
+			{
+				"song_id": "S002",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/krIBWDSc3i8&t=539s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/krIBWDSc3i8&t=955s"
+			},
+			{
+				"song_id": "S004",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/krIBWDSc3i8&t=1305s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ビビデバ",
+				"singer": "星街すいせい",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/krIBWDSc3i8&t=1654s"
+			},
+			{
+				"song_id": "S006",
+				"title": "トリノコシティ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/krIBWDSc3i8&t=1948s"
+			},
+			{
+				"song_id": "S007",
+				"title": "みくみくにしてあげる♪",
+				"singer": "初音ミク",
+				"lyrics_composition": "ika,ika_mo",
+				"url": "https://youtu.be/krIBWDSc3i8&t=2304s"
+			},
+			{
+				"song_id": "S008",
+				"title": "心拍数♯0822",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/krIBWDSc3i8&t=2493s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ダイダイダイダイダイキライ",
+				"singer": "初音ミク,重音テト",
+				"lyrics_composition": "雨良,Amala",
+				"url": "https://youtu.be/krIBWDSc3i8&t=2945s"
+			},
+			{
+				"song_id": "S010",
+				"title": "だいしきゅーだいしゅき",
+				"singer": "femme fatale",
+				"lyrics_composition": "佐々木喫茶",
+				"url": "https://youtu.be/krIBWDSc3i8&t=3228s"
+			},
+			{
+				"song_id": "S011",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/krIBWDSc3i8&t=3635s"
+			},
+			{
+				"song_id": "S012",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/krIBWDSc3i8&t=3991s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/krIBWDSc3i8&t=4448s"
+			},
+			{
+				"song_id": "S014",
+				"title": "プラチナ",
+				"singer": "坂本真綾",
+				"lyrics_composition": "岩里祐穂,菅野よう子",
+				"url": "https://youtu.be/krIBWDSc3i8&t=4808s"
+			},
+			{
+				"song_id": "S015",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/krIBWDSc3i8&t=5176s"
+			},
+			{
+				"song_id": "S016",
+				"title": "気まぐれロマンティック",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹,山下穂尊",
+				"url": "https://youtu.be/krIBWDSc3i8&t=5735s"
+			}
+		]
+	},
+	{
+		"live_id": "L062",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "裸の心",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/GF8VuInYK64&t=290s"
+			},
+			{
+				"song_id": "S002",
+				"title": "名前のない怪物",
+				"singer": "EGOIST",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/GF8VuInYK64&t=708s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ハルノヒ",
+				"singer": "あいみょん",
+				"lyrics_composition": "あいみょん",
+				"url": "https://youtu.be/GF8VuInYK64&t=1255s"
+			},
+			{
+				"song_id": "S004",
+				"title": "花に亡霊",
+				"singer": "ヨルシカ",
+				"lyrics_composition": "n-buna,ナブナ",
+				"url": "https://youtu.be/GF8VuInYK64&t=1768s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Booo!",
+				"singer": "音街ウナ",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/GF8VuInYK64&t=2155s"
+			},
+			{
+				"song_id": "S006",
+				"title": "悪ノ召使",
+				"singer": "鏡音レン,鏡音リン",
+				"lyrics_composition": "悪ノP,mothy",
+				"url": "https://youtu.be/GF8VuInYK64&t=2659s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ダイダイダイダイダイキライ",
+				"singer": "初音ミク,重音テト",
+				"lyrics_composition": "雨良,Amala",
+				"url": "https://youtu.be/GF8VuInYK64&t=3102s"
+			},
+			{
+				"song_id": "S008",
+				"title": "夜もすがら君想ふ",
+				"singer": "GUMI",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/GF8VuInYK64&t=3432s"
+			},
+			{
+				"song_id": "S009",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/GF8VuInYK64&t=3808s"
+			},
+			{
+				"song_id": "S010",
+				"title": "怪獣の花唄",
+				"singer": "Vaundy",
+				"lyrics_composition": "Vaundy",
+				"url": "https://youtu.be/GF8VuInYK64&t=4364s"
+			},
+			{
+				"song_id": "S011",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/GF8VuInYK64&t=4734s"
+			},
+			{
+				"song_id": "S012",
+				"title": "少女S",
+				"singer": "SCANDAL",
+				"lyrics_composition": "TOMOMI,田鹿祐一",
+				"url": "https://youtu.be/GF8VuInYK64&t=5187s"
+			},
+			{
+				"song_id": "S013",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/GF8VuInYK64&t=5660s"
+			},
+			{
+				"song_id": "S014",
+				"title": "君は僕に似ている",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川智晶,梶浦由記",
+				"url": "https://youtu.be/GF8VuInYK64&t=6182s"
+			},
+			{
+				"song_id": "S015",
+				"title": "あんなに一緒だったのに",
+				"singer": "See-Saw",
+				"lyrics_composition": "石川千亜紀,梶浦由記",
+				"url": "https://youtu.be/GF8VuInYK64&t=6468s"
+			},
+			{
+				"song_id": "S016",
+				"title": "グッバイ宣言",
+				"singer": "flower",
+				"lyrics_composition": "Chinozo,ひきこもりP",
+				"url": "https://youtu.be/GF8VuInYK64&t=7003s"
+			},
+			{
+				"song_id": "S017",
+				"title": "名前のない怪物",
+				"singer": "EGOIST",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/GF8VuInYK64&t=7259s"
+			},
+			{
+				"song_id": "S018",
+				"title": "花に亡霊",
+				"singer": "ヨルシカ",
+				"lyrics_composition": "n-buna,ナブナ",
+				"url": "https://youtu.be/GF8VuInYK64&t=7764s"
+			},
+			{
+				"song_id": "S019",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/GF8VuInYK64&t=8080s"
+			}
+		]
+	}
+]
