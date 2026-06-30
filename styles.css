@@ -145,6 +145,87 @@ a{color:inherit}
 }
 .card__head h2{margin:0; font-size:18px}
 
+.live-list{display:grid; gap:12px;}
+.live-card{
+  border:1px solid var(--line);
+  background: rgba(255,255,255,.03);
+  border-radius:16px;
+  overflow:hidden;
+}
+.live-card__meta{
+  display:flex; justify-content:space-between; align-items:center;
+  gap:10px;
+  padding:10px 12px 0;
+}
+.live-card__id{font-weight:700; letter-spacing:.04em;}
+.live-card__setting{font-size:12px; color:var(--muted);}
+.live-card__image{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  cursor:pointer;
+  background: var(--card2);
+}
+.live-card__image:hover{opacity:.92;}
+
+.live-subpanel{position:fixed; inset:0; z-index:60; display:none;}
+.live-subpanel.open{display:block;}
+.live-subpanel__backdrop{position:absolute; inset:0; background:rgba(0,0,0,.72);}
+.live-subpanel__panel{
+  position:relative;
+  margin:24px auto;
+  width:min(780px, calc(100vw - 24px));
+  max-height:calc(100vh - 48px);
+  overflow:auto;
+  background:rgba(15,15,18,.97);
+  border:1px solid var(--line);
+  border-radius:22px;
+  box-shadow:0 20px 60px rgba(0,0,0,.45);
+}
+.live-subpanel__close{
+  position:absolute; top:12px; right:12px;
+  width:40px; height:40px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.08);
+  color:var(--text);
+  cursor:pointer;
+  font-size:22px;
+  z-index:2;
+}
+.live-subpanel__content{padding:24px 24px 28px;}
+.live-subpanel__hero{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+  border-radius:14px;
+  border:1px solid var(--line);
+  background:var(--card2);
+}
+.live-subpanel__title{margin:16px 0 6px; font-size:20px;}
+.live-subpanel__meta{margin:0 0 14px; color:var(--muted); font-size:13px;}
+.live-subpanel__songs{display:grid; gap:10px;}
+.live-subpanel__song{
+  display:flex; align-items:center; gap:12px;
+  padding:10px 12px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:rgba(255,255,255,.03);
+}
+.live-subpanel__song-number{min-width:48px; color:var(--accent); font-weight:700;}
+.live-subpanel__song-title{flex:1; line-height:1.5;}
+.live-subpanel__song-link{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:44px; height:44px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.05);
+}
+.live-subpanel__song-link img{width:24px; height:24px; object-fit:contain;}
+.live-subpanel__empty{padding:18px 0 0; color:var(--muted);}
+
 .schedule img{
   width:100%;
   height:auto;
