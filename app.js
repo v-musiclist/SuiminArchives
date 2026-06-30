@@ -35,3 +35,46 @@
   window.addEventListener("resize", () => {
     if (window.matchMedia("(min-width: 769px)").matches) closeNav();
   });
+
+  const liveList = document.getElementById("liveList");
+
+  const getLiveIdNumber = (liveId) => {
+    const match = String(liveId).match(/(\d+)/);
+    return match ? Number(match[1]) : 0;
+  };
+
+  const renderLives = async () => {
+    if (!liveList) return;
+
+    try {
+      const response = await fetch("./data/download_live_file.json");
+      if (!response.ok) throw new Error("ライブ情報を読み込めませんでした");
+
+      const lives = await response.json();
+      const sortedLives = [...lives].sort((a, b) => getLiveIdNumber(b.live_id) - getLiveIdNumber(a.live_id));
+
+      liveList.innerHTML = sortedLives.map((live) => `
+        <article class="live-card">
+          <div class="live-card__meta">
+            <div class="live-card__id">${live.live_id}</div>
+            <div class="live-card__setting">${live.live_setting}</div>
+          </div>
+          <img class="live-card__image" src="${live.live_image}" alt="${live.live_id}" data-url="${live.url}" loading="lazy" />
+        </article>
+      `).join("");
+    } catch (error) {
+      liveList.innerHTML = `<p class="live-card__empty">${error.message}</p>`;
+    }
+  };
+
+  liveList?.addEventListener("click", (event) => {
+    const target = event.target.closest(".live-card__image");
+    if (!target) return;
+
+    const url = target.getAttribute("data-url");
+    if (url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+  });
+
+  renderLives();
