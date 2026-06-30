@@ -48,12 +48,19 @@
     return match ? Number(match[1]) : 0;
   };
 
-  const closeSubpanel = () => {
-    if (!subpanel) return;
+  const resetSubpanelScroll = () => {
     if (subpanelPanel) {
       subpanelPanel.scrollTop = 0;
       subpanelPanel.scrollLeft = 0;
     }
+    if (subpanelContent) {
+      subpanelContent.scrollTop = 0;
+    }
+  };
+
+  const closeSubpanel = () => {
+    if (!subpanel) return;
+    resetSubpanelScroll();
     subpanel.classList.remove("open");
     subpanel.setAttribute("aria-hidden", "true");
     document.body.classList.remove("modal-open");
@@ -61,10 +68,7 @@
 
   const openSubpanel = (live, songs) => {
     if (!subpanel || !subpanelContent) return;
-    if (subpanelPanel) {
-      subpanelPanel.scrollTop = 0;
-      subpanelPanel.scrollLeft = 0;
-    }
+    resetSubpanelScroll();
 
     const songMarkup = songs.length
       ? `<div class="live-subpanel__songs">${songs.map((song) => `
