@@ -1,8 +1,6 @@
 @font-face {
-  font-family: 'NeoDunggeunmoPro';
-  src: url('./assets/fonts/NeoDunggeunmoPro-Regular.woff2') format('woff2'),
-       url('./assets/fonts/NeoDunggeunmoPro-Regular.woff')  format('woff'),
-       url('./assets/fonts/NeoDunggeunmoPro-Regular.ttf')   format('truetype');
+  font-family: 'YasashisaGothicBold';
+  src: url('./assets/fonts/YasashisaGothicBold.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -51,7 +49,7 @@
 html,body{height:100%}
 body{
   margin:0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans JP", sans-serif;
+  font-family: 'YasashisaGothicBold', system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans JP", sans-serif;
   background: radial-gradient(1200px 600px at 20% -10%, var(--accent-a0-18), transparent 60%),
               radial-gradient(900px 500px at 80% 0%, rgba(255,255,255,.06), transparent 55%),
               var(--bg);
@@ -87,7 +85,7 @@ a{color:inherit}
 }
 :lang(ko) .brand__title,
 :lang(ko) .brand__sub {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
   letter-spacing: .04em;
 }
 
@@ -1533,7 +1531,7 @@ body {
 
 body.lang-ko .splash__title,
 body.lang-ko .splash__sub {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
   letter-spacing: .05em;
 }
 /* ============================================================
@@ -1857,7 +1855,7 @@ footer .muted {
 :lang(ko) .support-sub-title,
 :lang(ko) .support-footer-name,
 :lang(ko) footer .muted {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
 }
 
 /* ── タブ：ピクセル風 ───────────────────────────────────── */
@@ -1889,7 +1887,7 @@ footer .muted {
   border-color: rgba(255,255,255,0.1);
 }
 :lang(ko) .chip {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
 }
 .chip.active {
   background: var(--accent-a0-18);
@@ -1930,7 +1928,7 @@ body:not(.no-anim) .card:hover::before {
   color: var(--accent-a0-7);
 }
 :lang(ko) .event__meta {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
 }
 
 /* ── トップバー：HUD感 ────────────────────────────────── */
@@ -2016,7 +2014,7 @@ body:not(.no-anim) .chip {
   background: rgba(8,4,10,.6);
 }
 :lang(ko) .footer {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
 }
 
 /* ── ドットグリッド背景 ───────────────────────────────── */
@@ -2237,7 +2235,7 @@ body:not(.no-anim) .chip {
   flex-shrink: 0;
 }
 :lang(ko) .about-stat-label {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
 }
 
 .about-stat-val {
@@ -2269,7 +2267,7 @@ body:not(.no-anim) .chip {
   letter-spacing: .04em;
 }
 :lang(ko) .about-note-label {
-  font-family: 'NeoDunggeunmoPro', monospace;
+  font-family: 'YasashisaGothicBold', monospace;
 }
 
 .about-note-text {
