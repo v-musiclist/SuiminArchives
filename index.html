@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Suimin Archives | 酔眠はやね曲リスト</title>
+  <title id="pageTitle"></title>
   <link rel="icon" href="./assets/siteicon.png" type="image/png" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
@@ -11,20 +11,20 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="brand__title" id="siteTitle">SuiminArchives</div>
-      <div class="brand__sub" id="siteSub">すいみんアーカイブ</div>
+      <div class="brand__title" id="siteTitle"></div>
+      <div class="brand__sub" id="siteSub"></div>
     </div>
 
   <div class="actions">
     <!-- SNS（PC表示用） -->
     <div class="social">
-      <a class="sns-img-btn" href="https://x.com/SuiminHayane" target="_blank" rel="noopener">
+      <a class="sns-img-btn twitterBtn" id="twitterLink" target="_blank" rel="noopener">
       	<img src="./assets/twitter.png" alt="Twitter" width="80" height="40" />
       </a>
-      <a class="sns-img-btn" href="https://www.youtube.com/@SuiminHayane" target="_blank" rel="noopener">
+      <a class="sns-img-btn youtubeBtn" id="youtubeLink" target="_blank" rel="noopener">
       	<img src="./assets/youtube.png" alt="YouTube" width="80" height="40" />
       </a>
-      <a class="sns-img-btn" href="https://lit.link/SuiminHayane" target="_blank" rel="noopener">
+      <a class="sns-img-btn otherBtn" id="otherLink" target="_blank" rel="noopener">
       	<img src="./assets/others.png" alt="Others" width="80" height="40" />
       </a>
     </div>
@@ -36,6 +36,14 @@
 
   </header>
 
+  <!-- タブナビゲーション -->
+  <nav class="tabs">
+    <button class="tab active" data-tab="home" aria-label="ホームタブ">ホーム</button>
+    <button class="tab" data-tab="live" aria-label="ライブタブ">ライブ</button>
+    <button class="tab" data-tab="music" aria-label="曲一覧タブ">曲一覧</button>
+    <button class="tab" data-tab="contact" aria-label="お問い合わせタブ">お問い合わせ</button>
+  </nav>
+
   <!-- スマホ用メニュー（SNS＋タブ） -->
   <div class="navpanel" id="navPanel" aria-hidden="true">
     <div class="navpanel__backdrop" id="navBackdrop"></div>
@@ -45,13 +53,13 @@
 
       <!-- SNS（ハンバーガーの中） -->
       <div class="navpanel__group">
-        <a class="sns-img-btn" href="https://x.com/SuiminHayane" target="_blank" rel="noopener">
+        <a class="sns-img-btn twitterBtn" target="_blank" rel="noopener">
         	<img src="./assets/twitter.png" alt="Twitter" width="80" height="40" />
         </a>
-        <a class="sns-img-btn" href="https://www.youtube.com/@SuiminHayane" target="_blank" rel="noopener">
+        <a class="sns-img-btn youtubeBtn" target="_blank" rel="noopener">
         	<img src="./assets/youtube.png" alt="YouTube" width="80" height="40" />
         </a>
-        <a class="sns-img-btn" href="https://lit.link/SuiminHayane" target="_blank" rel="noopener">
+        <a class="sns-img-btn otherBtn" target="_blank" rel="noopener">
         	<img src="./assets/others.png" alt="Others" width="80" height="40" />
         </a>
       </div>
@@ -60,20 +68,54 @@
 
       <!-- タブ（スマホではこれを使う） -->
       <div class="navpanel__grid">
-        <a href="#home" class="tab tab--mobile" data-tab="home"></a>
-        <a href="#about" class="tab tab--mobile" data-tab="about"></a>
-        <a href="#support" class="tab tab--mobile" data-tab="support"></a>
+        <button class="tab tab--mobile" data-tab="home">ホーム</button>
+        <button class="tab tab--mobile" data-tab="live">ライブ</button>
+        <button class="tab tab--mobile" data-tab="music">曲一覧</button>
+        <button class="tab tab--mobile" data-tab="contact">お問い合わせ</button>
       </div>
     </div>
   </div>
 
-  <main class="container live-section">
-    <section class="card live-panel">
-      <div class="card__head">
-        <h2>ライブ情報一覧</h2>
-        <p class="muted">live_id の降順</p>
+  <main class="container">
+    <!-- ホームタブ -->
+    <section class="page active" data-page="home" id="homePage">
+      <div class="card">
+        <div class="card__head">
+          <h2>ホーム</h2>
+        </div>
+        <p>ホームページの内容がここに表示されます。</p>
       </div>
-      <div id="liveList" class="live-list" aria-live="polite">読み込み中...</div>
+    </section>
+
+    <!-- ライブタブ -->
+    <section class="page" data-page="live" id="livePage">
+      <section class="card live-panel">
+        <div class="card__head">
+          <h2>ライブ情報一覧</h2>
+          <p class="muted" id="liveUpdateNote"></p>
+        </div>
+        <div id="liveList" class="live-list" aria-live="polite">読み込み中...</div>
+      </section>
+    </section>
+
+    <!-- 曲一覧タブ -->
+    <section class="page" data-page="music" id="musicPage">
+      <div class="card">
+        <div class="card__head">
+          <h2>曲一覧</h2>
+        </div>
+        <p>曲一覧の内容がここに表示されます。</p>
+      </div>
+    </section>
+
+    <!-- お問い合わせタブ -->
+    <section class="page" data-page="contact" id="contactPage">
+      <div class="card">
+        <div class="card__head">
+          <h2>お問い合わせ</h2>
+        </div>
+        <p>お問い合わせフォームがここに表示されます。</p>
+      </div>
     </section>
   </main>
 

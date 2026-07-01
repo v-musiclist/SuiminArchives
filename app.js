@@ -1,4 +1,71 @@
 (() => {
+  // config.json から設定を読み込んで設定
+  const loadConfig = async () => {
+    try {
+      const response = await fetch('./data/config.json');
+      const config = await response.json();
+      if (config && config[0]) {
+        const cfg = config[0];
+
+        // ページタイトルを設定
+        if (cfg.title) {
+          const pageTitle = document.getElementById('pageTitle');
+          if (pageTitle) {
+            pageTitle.textContent = cfg.title;
+            document.title = cfg.title;
+          }
+        }
+
+        // ブランドタイトルを設定
+        if (cfg.brand_title) {
+          const siteTitle = document.getElementById('siteTitle');
+          if (siteTitle) {
+            siteTitle.textContent = cfg.brand_title;
+          }
+        }
+
+        // ブランドサブタイトルを設定
+        if (cfg.brand_subtitle) {
+          const siteSub = document.getElementById('siteSub');
+          if (siteSub) {
+            siteSub.textContent = cfg.brand_subtitle;
+          }
+        }
+
+        // SNSリンクを設定
+        if (cfg.twitter_url) {
+          document.querySelectorAll('.twitterBtn').forEach((el) => {
+            el.href = cfg.twitter_url;
+          });
+        }
+
+        if (cfg.youtube_url) {
+          document.querySelectorAll('.youtubeBtn').forEach((el) => {
+            el.href = cfg.youtube_url;
+          });
+        }
+
+        if (cfg.other_url) {
+          document.querySelectorAll('.otherBtn').forEach((el) => {
+            el.href = cfg.other_url;
+          });
+        }
+
+        // ライブ情報更新日を設定
+        if (cfg.date) {
+          const liveUpdateNote = document.getElementById('liveUpdateNote');
+          if (liveUpdateNote) {
+            liveUpdateNote.textContent = `${cfg.date} 更新`;
+          }
+        }
+      }
+    } catch (error) {
+      console.warn('config.json の読み込みに失敗しました', error);
+    }
+  };
+
+  loadConfig();
+
   const navToggle = document.getElementById("navToggle");
   const navPanel = document.getElementById("navPanel");
   const navBackdrop = document.getElementById("navBackdrop");
@@ -24,6 +91,35 @@
   });
 
   navBackdrop?.addEventListener("click", closeNav);
+
+  navPanel?.addEventListener("click", (e) => {
+    const tabBtn = e.target?.closest?.(".tab");
+    if (tabBtn) {
+      closeNav();
+      tabBtn.click();
+    }
+  });
+
+  // タブ切り替え機能
+  const tabs = document.querySelectorAll(".tab");
+  const pages = document.querySelectorAll(".page");
+
+  const setActivePage = (tabName) => {
+    // すべてのタブとページから active クラスを削除
+    tabs.forEach((tab) => tab.classList.remove("active"));
+    pages.forEach((page) => page.classList.remove("active"));
+
+    // アクティブなタブとページに active クラスを追加
+    document.querySelector(`[data-tab="${tabName}"]`)?.classList.add("active");
+    document.querySelector(`[data-page="${tabName}"]`)?.classList.add("active");
+  };
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const tabName = tab.getAttribute("data-tab");
+      setActivePage(tabName);
+    });
+  });
 
   navPanel?.addEventListener("click", (e) => {
     const a = e.target?.closest?.("a");
