@@ -63,12 +63,14 @@ a{color:inherit}
 .muted{color:var(--muted)}
 
 .topbar{
-  position:sticky; top:0; z-index:10;
+  position:fixed; top:0; left:0; right:0; z-index:20;
   display:flex; gap:16px; justify-content:space-between; align-items:center;
+  min-height: var(--topbar-height);
   padding:14px 18px;
   border-bottom:1px solid var(--line);
   backdrop-filter: blur(10px);
-  background: rgba(15,15,18,.65);
+  background: rgba(15,15,18,.85);
+  transform: none !important;
 }
 
 .brand__title{
@@ -108,10 +110,14 @@ a{color:inherit}
   display:flex; gap:8px; flex-wrap:wrap;
   padding:10px 14px;
   border-bottom:1px solid var(--line);
-  background: rgba(15,15,18,.45);
-  position:sticky; top:58px; z-index:9;
+  background: rgba(15,15,18,.85);
+  position:sticky;
+  top: var(--topbar-height);
+  left:0; right:0; z-index:15;
   backdrop-filter: blur(10px);
   transition: transform .3s ease, top .3s ease;
+  transform: translateY(0);
+  will-change: transform;
 }
 .tab{
   text-decoration:none;
@@ -139,7 +145,7 @@ a{color:inherit}
 /* スマホ：タブが非表示のため、コンテンツが固定ヘッダーと被らないように上余白を追加 */
 @media (max-width: 768px){
   .container{
-    padding-top: 32px;
+    padding-top: 3px2px;
   }
 }
 
@@ -155,8 +161,8 @@ a{color:inherit}
   border:1px solid var(--line);
   background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
   border-radius:var(--radius);
-  padding:14px;
-  margin:14px 0;
+  padding:5px;
+  margin:10px 0;
   overflow: hidden;   /* ★ ピンクのはみ出しを止める */
 }
 
@@ -166,6 +172,62 @@ a{color:inherit}
   margin-bottom:12px;
 }
 .card__head h2{margin:0; font-size:18px}
+
+.song-search{display:flex; gap:8px; margin-bottom:12px;}
+.song-search__input{
+  flex:1;
+  padding:10px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.05);
+  color:var(--text);
+}
+.song-search__button{
+  padding:10px 14px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:var(--accent-a0-12);
+  color:var(--text);
+  cursor:pointer;
+}
+
+.song-list{display:grid; gap:8px;}
+.song-list__header,
+.song-list__row{
+  display:grid;
+  grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.2fr) 56px;
+  gap:10px;
+  align-items:center;
+}
+.song-list__header{
+  padding:0 6px 6px;
+  color:var(--muted);
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  border-bottom:1px solid var(--line);
+}
+.song-list__row{
+  padding:12px 6px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:rgba(255,255,255,.03);
+}
+.song-list__cell{min-width:0; word-break:break-word;}
+.song-list__cell--title{font-weight:600;}
+.song-list__empty{padding:12px 6px; color:var(--muted);}
+.song-list__cell--singer{color:var(--muted);}
+.song-list__cell--url{display:flex; justify-content:center;}
+.song-list__link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:40px; height:40px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.05);
+}
+.song-list__link img{width:22px; height:22px; object-fit:contain;}
 
 .live-list{display:grid; gap:12px;}
 .live-card{

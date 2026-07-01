@@ -131,6 +131,9 @@
   });
 
   const liveList = document.getElementById("liveList");
+  const songList = document.getElementById("songList");
+  const songSearchForm = document.getElementById("songSearchForm");
+  const songSearchInput = document.getElementById("songSearchInput");
   const subpanel = document.getElementById("liveSubpanel");
   const subpanelPanel = subpanel?.querySelector(".live-subpanel__panel");
   const subpanelBackdrop = document.getElementById("liveSubpanelBackdrop");
@@ -160,6 +163,71 @@
     subpanel.classList.remove("open");
     subpanel.setAttribute("aria-hidden", "true");
     document.body.classList.remove("modal-open");
+  };
+
+  let allSongs = [];
+
+  const formatSingerName = (value) => {
+    const text = value ?? "";
+    return text.length > 9 ? `${text.slice(0, 9)}…` : text;
+  };
+
+  const hasSongLink = (song) => {
+    const rawUrl = song?.sing_url;
+    const normalizedUrl = typeof rawUrl === "string" ? rawUrl.trim() : "";
+    const singCount = Number(song?.sing_count ?? 0);
+    return singCount > 0 && normalizedUrl !== "" && normalizedUrl !== "null" && normalizedUrl.toLowerCase() !== "null";
+  };
+
+  const renderSongList = (rows) => {
+    if (!songList) return;
+
+    if (!rows.length) {
+      songList.innerHTML = '<p class="song-list__empty">ヒットしませんでした</p>';
+      return;
+    }
+
+    songList.innerHTML = `
+      <div class="song-list__header">
+        <span class="song-list__col song-list__col--title">曲名</span>
+        <span class="song-list__col song-list__col--singer">歌手</span>
+        <span class="song-list__col song-list__col--url">URL</span>
+      </div>
+      ${rows.map((song) => {
+        const singerName = formatSingerName(song.singer_name || "");
+        const linkMarkup = hasSongLink(song)
+          ? `<a class="song-list__link" href="${song.sing_url}" target="_blank" rel="noopener noreferrer" aria-label="${song.song_title || "曲"} の動画を開く"><img src="./assets/youtube.png" alt="YouTube" /></a>`
+          : "";
+
+        return `
+          <div class="song-list__row">
+            <div class="song-list__cell song-list__cell--title">${song.song_title || "曲名未登録"}</div>
+            <div class="song-list__cell song-list__cell--singer">${singerName}</div>
+            <div class="song-list__cell song-list__cell--url">${linkMarkup}</div>
+          </div>
+        `;
+      }).join("")}
+    `;
+  };
+
+  const renderSongs = async () => {
+    if (!songList) return;
+
+    try {
+      const response = await fetch("./data/download_song_file.json");
+      if (!response.ok) throw new Error("曲データを読み込めませんでした");
+
+      const songs = await response.json();
+      allSongs = Array.isArray(songs) ? songs : [];
+      const query = (songSearchInput?.value || "").trim().toLowerCase();
+      const filteredSongs = query
+        ? allSongs.filter((song) => (song.song_title || "").toLowerCase().includes(query))
+        : allSongs;
+
+      renderSongList(filteredSongs);
+    } catch (error) {
+      songList.innerHTML = `<p class="live-card__empty">${error.message}</p>`;
+    }
   };
 
   const openSubpanel = (live, songs) => {
@@ -238,6 +306,17 @@
     openSubpanel(live, songs);
   });
 
+  songSearchForm?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    renderSongs();
+  });
+
+  songSearchInput?.addEventListener("input", () => {
+    if (!songSearchInput.value.trim()) {
+      renderSongs();
+    }
+  });
+
   subpanelBackdrop?.addEventListener("click", closeSubpanel);
   subpanelClose?.addEventListener("click", closeSubpanel);
   document.addEventListener("keydown", (event) => {
@@ -245,4 +324,5 @@
   });
 
   renderLives();
+  renderSongs();
 })();
