@@ -173,6 +173,157 @@ a{color:inherit}
 }
 .card__head h2{margin:0; font-size:18px}
 
+.home-feature{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:12px;
+  padding:4px 6px 8px;
+}
+.home-feature__text{
+  margin:0;
+  font-size:15px;
+  line-height:1.6;
+  color:var(--text);
+  text-align:center;
+}
+.home-feature__button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:min(100%, 840px);
+  max-width:100%;
+  border:1px solid var(--line);
+  border-radius:16px;
+  overflow:hidden;
+  background:rgba(255,255,255,.04);
+  transition:transform .2s ease, background .2s ease;
+}
+.home-feature__button:hover{
+  transform:translateY(-1px);
+  background:rgba(255,255,255,.08);
+}
+.home-feature__button img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+
+.home-carousel{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  width:min(100%, 840px);
+}
+.home-carousel__title{
+  margin:0;
+  font-size:15px;
+  color:var(--text);
+  text-align:center;
+}
+.home-carousel__viewport{
+  overflow:hidden;
+  border:1px solid var(--line);
+  border-radius:16px;
+  background:rgba(255,255,255,.04);
+}
+.home-carousel__track{
+  display:flex;
+  width:100%;
+  transition:transform .45s ease;
+}
+.home-carousel__group{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:12px;
+  flex:0 0 100%;
+  width:100%;
+  padding:12px;
+}
+.home-carousel__link{
+  display:block;
+  border:1px solid var(--line);
+  border-radius:12px;
+  overflow:hidden;
+  background:rgba(255,255,255,.03);
+  transition:transform .2s ease, border-color .2s ease;
+}
+.home-carousel__link:hover{
+  transform:translateY(-1px);
+  border-color:var(--accent);
+}
+.home-carousel__image{
+  display:block;
+  width:100%;
+  aspect-ratio:16/9;
+  object-fit:cover;
+}
+.home-carousel__dots{
+  display:flex;
+  justify-content:center;
+  gap:8px;
+}
+.home-carousel__dot{
+  width:8px;
+  height:8px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.2);
+  transition:background .2s ease, transform .2s ease;
+}
+.home-carousel__dot.active{
+  background:var(--accent);
+  transform:scale(1.15);
+}
+
+.contact-panel{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  padding:8px 6px 12px;
+}
+.contact-panel__intro{
+  margin:0;
+  color:var(--text);
+  font-size:20px;
+  line-height:1.6;
+}
+.contact-panel__actions{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:10px;
+  width:fit-content;
+}
+.contact-panel__user{
+  font-size:20px;
+  font-weight:700;
+  color:var(--text);
+}
+.contact-panel__button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:120px;
+  height:44px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.05);
+  padding:8px 12px;
+  transition:transform .2s ease, background .2s ease;
+}
+.contact-panel__button:hover{
+  transform:translateY(-1px);
+  background:rgba(255,255,255,.08);
+}
+.contact-panel__button img{
+  width:80px;
+  height:40px;
+  object-fit:contain;
+}
+
 .song-search{display:flex; gap:8px; margin-bottom:12px;}
 .song-search__input{
   flex:1;

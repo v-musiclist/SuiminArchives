@@ -51,11 +51,131 @@
           });
         }
 
+        // ホームのおすすめ動画を設定
+        const homeFeatured = document.getElementById('homeFeatured');
+        if (homeFeatured) {
+          homeFeatured.innerHTML = '';
+
+          if (cfg.main_text) {
+            const textEl = document.createElement('p');
+            textEl.className = 'home-feature__text';
+            textEl.textContent = cfg.main_text;
+            homeFeatured.appendChild(textEl);
+          }
+
+          if (cfg.main_url_id) {
+            const videoUrl = `https://www.youtube.com/watch?v=${cfg.main_url_id}`;
+            const thumbnailUrl = `https://i.ytimg.com/vi/${cfg.main_url_id}/hq720.jpg`;
+            const buttonEl = document.createElement('a');
+            buttonEl.className = 'home-feature__button';
+            buttonEl.href = videoUrl;
+            buttonEl.target = '_blank';
+            buttonEl.rel = 'noopener noreferrer';
+            buttonEl.setAttribute('aria-label', 'おすすめ動画を開く');
+
+            const imageEl = document.createElement('img');
+            imageEl.src = thumbnailUrl;
+            imageEl.alt = cfg.main_text || 'おすすめ動画';
+            buttonEl.appendChild(imageEl);
+            homeFeatured.appendChild(buttonEl);
+          }
+
+          const carouselIds = [
+            cfg.carousel_url_id_1,
+            cfg.carousel_url_id_2,
+            cfg.carousel_url_id_3,
+            cfg.carousel_url_id_4,
+            cfg.carousel_url_id_5,
+            cfg.carousel_url_id_6,
+          ].filter(Boolean);
+
+          if (cfg.carousel_text || carouselIds.length) {
+            const carouselWrap = document.createElement('div');
+            carouselWrap.className = 'home-carousel';
+
+            if (cfg.carousel_text) {
+              const carouselTitle = document.createElement('p');
+              carouselTitle.className = 'home-carousel__title';
+              carouselTitle.textContent = cfg.carousel_text;
+              carouselWrap.appendChild(carouselTitle);
+            }
+
+            if (carouselIds.length) {
+              const viewport = document.createElement('div');
+              viewport.className = 'home-carousel__viewport';
+
+              const track = document.createElement('div');
+              track.className = 'home-carousel__track';
+
+              const groups = [];
+              for (let i = 0; i < carouselIds.length; i += 2) {
+                const group = document.createElement('div');
+                group.className = 'home-carousel__group';
+                const pair = carouselIds.slice(i, i + 2);
+                pair.forEach((videoId) => {
+                  const itemLink = document.createElement('a');
+                  itemLink.className = 'home-carousel__link';
+                  itemLink.href = `https://www.youtube.com/watch?v=${videoId}`;
+                  itemLink.target = '_blank';
+                  itemLink.rel = 'noopener noreferrer';
+                  itemLink.setAttribute('aria-label', 'おすすめ動画を開く');
+
+                  const imageEl = document.createElement('img');
+                  imageEl.className = 'home-carousel__image';
+                  imageEl.src = `https://i.ytimg.com/vi/${videoId}/hq720.jpg`;
+                  imageEl.alt = 'おすすめ動画';
+                  itemLink.appendChild(imageEl);
+                  group.appendChild(itemLink);
+                });
+                groups.push(group);
+              }
+
+              groups.forEach((group) => track.appendChild(group));
+              viewport.appendChild(track);
+              carouselWrap.appendChild(viewport);
+
+              const dots = document.createElement('div');
+              dots.className = 'home-carousel__dots';
+              const totalGroups = groups.length;
+              for (let i = 0; i < totalGroups; i += 1) {
+                const dot = document.createElement('button');
+                dot.type = 'button';
+                dot.className = 'home-carousel__dot';
+                dot.setAttribute('aria-label', `カルーセル ${i + 1}`);
+                dots.appendChild(dot);
+              }
+              carouselWrap.appendChild(dots);
+
+              if (totalGroups > 1) {
+                let currentGroup = 0;
+                const updateDots = () => {
+                  Array.from(dots.children).forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentGroup);
+                  });
+                };
+
+                updateDots();
+                window.setInterval(() => {
+                  currentGroup = (currentGroup + 1) % totalGroups;
+                  track.style.transform = `translateX(-${currentGroup * 100}%)`;
+                  updateDots();
+                }, 4000);
+              }
+            }
+
+            homeFeatured.appendChild(carouselWrap);
+          }
+        }
+
         // ライブ情報更新日を設定
         if (cfg.date) {
           const liveUpdateNote = document.getElementById('liveUpdateNote');
           if (liveUpdateNote) {
             liveUpdateNote.textContent = `${cfg.date} 更新`;
+          }
+          const musicUpdateNote = document.getElementById('musicUpdateNote');
+          if (musicUpdateNote) {
+            musicUpdateNote.textContent = `${cfg.date} 更新`;
           }
         }
       }
@@ -238,7 +358,7 @@
       <div class="song-list__header">
         <span class="song-list__col song-list__col--title">曲名</span>
         <span class="song-list__col song-list__col--singer">歌手</span>
-        <span class="song-list__col song-list__col--url">URL</span>
+        <span class="song-list__col song-list__col--url" style="text-align: center;">URL</span>
       </div>
       ${rows.map((song) => {
         const singerName = formatSingerName(song.singer_name || "");

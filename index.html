@@ -88,7 +88,7 @@
         <div class="card__head">
           <h2>ホーム</h2>
         </div>
-        <p>ホームページの内容がここに表示されます。</p>
+        <div id="homeFeatured" class="home-feature" aria-live="polite"></div>
       </div>
     </section>
 
@@ -108,6 +108,7 @@
       <div class="card">
         <div class="card__head">
           <h2>曲一覧</h2>
+          <p class="muted" id="musicUpdateNote"></p>
         </div>
         <form class="song-search" id="songSearchForm">
           <input class="song-search__input" id="songSearchInput" type="text" placeholder="曲名を入力" aria-label="曲名検索" />
@@ -123,7 +124,15 @@
         <div class="card__head">
           <h2>お問い合わせ</h2>
         </div>
-        <p>お問い合わせフォームがここに表示されます。</p>
+        <div class="contact-panel">
+          <p class="contact-panel__intro">質問や、不具合のお問い合わせなどはこちらまで</p>
+          <div class="contact-panel__actions">
+            <div class="contact-panel__user">@A_F_ST</div>
+            <a class="contact-panel__button" href="https://x.com/A_F_ST" target="_blank" rel="noopener" aria-label="Twitterで問い合わせる">
+              <img src="./assets/twitter.png" alt="Twitter" />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
