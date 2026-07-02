@@ -196,7 +196,7 @@
       ${rows.map((song) => {
         const singerName = formatSingerName(song.singer_name || "");
         const linkMarkup = hasSongLink(song)
-          ? `<a class="song-list__link" href="${song.sing_url}" target="_blank" rel="noopener noreferrer" aria-label="${song.song_title || "曲"} の動画を開く"><img src="./assets/youtube.png" alt="YouTube" /></a>`
+          ? `<a class="song-list__link" href="${song.sing_url}" target="_blank" rel="noopener noreferrer" aria-label="${song.song_title || "曲"} の動画を開く"><img src="./assets/play.png" alt="YouTube" /></a>`
           : "";
 
         return `
@@ -240,7 +240,7 @@
             <div class="live-subpanel__song-number">${song.song_id || ""}</div>
             <div class="live-subpanel__song-title">${song.title || "曲名未登録"}</div>
             <a class="live-subpanel__song-link" href="${song.url || "#"}" target="_blank" rel="noopener noreferrer" aria-label="${song.title || "曲"} の動画を開く">
-              <img src="./assets/youtube.png" alt="YouTube" />
+              <img src="./assets/play.png" alt="YouTube" />
             </a>
           </div>
         `).join("")}</div>`
