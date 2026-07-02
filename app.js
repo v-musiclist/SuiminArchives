@@ -104,22 +104,69 @@
   const tabs = document.querySelectorAll(".tab");
   const pages = document.querySelectorAll(".page");
 
-  const setActivePage = (tabName) => {
+  const hashToTabName = (hash) => {
+    switch ((hash || "").replace(/^#/, "").toLowerCase()) {
+      case "home":
+      case "":
+        return "home";
+      case "live":
+        return "live";
+      case "song":
+      case "music":
+        return "music";
+      case "contact":
+        return "contact";
+      default:
+        return "home";
+    }
+  };
+
+  const tabNameToHash = (tabName) => {
+    switch (tabName) {
+      case "live":
+        return "#live";
+      case "music":
+        return "#song";
+      case "contact":
+        return "#contact";
+      default:
+        return "#home";
+    }
+  };
+
+  const setActivePage = (tabName, { updateHash = false } = {}) => {
+    const normalizedTabName = hashToTabName(tabName);
+
     // すべてのタブとページから active クラスを削除
     tabs.forEach((tab) => tab.classList.remove("active"));
     pages.forEach((page) => page.classList.remove("active"));
 
     // アクティブなタブとページに active クラスを追加
-    document.querySelector(`[data-tab="${tabName}"]`)?.classList.add("active");
-    document.querySelector(`[data-page="${tabName}"]`)?.classList.add("active");
+    document.querySelector(`[data-tab="${normalizedTabName}"]`)?.classList.add("active");
+    document.querySelector(`[data-page="${normalizedTabName}"]`)?.classList.add("active");
+
+    if (updateHash) {
+      const newHash = tabNameToHash(normalizedTabName);
+      if (window.location.hash !== newHash) {
+        window.location.hash = newHash;
+      }
+    }
   };
 
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       const tabName = tab.getAttribute("data-tab");
-      setActivePage(tabName);
+      if (!tabName) return;
+      setActivePage(tabName, { updateHash: true });
     });
   });
+
+  const navigateToHash = () => {
+    setActivePage(window.location.hash);
+  };
+
+  window.addEventListener("hashchange", navigateToHash);
+  navigateToHash();
 
   navPanel?.addEventListener("click", (e) => {
     const a = e.target?.closest?.("a");
