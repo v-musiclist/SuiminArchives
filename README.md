@@ -13,3 +13,6 @@ https://lit.link/SuiminHayane
 
 ## スプレッドシート
 https://docs.google.com/spreadsheets/d/12o8CfV3pUUZLY-mknfVsFPZw9YHJUcgnDJWK9bQpZuU/edit?gid=1139483852
+
+## ローカルサーバ(memo)
+python -m http.server 8000

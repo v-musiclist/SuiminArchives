@@ -29,6 +29,12 @@
       <a class="sns-img-btn otherBtn" id="otherLink" target="_blank" rel="noopener">
       	<img src="./assets/others.png" alt="Others" width="80" height="40" />
       </a>
+      <a class="sns-img-btn fanclubBtn" id="fanclubLink" target="_blank" rel="noopener">
+      	<img src="./assets/fanclub.png" alt="Fanclub" width="80" height="40" />
+      </a>
+      <a class="sns-img-btn boothBtn" id="boothLink" target="_blank" rel="noopener">
+      	<img src="./assets/booth.png" alt="Booth" width="80" height="40" />
+      </a>
     </div>
 
     <!-- ハンバーガー（スマホ用） -->
@@ -42,8 +48,8 @@
       <nav class="tabs">
         <button class="tab active" data-tab="home" aria-label="ホームタブ">ホーム</button>
         <button class="tab" data-tab="live" aria-label="ライブタブ">ライブ</button>
-        <button class="tab" data-tab="music" aria-label="曲一覧タブ">曲一覧</button>
-        <button class="tab" data-tab="contact" aria-label="お問い合わせタブ">お問い合わせ</button>
+        <button class="tab" data-tab="music" aria-label="曲一覧タブ">ソング</button>
+        <button class="tab" data-tab="contact" aria-label="お問い合わせタブ">コンタクト</button>
       </nav>
     </div>
   </div>
@@ -67,6 +73,12 @@
         <a class="sns-img-btn otherBtn" target="_blank" rel="noopener">
         	<img src="./assets/others.png" alt="Others" width="80" height="40" />
         </a>
+        <a class="sns-img-btn fanclubBtn" target="_blank" rel="noopener">
+        	<img src="./assets/fanclub.png" alt="Fanclub" width="80" height="40" />
+        </a>
+        <a class="sns-img-btn boothBtn" target="_blank" rel="noopener">
+        	<img src="./assets/booth.png" alt="Booth" width="80" height="40" />
+        </a>
       </div>
 
       <div class="ruleline"></div>
@@ -75,8 +87,8 @@
       <div class="navpanel__grid">
         <button class="tab tab--mobile" data-tab="home">ホーム</button>
         <button class="tab tab--mobile" data-tab="live">ライブ</button>
-        <button class="tab tab--mobile" data-tab="music">曲一覧</button>
-        <button class="tab tab--mobile" data-tab="contact">お問い合わせ</button>
+        <button class="tab tab--mobile" data-tab="music">ソング</button>
+        <button class="tab tab--mobile" data-tab="contact">コンタクト</button>
       </div>
     </div>
   </div>
@@ -86,7 +98,7 @@
     <section class="page active" data-page="home" id="homePage">
       <div class="card">
         <div class="card__head">
-          <h2>ホーム</h2>
+          <h2></h2>
         </div>
         <div id="homeFeatured" class="home-feature" aria-live="polite"></div>
       </div>
@@ -123,6 +135,7 @@
       <div class="card">
         <div class="card__head">
           <h2>お問い合わせ</h2>
+          <p class="muted" id="contactUpdateNote"></p>
         </div>
         <div class="contact-panel">
           <p class="contact-panel__intro">質問や、不具合のお問い合わせなどはこちらまで</p>

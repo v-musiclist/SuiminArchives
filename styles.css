@@ -182,7 +182,7 @@ a{color:inherit}
 }
 .home-feature__text{
   margin:0;
-  font-size:15px;
+  font-size:25px;
   line-height:1.6;
   color:var(--text);
   text-align:center;
@@ -219,7 +219,7 @@ a{color:inherit}
 }
 .home-carousel__title{
   margin:0;
-  font-size:15px;
+  font-size:25px;
   color:var(--text);
   text-align:center;
 }

@@ -51,6 +51,18 @@
           });
         }
 
+        if (cfg.fanclub_url) {
+          document.querySelectorAll('.fanclubBtn').forEach((el) => {
+            el.href = cfg.fanclub_url;
+          });
+        }
+
+        if (cfg.booth_url) {
+          document.querySelectorAll('.boothBtn').forEach((el) => {
+            el.href = cfg.booth_url;
+          });
+        }
+
         // ホームのおすすめ動画を設定
         const homeFeatured = document.getElementById('homeFeatured');
         if (homeFeatured) {
@@ -176,6 +188,10 @@
           const musicUpdateNote = document.getElementById('musicUpdateNote');
           if (musicUpdateNote) {
             musicUpdateNote.textContent = `${cfg.date} 更新`;
+          }
+          const contactUpdateNote = document.getElementById('contactUpdateNote');
+          if (contactUpdateNote) {
+            contactUpdateNote.textContent = `${cfg.date} 更新`;
           }
         }
       }
@@ -324,12 +340,38 @@
     }
   };
 
-  const closeSubpanel = () => {
+  const setSubpanelVisibility = (isOpen) => {
     if (!subpanel) return;
+
+    if (isOpen) {
+      resetSubpanelScroll();
+      subpanel.classList.add("open");
+      subpanel.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+      return;
+    }
+
     resetSubpanelScroll();
     subpanel.classList.remove("open");
     subpanel.setAttribute("aria-hidden", "true");
     document.body.classList.remove("modal-open");
+  };
+
+  const closeSubpanel = (options = {}) => {
+    if (!subpanel) return;
+
+    if (!subpanel.classList.contains("open") && !options.fromPopState) {
+      return;
+    }
+
+    setSubpanelVisibility(false);
+
+    if (!options.fromPopState) {
+      const currentState = window.history.state;
+      if (currentState?.liveSubpanelOpen !== false) {
+        window.history.pushState({ liveSubpanelOpen: false }, "", window.location.href);
+      }
+    }
   };
 
   let allSongs = [];
@@ -420,9 +462,12 @@
       ${songMarkup}
     `;
 
-    subpanel.classList.add("open");
-    subpanel.setAttribute("aria-hidden", "false");
-    document.body.classList.add("modal-open");
+    setSubpanelVisibility(true);
+
+    const currentState = window.history.state;
+    if (currentState?.liveSubpanelOpen !== true) {
+      window.history.pushState({ liveSubpanelOpen: true }, "", window.location.href);
+    }
   };
 
   const renderLives = async () => {
@@ -486,6 +531,10 @@
 
   subpanelBackdrop?.addEventListener("click", closeSubpanel);
   subpanelClose?.addEventListener("click", closeSubpanel);
+  window.addEventListener("popstate", () => {
+    const shouldOpen = window.history.state?.liveSubpanelOpen === true;
+    setSubpanelVisibility(shouldOpen);
+  });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeSubpanel();
   });
