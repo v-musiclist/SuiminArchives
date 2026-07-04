@@ -388,6 +388,18 @@
     return singCount > 0 && normalizedUrl !== "" && normalizedUrl !== "null" && normalizedUrl.toLowerCase() !== "null";
   };
 
+  const normalizeSearchText = (value) => {
+    return String(value ?? "")
+      .normalize("NFKC")
+      .toLowerCase()
+      .replace(/\s+/g, " ")
+      .trim();
+  };
+
+  const getSongSearchText = (song) => {
+    return normalizeSearchText(song?.find_char || song?.song_title || "");
+  };
+
   const renderSongList = (rows) => {
     if (!songList) return;
 
@@ -413,6 +425,7 @@
             <div class="song-list__cell song-list__cell--title">${song.song_title || "曲名未登録"}</div>
             <div class="song-list__cell song-list__cell--singer">${singerName}</div>
             <div class="song-list__cell song-list__cell--url">${linkMarkup}</div>
+            <span aria-hidden="true" style="display:none;">${song.find_char || ""}</span>
           </div>
         `;
       }).join("")}
@@ -428,9 +441,9 @@
 
       const songs = await response.json();
       allSongs = Array.isArray(songs) ? songs : [];
-      const query = (songSearchInput?.value || "").trim().toLowerCase();
+      const query = normalizeSearchText(songSearchInput?.value || "");
       const filteredSongs = query
-        ? allSongs.filter((song) => (song.song_title || "").toLowerCase().includes(query))
+        ? allSongs.filter((song) => getSongSearchText(song).includes(query))
         : allSongs;
 
       renderSongList(filteredSongs);
