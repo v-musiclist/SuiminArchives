@@ -470,7 +470,7 @@
 
     subpanelContent.innerHTML = `
       <img class="live-subpanel__hero" src="${live.live_image}" alt="${live.live_id}" />
-      <h3 class="live-subpanel__title" id="liveSubpanelTitle">${live.live_id} / ${live.live_setting}</h3>
+      <h3 class="live-subpanel__title" id="liveSubpanelTitle">${live.live_text || `${live.live_id} / ${live.live_setting}`}</h3>
       <p class="live-subpanel__meta">曲リスト</p>
       ${songMarkup}
     `;
