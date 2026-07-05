@@ -6111,5 +6111,136 @@
 				"url": "https://youtu.be/GF8VuInYK64&t=8080s"
 			}
 		]
+	},
+	{
+		"live_id": "L063",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "可愛くてごめん",
+				"singer": "早見沙織",
+				"lyrics_composition": "チョリスP,shito,使徒",
+				"url": "https://youtu.be/erVS0hPklSs&t=405s"
+			},
+			{
+				"song_id": "S002",
+				"title": "わたしの一番かわいいところ",
+				"singer": "FRUITS ZIPPER",
+				"lyrics_composition": "ヤマモトショウ",
+				"url": "https://youtu.be/erVS0hPklSs&t=750s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Booo!",
+				"singer": "音街ウナ",
+				"lyrics_composition": "TOKOTOKO,西沢さんP",
+				"url": "https://youtu.be/erVS0hPklSs&t=1155s"
+			},
+			{
+				"song_id": "S004",
+				"title": "いーあるふぁんくらぶ",
+				"singer": "GUMI,鏡音リン",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/erVS0hPklSs&t=1660s"
+			},
+			{
+				"song_id": "S005",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/erVS0hPklSs&t=2030s"
+			},
+			{
+				"song_id": "S006",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/erVS0hPklSs&t=2355s"
+			},
+			{
+				"song_id": "S007",
+				"title": "かわいいだけじゃだめですか?",
+				"singer": "CUTIE STREET",
+				"lyrics_composition": "早川博隆,渡邉俊彦",
+				"url": "https://youtu.be/erVS0hPklSs&t=2749s"
+			},
+			{
+				"song_id": "S008",
+				"title": "♡桃色片想い♡",
+				"singer": "松浦亜弥",
+				"lyrics_composition": "つんく",
+				"url": "https://youtu.be/erVS0hPklSs&t=3309s"
+			},
+			{
+				"song_id": "S009",
+				"title": "だいしきゅーだいしゅき",
+				"singer": "femme fatale",
+				"lyrics_composition": "佐々木喫茶",
+				"url": "https://youtu.be/erVS0hPklSs&t=3805s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/erVS0hPklSs&t=4155s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/erVS0hPklSs&t=4589s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/erVS0hPklSs&t=4976s"
+			},
+			{
+				"song_id": "S013",
+				"title": "POP IN 2",
+				"singer": "ルビー,有馬かな,MEMちょ",
+				"lyrics_composition": "久下真音,つむぎしゃち",
+				"url": "https://youtu.be/erVS0hPklSs&t=5508s"
+			},
+			{
+				"song_id": "S014",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/erVS0hPklSs&t=5999s"
+			},
+			{
+				"song_id": "S015",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/erVS0hPklSs&t=6268s"
+			},
+			{
+				"song_id": "S016",
+				"title": "星間飛行",
+				"singer": "中島愛",
+				"lyrics_composition": "松本隆,菅野よう子",
+				"url": "https://youtu.be/erVS0hPklSs&t=6752s"
+			},
+			{
+				"song_id": "S017",
+				"title": "小悪魔だってかまわない！",
+				"singer": "めいちゃん",
+				"lyrics_composition": "HoneyWorks",
+				"url": "https://youtu.be/erVS0hPklSs&t=7114s"
+			},
+			{
+				"song_id": "S018",
+				"title": "気まぐれロマンティック",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹,山下穂尊",
+				"url": "https://youtu.be/erVS0hPklSs&t=7549s"
+			}
+		]
 	}
 ]
