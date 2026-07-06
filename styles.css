@@ -438,6 +438,24 @@ a{color:inherit}
   z-index:2;
 }
 .live-subpanel__content{padding:24px 24px 28px;}
+.live-subpanel__hero-link{
+  display:block;
+  position:relative;
+  width:100%;
+  border-radius:14px;
+  overflow:hidden;
+}
+.live-subpanel__hero-link::after{
+  content: "";
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.55) url('./assets/play.png') center/18px no-repeat;
+  border-radius: 999px;
+  pointer-events: none;
+}
 .live-subpanel__hero{
   display:block;
   width:100%;

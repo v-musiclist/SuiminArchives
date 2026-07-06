@@ -481,6 +481,7 @@
     if (!subpanel || !subpanelContent) return;
     resetSubpanelScroll();
 
+    const liveUrlWithTimestamp = live.url ? `${live.url}&t=1s` : "#";
     const songMarkup = songs.length
       ? `<div class="live-subpanel__songs">${songs.map((song) => `
           <div class="live-subpanel__song">
@@ -494,7 +495,9 @@
       : '<p class="live-subpanel__empty">このライブの曲情報はまだありません。</p>';
 
     subpanelContent.innerHTML = `
-      <img class="live-subpanel__hero" src="${live.live_image}" alt="${live.live_id}" />
+      <a class="live-subpanel__hero-link" href="${liveUrlWithTimestamp}" target="_blank" rel="noopener noreferrer" aria-label="ライブ動画を開く">
+        <img class="live-subpanel__hero" src="${live.live_image}" alt="${live.live_id}" />
+      </a>
       <h3 class="live-subpanel__title" id="liveSubpanelTitle">${live.live_text || `${live.live_id} / ${live.live_setting}`}</h3>
       <p class="live-subpanel__meta">曲リスト</p>
       ${songMarkup}
