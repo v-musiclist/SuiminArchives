@@ -350,6 +350,10 @@ a{color:inherit}
   gap:10px;
   align-items:center;
 }
+.song-list--with-karaoke .song-list__header,
+.song-list--with-karaoke .song-list__row{
+  grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.2fr) 56px 56px;
+}
 .song-list__header{
   padding:0 6px 6px;
   color:var(--muted);
@@ -368,7 +372,8 @@ a{color:inherit}
 .song-list__cell--title{font-weight:600;}
 .song-list__empty{padding:12px 6px; color:var(--muted);}
 .song-list__cell--singer{color:var(--muted);}
-.song-list__cell--url{display:flex; justify-content:center;}
+.song-list__cell--url,
+.song-list__cell--karaoke{display:flex; justify-content:center;}
 .song-list__link{
   display:inline-flex;
   align-items:center;
@@ -1655,6 +1660,7 @@ body {
 .home-right .event__body { padding: 4px 6px 6px; }
 .home-right .event__meta { font-size: 9px; margin-top: 2px; }
 
+/* ===== Mitarai Asobuタグ行を非表示 ===== */
 .support-tag-row { display: none; }
 
 /* ===== ページ内↑ボタン ===== */
