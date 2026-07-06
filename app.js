@@ -67,6 +67,12 @@
           });
         }
 
+        if (cfg.spreads_url) {
+          document.querySelectorAll('.spreadsBtn').forEach((el) => {
+            el.href = cfg.spreads_url;
+          });
+        }
+
         // ホームのおすすめ動画を設定
         const homeFeatured = document.getElementById('homeFeatured');
         if (homeFeatured) {
