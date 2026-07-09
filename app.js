@@ -260,6 +260,8 @@
       case "song":
       case "music":
         return "music";
+      case "video":
+        return "video";
       case "contact":
         return "contact";
       default:
@@ -273,6 +275,8 @@
         return "#live";
       case "music":
         return "#song";
+      case "video":
+        return "#video";
       case "contact":
         return "#contact";
       default:
@@ -325,6 +329,7 @@
 
   const liveList = document.getElementById("liveList");
   const songList = document.getElementById("songList");
+  const videoList = document.getElementById("videoList");
   const songSearchForm = document.getElementById("songSearchForm");
   const songSearchInput = document.getElementById("songSearchInput");
   const subpanel = document.getElementById("liveSubpanel");
@@ -483,6 +488,47 @@
     }
   };
 
+  const renderVideos = async () => {
+    if (!videoList) return;
+
+    try {
+      const response = await fetch("./data/download_video_file.json");
+      if (!response.ok) throw new Error("ビデオ情報を読み込めませんでした");
+
+      const videos = await response.json();
+      const items = Array.isArray(videos) ? videos : [];
+      const sortedItems = [...items].sort((a, b) => {
+        const aId = Number(String(a?.video_id || "").replace(/\D/g, "")) || 0;
+        const bId = Number(String(b?.video_id || "").replace(/\D/g, "")) || 0;
+        return bId - aId;
+      });
+
+      if (!sortedItems.length) {
+        videoList.innerHTML = '<p class="video-list__empty">ビデオ情報はまだありません。</p>';
+        return;
+      }
+
+      videoList.innerHTML = sortedItems.map((video) => {
+        const videoUrl = video?.video_text || "#";
+        const videoImage = video?.video_image || "";
+        const videoSetting = video?.video_setting || "";
+        const videoName = video?.name || "動画タイトル未登録";
+
+        return `
+          <a class="video-card" href="${videoUrl}" target="_blank" rel="noopener noreferrer" aria-label="${videoName} を開く">
+            <div class="video-card__media">
+              <img class="video-card__image" src="${videoImage}" alt="${videoName}" loading="lazy" />
+              <span class="video-card__badge">${videoSetting}</span>
+            </div>
+            <div class="video-card__title">${videoName}</div>
+          </a>
+        `;
+      }).join("");
+    } catch (error) {
+      videoList.innerHTML = `<p class="video-list__empty">${error.message}</p>`;
+    }
+  };
+
   const openSubpanel = (live, songs) => {
     if (!subpanel || !subpanelContent) return;
     resetSubpanelScroll();
@@ -588,4 +634,5 @@
 
   renderLives();
   renderSongs();
+  renderVideos();
 })();

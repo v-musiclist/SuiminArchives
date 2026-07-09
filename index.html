@@ -49,6 +49,7 @@
         <button class="tab active" data-tab="home" aria-label="ホームタブ">ホーム</button>
         <button class="tab" data-tab="live" aria-label="ライブタブ">ライブ</button>
         <button class="tab" data-tab="music" aria-label="曲一覧タブ">ソング</button>
+        <button class="tab" data-tab="video" aria-label="ビデオタブ">ビデオ</button>
         <button class="tab" data-tab="contact" aria-label="お問い合わせタブ">コンタクト</button>
       </nav>
     </div>
@@ -88,6 +89,7 @@
         <button class="tab tab--mobile" data-tab="home">ホーム</button>
         <button class="tab tab--mobile" data-tab="live">ライブ</button>
         <button class="tab tab--mobile" data-tab="music">ソング</button>
+        <button class="tab tab--mobile" data-tab="video">ビデオ</button>
         <button class="tab tab--mobile" data-tab="contact">コンタクト</button>
       </div>
     </div>
@@ -127,6 +129,16 @@
           <button class="song-search__button" type="submit">検索</button>
         </form>
         <div id="songList" class="song-list" aria-live="polite">読み込み中...</div>
+      </div>
+    </section>
+
+    <!-- ビデオタブ -->
+    <section class="page" data-page="video" id="videoPage">
+      <div class="card">
+        <div class="card__head">
+          <h2>ビデオ一覧</h2>
+        </div>
+        <div id="videoList" class="video-list" aria-live="polite">読み込み中...</div>
       </div>
     </section>
 
