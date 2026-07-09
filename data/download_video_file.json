@@ -1,436 +1,436 @@
 [
 	{
-		"live_id": "V001",
-		"url": "ヴァンパイア",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=MIZV-P5TJrs",
-		"live_image": "https://i.ytimg.com/vi/MIZV-P5TJrs/hq720.jpg"
+		"video_id": "V001",
+		"name": "ヴァンパイア",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=MIZV-P5TJrs",
+		"video_image": "https://i.ytimg.com/vi/MIZV-P5TJrs/hq720.jpg"
 	},
 	{
-		"live_id": "V002",
-		"url": "可愛くてごめん",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=4z_9svCNmJg",
-		"live_image": "https://i.ytimg.com/vi/4z_9svCNmJg/hq720.jpg"
+		"video_id": "V002",
+		"name": "可愛くてごめん",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=4z_9svCNmJg",
+		"video_image": "https://i.ytimg.com/vi/4z_9svCNmJg/hq720.jpg"
 	},
 	{
-		"live_id": "V003",
-		"url": "可愛くてごめん",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm41986726",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/41986726/41986726.19729317.L"
+		"video_id": "V003",
+		"name": "可愛くてごめん",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm41986726",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/41986726/41986726.19729317.L"
 	},
 	{
-		"live_id": "V004",
-		"url": "デビルじゃないもん",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=nLxWaG7f6aY",
-		"live_image": "https://i.ytimg.com/vi/nLxWaG7f6aY/hq720.jpg"
+		"video_id": "V004",
+		"name": "デビルじゃないもん",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=nLxWaG7f6aY",
+		"video_image": "https://i.ytimg.com/vi/nLxWaG7f6aY/hq720.jpg"
 	},
 	{
-		"live_id": "V005",
-		"url": "デビルじゃないもん",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm41988004",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/41988004/41988004.98649900.L"
+		"video_id": "V005",
+		"name": "デビルじゃないもん",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm41988004",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/41988004/41988004.98649900.L"
 	},
 	{
-		"live_id": "V006",
-		"url": "トウキョウ・シャンディ・ランデヴ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=Z7Rs7iWjHzw",
-		"live_image": "https://i.ytimg.com/vi/Z7Rs7iWjHzw/hq720.jpg"
+		"video_id": "V006",
+		"name": "トウキョウ・シャンディ・ランデヴ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=Z7Rs7iWjHzw",
+		"video_image": "https://i.ytimg.com/vi/Z7Rs7iWjHzw/hq720.jpg"
 	},
 	{
-		"live_id": "V007",
-		"url": "トウキョウ・シャンディ・ランデヴ",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm41986872",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/41986872/41986872.81290124.L"
+		"video_id": "V007",
+		"name": "トウキョウ・シャンディ・ランデヴ",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm41986872",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/41986872/41986872.81290124.L"
 	},
 	{
-		"live_id": "V008",
-		"url": "フィルターバブル",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=o76X_H_rQuo",
-		"live_image": "https://i.ytimg.com/vi/o76X_H_rQuo/hq720.jpg"
+		"video_id": "V008",
+		"name": "フィルターバブル",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=o76X_H_rQuo",
+		"video_image": "https://i.ytimg.com/vi/o76X_H_rQuo/hq720.jpg"
 	},
 	{
-		"live_id": "V009",
-		"url": "嗚呼、素晴らしきニャン生",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm42109327",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/42109327/42109327.95392579.L"
+		"video_id": "V009",
+		"name": "嗚呼、素晴らしきニャン生",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm42109327",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/42109327/42109327.95392579.L"
 	},
 	{
-		"live_id": "V010",
-		"url": "メランコリック",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=zS9vKb4rbus",
-		"live_image": "https://i.ytimg.com/vi/zS9vKb4rbus/hq720.jpg"
+		"video_id": "V010",
+		"name": "メランコリック",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=zS9vKb4rbus",
+		"video_image": "https://i.ytimg.com/vi/zS9vKb4rbus/hq720.jpg"
 	},
 	{
-		"live_id": "V011",
-		"url": "祝福",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=XHrZlPNIr24",
-		"live_image": "https://i.ytimg.com/vi/XHrZlPNIr24/hq720.jpg"
+		"video_id": "V011",
+		"name": "祝福",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=XHrZlPNIr24",
+		"video_image": "https://i.ytimg.com/vi/XHrZlPNIr24/hq720.jpg"
 	},
 	{
-		"live_id": "V012",
-		"url": "アイドル",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=srhAex9Woa0",
-		"live_image": "https://i.ytimg.com/vi/srhAex9Woa0/hq720.jpg"
+		"video_id": "V012",
+		"name": "アイドル",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=srhAex9Woa0",
+		"video_image": "https://i.ytimg.com/vi/srhAex9Woa0/hq720.jpg"
 	},
 	{
-		"live_id": "V013",
-		"url": "アイドル",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm42339343",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/42339343/42339343.58528552.L"
+		"video_id": "V013",
+		"name": "アイドル",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm42339343",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/42339343/42339343.58528552.L"
 	},
 	{
-		"live_id": "V014",
-		"url": "あなたをコンセルヴェ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=WssRYkBUK-U",
-		"live_image": "https://i.ytimg.com/vi/WssRYkBUK-U/hq720.jpg"
+		"video_id": "V014",
+		"name": "あなたをコンセルヴェ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=WssRYkBUK-U",
+		"video_image": "https://i.ytimg.com/vi/WssRYkBUK-U/hq720.jpg"
 	},
 	{
-		"live_id": "V015",
-		"url": "アイワナムチュー",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=2U4shKS3hno",
-		"live_image": "https://i.ytimg.com/vi/2U4shKS3hno/hq720.jpg"
+		"video_id": "V015",
+		"name": "アイワナムチュー",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=2U4shKS3hno",
+		"video_image": "https://i.ytimg.com/vi/2U4shKS3hno/hq720.jpg"
 	},
 	{
-		"live_id": "V016",
-		"url": "愛の唄",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=9Lvwr2fxGr0",
-		"live_image": "https://i.ytimg.com/vi/9Lvwr2fxGr0/hq720.jpg"
+		"video_id": "V016",
+		"name": "愛の唄",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=9Lvwr2fxGr0",
+		"video_image": "https://i.ytimg.com/vi/9Lvwr2fxGr0/hq720.jpg"
 	},
 	{
-		"live_id": "V017",
-		"url": "only my railgun",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=OdZIpO7u7Pw",
-		"live_image": "https://i.ytimg.com/vi/OdZIpO7u7Pw/hq720.jpg"
+		"video_id": "V017",
+		"name": "only my railgun",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=OdZIpO7u7Pw",
+		"video_image": "https://i.ytimg.com/vi/OdZIpO7u7Pw/hq720.jpg"
 	},
 	{
-		"live_id": "V018",
-		"url": "ワールドイズマイン",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=sdQ821zYkrQ",
-		"live_image": "https://i.ytimg.com/vi/sdQ821zYkrQ/hq720.jpg"
+		"video_id": "V018",
+		"name": "ワールドイズマイン",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=sdQ821zYkrQ",
+		"video_image": "https://i.ytimg.com/vi/sdQ821zYkrQ/hq720.jpg"
 	},
 	{
-		"live_id": "V019",
-		"url": "ワールドイズマイン",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm42703871",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/42703871/42703871.5197119.L"
+		"video_id": "V019",
+		"name": "ワールドイズマイン",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm42703871",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/42703871/42703871.5197119.L"
 	},
 	{
-		"live_id": "V020",
-		"url": "わたしの一番かわいいところ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=zYm-Gmz2mok",
-		"live_image": "https://i.ytimg.com/vi/zYm-Gmz2mok/hq720.jpg"
+		"video_id": "V020",
+		"name": "わたしの一番かわいいところ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=zYm-Gmz2mok",
+		"video_image": "https://i.ytimg.com/vi/zYm-Gmz2mok/hq720.jpg"
 	},
 	{
-		"live_id": "V021",
-		"url": "ラビットホール",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=TRH9ASoaF6Y",
-		"live_image": "https://i.ytimg.com/vi/TRH9ASoaF6Y/hq720.jpg"
+		"video_id": "V021",
+		"name": "ラビットホール",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=TRH9ASoaF6Y",
+		"video_image": "https://i.ytimg.com/vi/TRH9ASoaF6Y/hq720.jpg"
 	},
 	{
-		"live_id": "V022",
-		"url": "メルト",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=Iw_FYzQX3pI",
-		"live_image": "https://i.ytimg.com/vi/Iw_FYzQX3pI/hq720.jpg"
+		"video_id": "V022",
+		"name": "メルト",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=Iw_FYzQX3pI",
+		"video_image": "https://i.ytimg.com/vi/Iw_FYzQX3pI/hq720.jpg"
 	},
 	{
-		"live_id": "V023",
-		"url": "ボルテッカー",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=j3ao8Vgo3f8",
-		"live_image": "https://i.ytimg.com/vi/j3ao8Vgo3f8/hq720.jpg"
+		"video_id": "V023",
+		"name": "ボルテッカー",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=j3ao8Vgo3f8",
+		"video_image": "https://i.ytimg.com/vi/j3ao8Vgo3f8/hq720.jpg"
 	},
 	{
-		"live_id": "V024",
-		"url": "1925",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=zG5bdbeV-4M",
-		"live_image": "https://i.ytimg.com/vi/zG5bdbeV-4M/hq720.jpg"
+		"video_id": "V024",
+		"name": "1925",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=zG5bdbeV-4M",
+		"video_image": "https://i.ytimg.com/vi/zG5bdbeV-4M/hq720.jpg"
 	},
 	{
-		"live_id": "V025",
-		"url": "1925",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm43131207",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/43131207/43131207.31092044.L"
+		"video_id": "V025",
+		"name": "1925",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm43131207",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/43131207/43131207.31092044.L"
 	},
 	{
-		"live_id": "V026",
-		"url": "唱",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=YgPTup52JlM",
-		"live_image": "https://i.ytimg.com/vi/YgPTup52JlM/hq720.jpg"
+		"video_id": "V026",
+		"name": "唱",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=YgPTup52JlM",
+		"video_image": "https://i.ytimg.com/vi/YgPTup52JlM/hq720.jpg"
 	},
 	{
-		"live_id": "V027",
-		"url": "Flyway",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=69ymNvZf5dQ",
-		"live_image": "https://i.ytimg.com/vi/69ymNvZf5dQ/hq720.jpg"
+		"video_id": "V027",
+		"name": "Flyway",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=69ymNvZf5dQ",
+		"video_image": "https://i.ytimg.com/vi/69ymNvZf5dQ/hq720.jpg"
 	},
 	{
-		"live_id": "V028",
-		"url": "Flyway",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm43550816",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/43550816/43550816.10233446.L"
+		"video_id": "V028",
+		"name": "Flyway",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm43550816",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/43550816/43550816.10233446.L"
 	},
 	{
-		"live_id": "V029",
-		"url": "地球最後の告白を",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=PfdzVTAZbzs",
-		"live_image": "https://i.ytimg.com/vi/PfdzVTAZbzs/hq720.jpg"
+		"video_id": "V029",
+		"name": "地球最後の告白を",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=PfdzVTAZbzs",
+		"video_image": "https://i.ytimg.com/vi/PfdzVTAZbzs/hq720.jpg"
 	},
 	{
-		"live_id": "V030",
-		"url": "地球最後の告白を",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm43551021",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/43551021/43551021.36266511.L"
+		"video_id": "V030",
+		"name": "地球最後の告白を",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm43551021",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/43551021/43551021.36266511.L"
 	},
 	{
-		"live_id": "V031",
-		"url": "あなたをコンセルヴェ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=WssRYkBUK-U",
-		"live_image": "https://i.ytimg.com/vi/WssRYkBUK-U/hq720.jpg"
+		"video_id": "V031",
+		"name": "あなたをコンセルヴェ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=WssRYkBUK-U",
+		"video_image": "https://i.ytimg.com/vi/WssRYkBUK-U/hq720.jpg"
 	},
 	{
-		"live_id": "V032",
-		"url": "永遠ジャンプ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=REOnSYYyUOw",
-		"live_image": "https://i.ytimg.com/vi/REOnSYYyUOw/hq720.jpg"
+		"video_id": "V032",
+		"name": "永遠ジャンプ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=REOnSYYyUOw",
+		"video_image": "https://i.ytimg.com/vi/REOnSYYyUOw/hq720.jpg"
 	},
 	{
-		"live_id": "V033",
-		"url": "The Binary Star",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=9oBLnrnxhCg",
-		"live_image": "https://i.ytimg.com/vi/9oBLnrnxhCg/hq720.jpg"
+		"video_id": "V033",
+		"name": "The Binary Star",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=9oBLnrnxhCg",
+		"video_image": "https://i.ytimg.com/vi/9oBLnrnxhCg/hq720.jpg"
 	},
 	{
-		"live_id": "V034",
-		"url": "打上花火",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=3JG6jVLHQn4",
-		"live_image": "https://i.ytimg.com/vi/3JG6jVLHQn4/hq720.jpg"
+		"video_id": "V034",
+		"name": "打上花火",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=3JG6jVLHQn4",
+		"video_image": "https://i.ytimg.com/vi/3JG6jVLHQn4/hq720.jpg"
 	},
 	{
-		"live_id": "V035",
-		"url": "ずうっといっしょ！",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=YwRiGwaMkGA",
-		"live_image": "https://i.ytimg.com/vi/YwRiGwaMkGA/hq720.jpg"
+		"video_id": "V035",
+		"name": "ずうっといっしょ！",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=YwRiGwaMkGA",
+		"video_image": "https://i.ytimg.com/vi/YwRiGwaMkGA/hq720.jpg"
 	},
 	{
-		"live_id": "V036",
-		"url": "エスパーエスパー",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=-q2Mhg6hZF8",
-		"live_image": "https://i.ytimg.com/vi/-q2Mhg6hZF8/hq720.jpg"
+		"video_id": "V036",
+		"name": "エスパーエスパー",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=-q2Mhg6hZF8",
+		"video_image": "https://i.ytimg.com/vi/-q2Mhg6hZF8/hq720.jpg"
 	},
 	{
-		"live_id": "V037",
-		"url": "ハオ",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm44342670",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/44342670/44342670.71524368.L"
+		"video_id": "V037",
+		"name": "ハオ",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm44342670",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/44342670/44342670.71524368.L"
 	},
 	{
-		"live_id": "V038",
-		"url": "キミと××××したいだけ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=r-ly012_Lyo",
-		"live_image": "https://i.ytimg.com/vi/r-ly012_Lyo/hq720.jpg"
+		"video_id": "V038",
+		"name": "キミと××××したいだけ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=r-ly012_Lyo",
+		"video_image": "https://i.ytimg.com/vi/r-ly012_Lyo/hq720.jpg"
 	},
 	{
-		"live_id": "V039",
-		"url": "Where shall we go?",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=2EAjWCsyDLc",
-		"live_image": "https://i.ytimg.com/vi/2EAjWCsyDLc/hq720.jpg"
+		"video_id": "V039",
+		"name": "Where shall we go?",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=2EAjWCsyDLc",
+		"video_image": "https://i.ytimg.com/vi/2EAjWCsyDLc/hq720.jpg"
 	},
 	{
-		"live_id": "V040",
-		"url": "ブロッケンスワン",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=OHpbaAcr5QQ",
-		"live_image": "https://i.ytimg.com/vi/OHpbaAcr5QQ/hq720.jpg"
+		"video_id": "V040",
+		"name": "ブロッケンスワン",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=OHpbaAcr5QQ",
+		"video_image": "https://i.ytimg.com/vi/OHpbaAcr5QQ/hq720.jpg"
 	},
 	{
-		"live_id": "V041",
-		"url": "恋はア・ラ・モード",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=zRYzyT0hwCA",
-		"live_image": "https://i.ytimg.com/vi/zRYzyT0hwCA/hq720.jpg"
+		"video_id": "V041",
+		"name": "恋はア・ラ・モード",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=zRYzyT0hwCA",
+		"video_image": "https://i.ytimg.com/vi/zRYzyT0hwCA/hq720.jpg"
 	},
 	{
-		"live_id": "V042",
-		"url": "モニタリング",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=vdWPJ7fKOxQ",
-		"live_image": "https://i.ytimg.com/vi/vdWPJ7fKOxQ/hq720.jpg"
+		"video_id": "V042",
+		"name": "モニタリング",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=vdWPJ7fKOxQ",
+		"video_image": "https://i.ytimg.com/vi/vdWPJ7fKOxQ/hq720.jpg"
 	},
 	{
-		"live_id": "V043",
-		"url": "POP IN 2",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=SIpL1Y6OHSw",
-		"live_image": "https://i.ytimg.com/vi/SIpL1Y6OHSw/hq720.jpg"
+		"video_id": "V043",
+		"name": "POP IN 2",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=SIpL1Y6OHSw",
+		"video_image": "https://i.ytimg.com/vi/SIpL1Y6OHSw/hq720.jpg"
 	},
 	{
-		"live_id": "V044",
-		"url": "magnet",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=JESBdjMyzIg",
-		"live_image": "https://i.ytimg.com/vi/JESBdjMyzIg/hq720.jpg"
+		"video_id": "V044",
+		"name": "magnet",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=JESBdjMyzIg",
+		"video_image": "https://i.ytimg.com/vi/JESBdjMyzIg/hq720.jpg"
 	},
 	{
-		"live_id": "V045",
-		"url": "テトリス",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=Fb4GlXBfHls",
-		"live_image": "https://i.ytimg.com/vi/Fb4GlXBfHls/hq720.jpg"
+		"video_id": "V045",
+		"name": "テトリス",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=Fb4GlXBfHls",
+		"video_image": "https://i.ytimg.com/vi/Fb4GlXBfHls/hq720.jpg"
 	},
 	{
-		"live_id": "V046",
-		"url": "メルティメロディー",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=4x7t9451IwA",
-		"live_image": "https://i.ytimg.com/vi/4x7t9451IwA/hq720.jpg"
+		"video_id": "V046",
+		"name": "メルティメロディー",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=4x7t9451IwA",
+		"video_image": "https://i.ytimg.com/vi/4x7t9451IwA/hq720.jpg"
 	},
 	{
-		"live_id": "V047",
-		"url": "ももいろの鍵",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=pZze2ig4HJY",
-		"live_image": "https://i.ytimg.com/vi/pZze2ig4HJY/hq720.jpg"
+		"video_id": "V047",
+		"name": "ももいろの鍵",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=pZze2ig4HJY",
+		"video_image": "https://i.ytimg.com/vi/pZze2ig4HJY/hq720.jpg"
 	},
 	{
-		"live_id": "V048",
-		"url": "ダーリンダーリン",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=qdc8D8oNkf8",
-		"live_image": "https://i.ytimg.com/vi/qdc8D8oNkf8/hq720.jpg"
+		"video_id": "V048",
+		"name": "ダーリンダーリン",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=qdc8D8oNkf8",
+		"video_image": "https://i.ytimg.com/vi/qdc8D8oNkf8/hq720.jpg"
 	},
 	{
-		"live_id": "V049",
-		"url": "キスキツネ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=qENDuAGLb2k",
-		"live_image": "https://i.ytimg.com/vi/qENDuAGLb2k/hq720.jpg"
+		"video_id": "V049",
+		"name": "キスキツネ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=qENDuAGLb2k",
+		"video_image": "https://i.ytimg.com/vi/qENDuAGLb2k/hq720.jpg"
 	},
 	{
-		"live_id": "V050",
-		"url": "恋に溺れて",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=HyIj06PErdE",
-		"live_image": "https://i.ytimg.com/vi/HyIj06PErdE/hq720.jpg"
+		"video_id": "V050",
+		"name": "恋に溺れて",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=HyIj06PErdE",
+		"video_image": "https://i.ytimg.com/vi/HyIj06PErdE/hq720.jpg"
 	},
 	{
-		"live_id": "V051",
-		"url": "点描の唄",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=vgLfa0Xgd1w",
-		"live_image": "https://i.ytimg.com/vi/vgLfa0Xgd1w/hq720.jpg"
+		"video_id": "V051",
+		"name": "点描の唄",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=vgLfa0Xgd1w",
+		"video_image": "https://i.ytimg.com/vi/vgLfa0Xgd1w/hq720.jpg"
 	},
 	{
-		"live_id": "V052",
-		"url": "アイワナムチュー",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=UP1pH-iSIpM",
-		"live_image": "https://i.ytimg.com/vi/UP1pH-iSIpM/hq720.jpg"
+		"video_id": "V052",
+		"name": "アイワナムチュー",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=UP1pH-iSIpM",
+		"video_image": "https://i.ytimg.com/vi/UP1pH-iSIpM/hq720.jpg"
 	},
 	{
-		"live_id": "V053",
-		"url": "聖少女領域",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=6qm4t1xHATs",
-		"live_image": "https://i.ytimg.com/vi/6qm4t1xHATs/hq720.jpg"
+		"video_id": "V053",
+		"name": "聖少女領域",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=6qm4t1xHATs",
+		"video_image": "https://i.ytimg.com/vi/6qm4t1xHATs/hq720.jpg"
 	},
 	{
-		"live_id": "V054",
-		"url": "深淵",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=V2H2F-1A_yk",
-		"live_image": "https://i.ytimg.com/vi/V2H2F-1A_yk/hq720.jpg"
+		"video_id": "V054",
+		"name": "深淵",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=V2H2F-1A_yk",
+		"video_image": "https://i.ytimg.com/vi/V2H2F-1A_yk/hq720.jpg"
 	},
 	{
-		"live_id": "V055",
-		"url": "マシュマロ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=h8kZiTTY9Qo",
-		"live_image": "https://i.ytimg.com/vi/h8kZiTTY9Qo/hq720.jpg"
+		"video_id": "V055",
+		"name": "マシュマロ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=h8kZiTTY9Qo",
+		"video_image": "https://i.ytimg.com/vi/h8kZiTTY9Qo/hq720.jpg"
 	},
 	{
-		"live_id": "V056",
-		"url": "レイメイ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=BZyqXMmihO4",
-		"live_image": "https://i.ytimg.com/vi/BZyqXMmihO4/hq720.jpg"
+		"video_id": "V056",
+		"name": "レイメイ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=BZyqXMmihO4",
+		"video_image": "https://i.ytimg.com/vi/BZyqXMmihO4/hq720.jpg"
 	},
 	{
-		"live_id": "V057",
-		"url": "パステル・ドレスアップ",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm46028827",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/46028827/46028827.59739140.L"
+		"video_id": "V057",
+		"name": "パステル・ドレスアップ",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm46028827",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/46028827/46028827.59739140.L"
 	},
 	{
-		"live_id": "V058",
-		"url": "ハルカ",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=wmIqyny9fN0",
-		"live_image": "https://i.ytimg.com/vi/wmIqyny9fN0/hq720.jpg"
+		"video_id": "V058",
+		"name": "ハルカ",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=wmIqyny9fN0",
+		"video_image": "https://i.ytimg.com/vi/wmIqyny9fN0/hq720.jpg"
 	},
 	{
-		"live_id": "V059",
-		"url": "モニタリング (Best Friend Remix)",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=RlcChjsia6g",
-		"live_image": "https://i.ytimg.com/vi/RlcChjsia6g/hq720.jpg"
+		"video_id": "V059",
+		"name": "モニタリング (Best Friend Remix)",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=RlcChjsia6g",
+		"video_image": "https://i.ytimg.com/vi/RlcChjsia6g/hq720.jpg"
 	},
 	{
-		"live_id": "V060",
-		"url": "桜ロック",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=dM-yoW8oCAg",
-		"live_image": "https://i.ytimg.com/vi/dM-yoW8oCAg/hq720.jpg"
+		"video_id": "V060",
+		"name": "桜ロック",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=dM-yoW8oCAg",
+		"video_image": "https://i.ytimg.com/vi/dM-yoW8oCAg/hq720.jpg"
 	},
 	{
-		"live_id": "V061",
-		"url": "とくべチュ、して",
-		"live_setting": "youtube",
-		"live_text": "https://www.youtube.com/watch?v=iVUsJdV-dA4",
-		"live_image": "https://i.ytimg.com/vi/iVUsJdV-dA4/hq720.jpg"
+		"video_id": "V061",
+		"name": "とくべチュ、して",
+		"video_setting": "youtube",
+		"video_text": "https://www.youtube.com/watch?v=iVUsJdV-dA4",
+		"video_image": "https://i.ytimg.com/vi/iVUsJdV-dA4/hq720.jpg"
 	},
 	{
-		"live_id": "V062",
-		"url": "オーバーフロー ジェットエンジン !!!!!!!",
-		"live_setting": "nicovideo",
-		"live_text": "https://www.nicovideo.jp/watch/sm46503685",
-		"live_image": "https://nicovideo.cdn.nimg.jp/thumbnails/46503685/46503685.5383913.L"
+		"video_id": "V062",
+		"name": "オーバーフロー ジェットエンジン !!!!!!!",
+		"video_setting": "nicovideo",
+		"video_text": "https://www.nicovideo.jp/watch/sm46503685",
+		"video_image": "https://nicovideo.cdn.nimg.jp/thumbnails/46503685/46503685.5383913.L"
 	}
 ]
