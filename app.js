@@ -524,7 +524,7 @@
       }
 
       videoList.innerHTML = sortedItems.map((video) => {
-        const videoUrl = video?.video_text || "#";
+        const videoUrl = video?.video_url || "#";
         const videoImage = video?.video_image || IMAGE_FALLBACK_SRC;
         const videoSetting = video?.video_setting || "";
         const videoName = video?.name || "動画タイトル未登録";
