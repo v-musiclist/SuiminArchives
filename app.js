@@ -26,6 +26,11 @@
         const cfg = config[0];
         searchSongFlag = cfg.search_song_flg === true;
 
+        const accentColor = cfg.accent;
+        const accentRgb = cfg.color;
+        document.documentElement.style.setProperty('--accent', accentColor);
+        document.documentElement.style.setProperty('--accent-rgb', accentRgb);
+
         // ページタイトルを設定
         if (cfg.title) {
           const pageTitle = document.getElementById('pageTitle');
