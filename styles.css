@@ -6,6 +6,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'CormorantGaramondRegular';
+  src: url('./assets/fonts/CormorantGaramond-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root{
   --bg:#0f0f12;
   --card:#17171c;
@@ -2115,7 +2123,6 @@ body.no-anim .anim-toggle-btn__dot {
    ドット感・ゲーム感の追加スタイル
    ============================================================ */
 
-/* ── ドットフォント適用範囲（コンテストページは除外） ─────── */
 .tab,
 .chip,
 .card__head h2,
@@ -2128,7 +2135,7 @@ body.no-anim .anim-toggle-btn__dot {
 .support-sub-title,
 .support-footer-name,
 footer .muted {
-  font-family: 'DotGothic16', monospace;
+  font-family: 'CormorantGaramondRegular', monospace;
 }
 
 :lang(ko) .tab,
@@ -2146,9 +2153,8 @@ footer .muted {
   font-family: 'YasashisaGothicBold', monospace;
 }
 
-/* ── タブ：ピクセル風 ───────────────────────────────────── */
 .tab {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 0.04em;
   border-radius: 4px;
   padding: 8px 12px;
