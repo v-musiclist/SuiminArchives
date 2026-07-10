@@ -2,6 +2,21 @@
   // config.json から設定を読み込んで設定
   let searchSongFlag = false;
   let configLoadPromise = null;
+  const IMAGE_FALLBACK_SRC = './assets/nodata.png';
+
+  const makeImageFallbackAttr = () => "onerror=\"this.onerror=null;this.src='" + IMAGE_FALLBACK_SRC + "'\"";
+  const isPrivateLive = (live) => String(live?.live_setting || "").trim() === "非公開";
+  const getLiveImageSrc = (live) => isPrivateLive(live) ? IMAGE_FALLBACK_SRC : (live.live_image || IMAGE_FALLBACK_SRC);
+  const handleImageError = (event) => {
+    const img = event.target;
+    if (!(img instanceof HTMLImageElement)) return;
+    if (!img.src) return;
+    if (img.src.includes(IMAGE_FALLBACK_SRC)) return;
+    img.onerror = null;
+    img.src = IMAGE_FALLBACK_SRC;
+  };
+
+  document.addEventListener('error', handleImageError, true);
 
   const loadConfig = async () => {
     try {
@@ -509,15 +524,15 @@
       }
 
       videoList.innerHTML = sortedItems.map((video) => {
-        const videoUrl = video?.video_url || "#";
-        const videoImage = video?.video_image || "";
+        const videoUrl = video?.video_text || "#";
+        const videoImage = video?.video_image || IMAGE_FALLBACK_SRC;
         const videoSetting = video?.video_setting || "";
         const videoName = video?.name || "動画タイトル未登録";
 
         return `
           <a class="video-card" href="${videoUrl}" target="_blank" rel="noopener noreferrer" aria-label="${videoName} を開く">
             <div class="video-card__media">
-              <img class="video-card__image" src="${videoImage}" alt="${videoName}" loading="lazy" />
+              <img class="video-card__image" src="${videoImage}" alt="${videoName}" loading="lazy" ${makeImageFallbackAttr()} />
               <span class="video-card__badge">${videoSetting}</span>
             </div>
             <div class="video-card__title">${videoName}</div>
@@ -548,9 +563,8 @@
 
     subpanelContent.innerHTML = `
       <a class="live-subpanel__hero-link" href="${liveUrlWithTimestamp}" target="_blank" rel="noopener noreferrer" aria-label="ライブ動画を開く">
-        <img class="live-subpanel__hero" src="${live.live_image}" alt="${live.live_id}" />
+        <img class="live-subpanel__hero" src="${getLiveImageSrc(live)}" alt="${live.live_id}" ${makeImageFallbackAttr()} />
       </a>
-      <h3 class="live-subpanel__title" id="liveSubpanelTitle">${live.live_text || `${live.live_id} / ${live.live_setting}`}</h3>
       <p class="live-subpanel__meta">曲リスト</p>
       ${songMarkup}
     `;
@@ -591,7 +605,7 @@
             <div class="live-card__id">${live.live_id}</div>
             <div class="live-card__setting">${live.live_setting}</div>
           </div>
-          <img class="live-card__image" src="${live.live_image}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" />
+          <img class="live-card__image" src="${getLiveImageSrc(live)}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" ${makeImageFallbackAttr()} />
         </article>
       `).join("");
     } catch (error) {
