@@ -66,6 +66,20 @@
           });
         }
 
+        if (cfg.contact_name) {
+          const contactName = document.getElementById('contactUserName');
+          if (contactName) {
+            contactName.textContent = cfg.contact_name;
+          }
+        }
+
+        if (cfg.contact_url) {
+          const contactButton = document.getElementById('contactButton');
+          if (contactButton) {
+            contactButton.href = cfg.contact_url;
+          }
+        }
+
         if (cfg.youtube_url) {
           document.querySelectorAll('.youtubeBtn').forEach((el) => {
             el.href = cfg.youtube_url;
