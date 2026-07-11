@@ -5,6 +5,7 @@
   const IMAGE_FALLBACK_SRC = './assets/nodata.png';
 
   const makeImageFallbackAttr = () => "onerror=\"this.onerror=null;this.src='" + IMAGE_FALLBACK_SRC + "'\"";
+  const escapeHtml = (value) => String(value ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;").replace(/'/g, "&#39;");
   const isPrivateLive = (live) => String(live?.live_setting || "").trim() === "非公開";
   const getLiveImageSrc = (live) => isPrivateLive(live) ? IMAGE_FALLBACK_SRC : (live.live_image || IMAGE_FALLBACK_SRC);
   const isPrivateVideo = (video) => String(video?.video_option || "").trim() === "非公開";
@@ -493,18 +494,12 @@
       return;
     }
 
-    if (searchSongFlag) {
-      songList.classList.add('song-list--with-karaoke');
-    } else {
-      songList.classList.remove('song-list--with-karaoke');
-    }
-
     songList.innerHTML = `
       <div class="song-list__header">
         <span class="song-list__col song-list__col--title">曲名</span>
         <span class="song-list__col song-list__col--singer">歌手</span>
         <span class="song-list__col song-list__col--url" style="text-align: center;">URL</span>
-        ${searchSongFlag ? '<span class="song-list__col song-list__col--karaoke" style="text-align: center;">検索</span>' : ''}
+        <span class="song-list__col song-list__col--detail" style="text-align: center;">詳細</span>
       </div>
       ${rows.map((song) => {
         const singerName = formatSingerName(song.singer_name || "");
@@ -512,19 +507,26 @@
         const karaokeUrl = getKaraokeLinkUrl(song);
 
         const urlLinkMarkup = songUrl
-          ? `<a class="song-list__link" href="${songUrl}" target="_blank" rel="noopener noreferrer" aria-label="${song.song_title || "曲"} の動画を開く"><img src="./assets/play.png" alt="YouTube" /></a>`
-          : "";
-        const karaokeLinkMarkup = karaokeUrl
-          ? `<a class="song-list__link" href="${karaokeUrl}" target="_blank" rel="noopener noreferrer" aria-label="${song.song_title || "曲"} のカラオケ検索を開く"><img src="./assets/play.png" alt="カラオケ" /></a>`
+          ? `<a class="song-list__link" href="${songUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} の動画を開く"><img src="./assets/play.png" alt="YouTube" /></a>`
           : "";
 
         return `
           <div class="song-list__row">
-            <div class="song-list__cell song-list__cell--title">${song.song_title || "曲名未登録"}</div>
-            <div class="song-list__cell song-list__cell--singer">${singerName}</div>
+            <div class="song-list__cell song-list__cell--title">${escapeHtml(song.song_title || "曲名未登録")}</div>
+            <div class="song-list__cell song-list__cell--singer">${escapeHtml(singerName)}</div>
             <div class="song-list__cell song-list__cell--url">${urlLinkMarkup}</div>
-            ${searchSongFlag ? `<div class="song-list__cell song-list__cell--karaoke">${karaokeLinkMarkup}</div>` : ''}
-            <span aria-hidden="true" style="display:none;">${song.find_char || ""}</span>
+            <div class="song-list__cell song-list__cell--detail">
+              <button
+                class="song-list__detail-btn"
+                type="button"
+                data-song-title="${escapeHtml(song.song_title || "")}" 
+                data-song-singer="${escapeHtml(song.singer_name || "")}" 
+                data-song-lyrics="${escapeHtml(song.lyrics_composition_name || "")}" 
+                data-song-karaoke-url="${escapeHtml(karaokeUrl)}"
+                aria-label="${escapeHtml(song.song_title || "曲")} の詳細を開く"
+              >︙</button>
+            </div>
+            <span aria-hidden="true" style="display:none;">${escapeHtml(song.find_char || "")}</span>
           </div>
         `;
       }).join("")}
@@ -626,6 +628,42 @@
     }
   };
 
+  const openSongSubpanel = (song) => {
+    if (!subpanel || !subpanelContent) return;
+    resetSubpanelScroll();
+
+    const karaokeUrl = searchSongFlag ? (song?.karaoke_url || "") : "";
+    const karaokeMarkup = searchSongFlag && karaokeUrl
+      ? `<a class="song-subpanel__link" href="${karaokeUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song?.song_title || "曲")} のカラオケ検索を開く">カラオケ検索</a>`
+      : "";
+
+    subpanelContent.innerHTML = `
+      <div class="song-subpanel">
+        <p class="live-subpanel__meta">曲詳細</p>
+        <div class="song-subpanel__field">
+          <div class="song-subpanel__label">曲名</div>
+          <div class="song-subpanel__value">${escapeHtml(song?.song_title || "曲名未登録")}</div>
+        </div>
+        <div class="song-subpanel__field">
+          <div class="song-subpanel__label">歌手</div>
+          <div class="song-subpanel__value">${escapeHtml(song?.singer_name || "歌手未登録")}</div>
+        </div>
+        <div class="song-subpanel__field">
+          <div class="song-subpanel__label">作詞・作曲</div>
+          <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
+        </div>
+        ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
+      </div>
+    `;
+
+    setSubpanelVisibility(true);
+
+    const currentState = window.history.state;
+    if (currentState?.liveSubpanelOpen !== true) {
+      window.history.pushState({ liveSubpanelOpen: true }, "", window.location.href);
+    }
+  };
+
   const renderLives = async () => {
     if (!liveList) return;
 
@@ -672,6 +710,18 @@
 
     const songs = musicIndex.get(liveId) || [];
     openSubpanel(live, songs);
+  });
+
+  songList?.addEventListener("click", (event) => {
+    const detailButton = event.target.closest(".song-list__detail-btn");
+    if (!detailButton) return;
+
+    openSongSubpanel({
+      song_title: detailButton.getAttribute("data-song-title") || "",
+      singer_name: detailButton.getAttribute("data-song-singer") || "",
+      lyrics_composition_name: detailButton.getAttribute("data-song-lyrics") || "",
+      karaoke_url: detailButton.getAttribute("data-song-karaoke-url") || ""
+    });
   });
 
   songSearchForm?.addEventListener("submit", (event) => {
