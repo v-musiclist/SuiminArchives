@@ -7,6 +7,8 @@
   const makeImageFallbackAttr = () => "onerror=\"this.onerror=null;this.src='" + IMAGE_FALLBACK_SRC + "'\"";
   const isPrivateLive = (live) => String(live?.live_setting || "").trim() === "非公開";
   const getLiveImageSrc = (live) => isPrivateLive(live) ? IMAGE_FALLBACK_SRC : (live.live_image || IMAGE_FALLBACK_SRC);
+  const isPrivateVideo = (video) => String(video?.video_option || "").trim() === "非公開";
+  const getVideoImageSrc = (video) => isPrivateVideo(video) ? IMAGE_FALLBACK_SRC : (video?.video_image || IMAGE_FALLBACK_SRC);
   const handleImageError = (event) => {
     const img = event.target;
     if (!(img instanceof HTMLImageElement)) return;
@@ -530,7 +532,7 @@
 
       videoList.innerHTML = sortedItems.map((video) => {
         const videoUrl = video?.video_url || "#";
-        const videoImage = video?.video_image || IMAGE_FALLBACK_SRC;
+        const videoImage = getVideoImageSrc(video);
         const videoSetting = video?.video_setting || "";
         const videoName = video?.name || "動画タイトル未登録";
 
