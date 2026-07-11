@@ -104,6 +104,12 @@
           });
         }
 
+        if (cfg.sub_url) {
+          document.querySelectorAll('.subBtn').forEach((el) => {
+            el.href = cfg.sub_url;
+          });
+        }
+
         if (cfg.spreads_url) {
           document.querySelectorAll('.spreadsBtn').forEach((el) => {
             el.href = cfg.spreads_url;
@@ -814,7 +820,6 @@
       liveList.innerHTML = sortedLives.map((live) => `
         <article class="live-card">
           <div class="live-card__meta">
-            <div class="live-card__id">${live.live_id}</div>
             <div class="live-card__setting">${live.live_setting}</div>
           </div>
           <img class="live-card__image" src="${getLiveImageSrc(live)}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" ${makeImageFallbackAttr()} />
