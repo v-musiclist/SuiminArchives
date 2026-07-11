@@ -410,6 +410,11 @@
     return match ? Number(match[1]) : 0;
   };
 
+  const getSongIdNumber = (songId) => {
+    const match = String(songId).match(/(\d+)/);
+    return match ? Number(match[1]) : 0;
+  };
+
   const resetSubpanelScroll = () => {
     if (subpanelPanel) {
       subpanelPanel.scrollTop = 0;
@@ -628,13 +633,14 @@
     }
   };
 
-  const openSongSubpanel = (song) => {
+  const openSongSubpanel = async (song) => {
     if (!subpanel || !subpanelContent) return;
     resetSubpanelScroll();
 
+    const songTitle = String(song?.song_title || "").trim();
     const karaokeUrl = searchSongFlag ? (song?.karaoke_url || "") : "";
     const karaokeMarkup = searchSongFlag && karaokeUrl
-      ? `<a class="song-subpanel__link" href="${karaokeUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song?.song_title || "曲")} のカラオケ検索を開く">カラオケ検索</a>`
+      ? `<a class="song-subpanel__link" href="${karaokeUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} のカラオケ検索を開く">カラオケ検索</a>`
       : "";
 
     subpanelContent.innerHTML = `
@@ -642,7 +648,7 @@
         <p class="live-subpanel__meta">曲詳細</p>
         <div class="song-subpanel__field">
           <div class="song-subpanel__label">曲名</div>
-          <div class="song-subpanel__value">${escapeHtml(song?.song_title || "曲名未登録")}</div>
+          <div class="song-subpanel__value">${escapeHtml(songTitle || "曲名未登録")}</div>
         </div>
         <div class="song-subpanel__field">
           <div class="song-subpanel__label">歌手</div>
@@ -653,6 +659,10 @@
           <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
         </div>
         ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
+        <div class="song-subpanel__history">
+          <div class="song-subpanel__history-title">履歴</div>
+          <div class="song-subpanel__history-loading">読み込み中...</div>
+        </div>
       </div>
     `;
 
@@ -661,6 +671,107 @@
     const currentState = window.history.state;
     if (currentState?.liveSubpanelOpen !== true) {
       window.history.pushState({ liveSubpanelOpen: true }, "", window.location.href);
+    }
+
+    try {
+      const [musicResponse, liveResponse] = await Promise.all([
+        fetch("./data/download_music_file.json"),
+        fetch("./data/download_live_file.json")
+      ]);
+
+      if (!musicResponse.ok) throw new Error("曲履歴を読み込めませんでした");
+      if (!liveResponse.ok) throw new Error("ライブ情報を読み込めませんでした");
+
+      const musicData = await musicResponse.json();
+      const liveData = await liveResponse.json();
+      const liveTextMap = new Map(
+        (Array.isArray(liveData) ? liveData : []).map((liveEntry) => [String(liveEntry?.live_id || "").trim(), liveEntry?.live_text || ""])
+      );
+
+      const historyEntries = [];
+      (Array.isArray(musicData) ? musicData : []).forEach((liveEntry) => {
+        const liveId = String(liveEntry?.live_id || "").trim();
+        if (!liveId) return;
+
+        (Array.isArray(liveEntry?.songs) ? liveEntry.songs : []).forEach((historySong) => {
+          if (String(historySong?.title || "").trim() !== songTitle) return;
+
+          historyEntries.push({
+            liveId,
+            songId: historySong?.song_id || "",
+            url: historySong?.url || "",
+            liveText: liveTextMap.get(liveId) || ""
+          });
+        });
+      });
+
+      historyEntries.sort((a, b) => {
+        const liveDifference = getLiveIdNumber(a.liveId) - getLiveIdNumber(b.liveId);
+        if (liveDifference !== 0) return liveDifference;
+        return getSongIdNumber(a.songId) - getSongIdNumber(b.songId);
+      });
+
+      const historyMarkup = historyEntries.length
+        ? `<div class="song-subpanel__history-list">${historyEntries.map((entry, index) => `
+            <div class="song-subpanel__history-item">
+              <div class="song-subpanel__history-no">${index + 1}</div>
+              <div class="song-subpanel__history-live">${escapeHtml(entry.liveText || "ライブ未登録")}</div>
+              <a class="song-subpanel__history-link" href="${entry.url || "#"}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} の履歴動画を開く">
+                <img src="./assets/play.png" alt="再生" />
+              </a>
+            </div>
+          `).join("")}</div>`
+        : '<div class="song-subpanel__history-empty">履歴情報はまだありません。</div>';
+
+      if (subpanelContent) {
+        subpanelContent.innerHTML = `
+          <div class="song-subpanel">
+            <p class="live-subpanel__meta">曲詳細</p>
+            <div class="song-subpanel__field">
+              <div class="song-subpanel__label">曲名</div>
+              <div class="song-subpanel__value">${escapeHtml(songTitle || "曲名未登録")}</div>
+            </div>
+            <div class="song-subpanel__field">
+              <div class="song-subpanel__label">歌手</div>
+              <div class="song-subpanel__value">${escapeHtml(song?.singer_name || "歌手未登録")}</div>
+            </div>
+            <div class="song-subpanel__field">
+              <div class="song-subpanel__label">作詞・作曲</div>
+              <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
+            </div>
+            ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
+            <div class="song-subpanel__history">
+              <div class="song-subpanel__history-title">履歴</div>
+              ${historyMarkup}
+            </div>
+          </div>
+        `;
+      }
+    } catch (error) {
+      if (subpanelContent) {
+        subpanelContent.innerHTML = `
+          <div class="song-subpanel">
+            <p class="live-subpanel__meta">曲詳細</p>
+            <div class="song-subpanel__field">
+              <div class="song-subpanel__label">曲名</div>
+              <div class="song-subpanel__value">${escapeHtml(songTitle || "曲名未登録")}</div>
+            </div>
+            <div class="song-subpanel__field">
+              <div class="song-subpanel__label">歌手</div>
+              <div class="song-subpanel__value">${escapeHtml(song?.singer_name || "歌手未登録")}</div>
+            </div>
+            <div class="song-subpanel__field">
+              <div class="song-subpanel__label">作詞・作曲</div>
+              <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
+            </div>
+            ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
+            <div class="song-subpanel__history">
+              <div class="song-subpanel__history-title">履歴</div>
+              <div class="song-subpanel__history-empty">${escapeHtml(error.message || "履歴を読み込めませんでした")}</div>
+            </div>
+          </div>
+        `;
+      }
     }
   };
 
