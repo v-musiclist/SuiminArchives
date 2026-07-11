@@ -237,6 +237,29 @@
   const navToggle = document.getElementById("navToggle");
   const navPanel = document.getElementById("navPanel");
   const navBackdrop = document.getElementById("navBackdrop");
+  const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+  const subpanelScrollToTopBtn = document.getElementById("subpanelScrollToTopBtn");
+  const subpanel = document.getElementById("liveSubpanel");
+  const subpanelPanel = subpanel?.querySelector(".live-subpanel__panel");
+  const subpanelBackdrop = document.getElementById("liveSubpanelBackdrop");
+  const subpanelClose = document.getElementById("liveSubpanelClose");
+  const subpanelContent = document.getElementById("liveSubpanelContent");
+
+  const updateScrollToTopButton = () => {
+    if (!scrollToTopBtn) return;
+
+    const isScrollable = document.documentElement.scrollHeight > window.innerHeight + 1;
+    const isScrolled = window.scrollY > 0 || document.documentElement.scrollTop > 0;
+    scrollToTopBtn.hidden = !(isScrollable && isScrolled);
+  };
+
+  const updateSubpanelScrollToTopButton = () => {
+    if (!subpanelPanel || !subpanelScrollToTopBtn) return;
+
+    const isScrollable = subpanelPanel.scrollHeight > subpanelPanel.clientHeight + 1;
+    const isScrolled = subpanelPanel.scrollTop > 0;
+    subpanelScrollToTopBtn.hidden = !(isScrollable && isScrolled);
+  };
 
   const closeNav = () => {
     if (!navPanel) return;
@@ -258,7 +281,31 @@
     navPanel.classList.contains("open") ? closeNav() : openNav();
   });
 
+  scrollToTopBtn?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  subpanelScrollToTopBtn?.addEventListener("click", () => {
+    if (subpanelPanel) {
+      subpanelPanel.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  });
+
+  subpanelPanel?.addEventListener("scroll", updateSubpanelScrollToTopButton, { passive: true });
+
   navBackdrop?.addEventListener("click", closeNav);
+
+  window.addEventListener("scroll", updateScrollToTopButton, { passive: true });
+  window.addEventListener("resize", () => {
+    updateScrollToTopButton();
+    updateSubpanelScrollToTopButton();
+  });
+  window.addEventListener("load", () => {
+    updateScrollToTopButton();
+    updateSubpanelScrollToTopButton();
+  });
+  updateScrollToTopButton();
+  updateSubpanelScrollToTopButton();
 
   navPanel?.addEventListener("click", (e) => {
     const tabBtn = e.target?.closest?.(".tab");
@@ -354,11 +401,6 @@
   const videoList = document.getElementById("videoList");
   const songSearchForm = document.getElementById("songSearchForm");
   const songSearchInput = document.getElementById("songSearchInput");
-  const subpanel = document.getElementById("liveSubpanel");
-  const subpanelPanel = subpanel?.querySelector(".live-subpanel__panel");
-  const subpanelBackdrop = document.getElementById("liveSubpanelBackdrop");
-  const subpanelClose = document.getElementById("liveSubpanelClose");
-  const subpanelContent = document.getElementById("liveSubpanelContent");
   let sortedLives = [];
   let musicIndex = new Map();
 
