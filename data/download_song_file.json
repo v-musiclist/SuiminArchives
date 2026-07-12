@@ -210,7 +210,7 @@
 		"song_title": "ウィーアー!",
 		"singer_name": "きただにひろし",
 		"lyrics_composition_name": "藤林聖子,田中公平",
-		"find_char": "うぃーあー\nONE PIECE\nオープニングテーマ\n \n ウィーアー! \n きただにひろし \n 藤林聖子,田中公平",
+		"find_char": "うぃーあー\nONE PIECE ワンピース\nオープニングテーマ\n \n ウィーアー! \n きただにひろし \n 藤林聖子,田中公平",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/ti59E0Y2DW0&t=1952s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ウィーアー!"
@@ -238,8 +238,8 @@
 		"singer_name": "Supercell",
 		"lyrics_composition_name": "ryo",
 		"find_char": "うたかたはなび\nNARUTO -ナルト- 疾風伝\nエンディングテーマ\n \n うたかた花火 \n Supercell \n ryo",
-		"sing_count": 6,
-		"sing_url": "https://youtu.be/Y_6UDfkIJ0E&t=5267s",
+		"sing_count": 7,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=1965s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=うたかた花火"
 	},
 	{
@@ -391,8 +391,8 @@
 		"singer_name": "アイナ・ジ・エンド",
 		"lyrics_composition_name": "アイナ・ジ・エンド,Shin Sakiura",
 		"find_char": "かくめいどうちゅう\nダンダダン\nオープニングテーマ\n \n 革命道中 \n アイナ・ジ・エンド \n アイナ・ジ・エンド,Shin Sakiura",
-		"sing_count": 5,
-		"sing_url": "https://youtu.be/QYnf1CMOzpg&t=8019s",
+		"sing_count": 6,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=3676s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=革命道中"
 	},
 	{
@@ -759,7 +759,7 @@
 		"song_title": "ココロのちず",
 		"singer_name": "BOYSTYLE",
 		"lyrics_composition_name": "ＭＩＺＵＥ,渡辺和紀",
-		"find_char": "こころのちず\nONE PIECE\nオープニングテーマ\n \n ココロのちず \n BOYSTYLE \n ＭＩＺＵＥ,渡辺和紀",
+		"find_char": "こころのちず\nONE PIECE ワンピース\nオープニングテーマ\n \n ココロのちず \n BOYSTYLE \n ＭＩＺＵＥ,渡辺和紀",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/Hk3My1uNVaQ&t=3694s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ココロのちず"
@@ -993,7 +993,7 @@
 		"song_title": "新時代",
 		"singer_name": "Ado",
 		"lyrics_composition_name": "中田ヤスタカ",
-		"find_char": "しんじだい\nONE PIECE FILM RED 主題歌\nONE PIECE オープニングテーマ\n \n 新時代 \n Ado \n 中田ヤスタカ",
+		"find_char": "しんじだい\nONE PIECE FILM RED 主題歌\nワンピース オープニングテーマ\n \n 新時代 \n Ado \n 中田ヤスタカ",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/OPgNJUFWd7k&t=2236s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=新時代"
@@ -1201,8 +1201,8 @@
 		"singer_name": "中川翔子",
 		"lyrics_composition_name": "グミ,日向 めぐみ,meg rock,齋藤真也",
 		"find_char": "そらいろでいず\n天元突破グレンラガン\nオープニングテーマ\n \n 空色デイズ \n 中川翔子 \n グミ,日向 めぐみ,meg rock,齋藤真也",
-		"sing_count": 6,
-		"sing_url": "https://youtu.be/GF8VuInYK64&t=8080s",
+		"sing_count": 7,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=4075s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=空色デイズ"
 	},
 	{
@@ -1476,12 +1476,21 @@
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=Don't say“lazy”"
 	},
 	{
+		"song_title": "ナイショの話",
+		"singer_name": "ClariS",
+		"lyrics_composition_name": "ryo",
+		"find_char": "ないしょのはなし\n偽物語\nエンディングテーマ\n \n ナイショの話 \n ClariS \n ryo",
+		"sing_count": 1,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=2554s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ナイショの話"
+	},
+	{
 		"song_title": "名前のない怪物",
 		"singer_name": "EGOIST",
 		"lyrics_composition_name": "ryo",
 		"find_char": "なまえのないかいぶつ\nPSYCHO-PASS サイコパス\nエンディングテーマ\n \n 名前のない怪物 \n EGOIST \n ryo",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/GF8VuInYK64&t=7259s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=3027s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=名前のない怪物"
 	},
 	{
@@ -1606,8 +1615,8 @@
 		"singer_name": "ヨルシカ",
 		"lyrics_composition_name": "n-buna,ナブナ",
 		"find_char": "はなにぼうれい\n泣きたい私は猫をかぶる\n主題歌\n \n 花に亡霊 \n ヨルシカ \n n-buna,ナブナ",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/GF8VuInYK64&t=7764s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=1486s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=花に亡霊"
 	},
 	{
@@ -1705,8 +1714,8 @@
 		"singer_name": "tuki.",
 		"lyrics_composition_name": "tuki.",
 		"find_char": "ばんさんか\n \n 晩餐歌 \n tuki. \n tuki.",
-		"sing_count": 9,
-		"sing_url": "https://youtu.be/GnknaZU6Gm8&t=1075s",
+		"sing_count": 10,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=1129s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=晩餐歌"
 	},
 	{
@@ -1767,7 +1776,7 @@
 		"song_title": "ビンクスの酒",
 		"singer_name": "麦わら海賊団",
 		"lyrics_composition_name": "尾田栄一郎,田中公平",
-		"find_char": "びんくすのさけ\nONE PIECE 挿入歌\n \n ビンクスの酒 \n 麦わら海賊団 \n 尾田栄一郎,田中公平",
+		"find_char": "びんくすのさけ\nONE PIECE ワンピース\n挿入歌\n \n ビンクスの酒 \n 麦わら海賊団 \n 尾田栄一郎,田中公平",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/ti59E0Y2DW0&t=1120s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ビンクスの酒"
@@ -2092,8 +2101,8 @@
 		"singer_name": "鏡音リン",
 		"lyrics_composition_name": "Junky",
 		"find_char": "めらんこりっく\n \n メランコリック \n 鏡音リン \n Junky",
-		"sing_count": 6,
-		"sing_url": "https://youtu.be/erVS0hPklSs&t=5999s",
+		"sing_count": 7,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=622s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=メランコリック"
 	},
 	{
@@ -2371,8 +2380,8 @@
 		"singer_name": "BUMP OF CHICKEN",
 		"lyrics_composition_name": "藤原基央",
 		"find_char": "れい\n \n ray \n BUMP OF CHICKEN \n 藤原基央",
-		"sing_count": 3,
-		"sing_url": "https://youtu.be/POZerWTfGF4&t=3933s",
+		"sing_count": 4,
+		"sing_url": "https://youtu.be/NZAgEWQ1X_g&t=4450s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ray"
 	},
 	{
@@ -2469,7 +2478,7 @@
 		"song_title": "私は最強",
 		"singer_name": "Ado",
 		"lyrics_composition_name": "大森元貴",
-		"find_char": "わたしはさいきょう\nONE PIECE FILM RED\n劇中歌\n \n 私は最強 \n Ado \n 大森元貴",
+		"find_char": "わたしはさいきょう\nONE PIECE FILM RED\nワンピース\n劇中歌\n \n 私は最強 \n Ado \n 大森元貴",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/ti59E0Y2DW0&t=5704s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=私は最強"

@@ -6242,5 +6242,73 @@
 				"url": "https://youtu.be/erVS0hPklSs&t=7549s"
 			}
 		]
+	},
+	{
+		"live_id": "L064",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "メランコリック",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=622s"
+			},
+			{
+				"song_id": "S002",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=1129s"
+			},
+			{
+				"song_id": "S003",
+				"title": "花に亡霊",
+				"singer": "ヨルシカ",
+				"lyrics_composition": "n-buna,ナブナ",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=1486s"
+			},
+			{
+				"song_id": "S004",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=1965s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ナイショの話",
+				"singer": "ClariS",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=2554s"
+			},
+			{
+				"song_id": "S006",
+				"title": "名前のない怪物",
+				"singer": "EGOIST",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=3027s"
+			},
+			{
+				"song_id": "S007",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=3676s"
+			},
+			{
+				"song_id": "S008",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=4075s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ray",
+				"singer": "BUMP OF CHICKEN",
+				"lyrics_composition": "藤原基央",
+				"url": "https://youtu.be/NZAgEWQ1X_g&t=4450s"
+			}
+		]
 	}
 ]
