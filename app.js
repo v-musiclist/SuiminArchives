@@ -242,6 +242,10 @@
           if (musicUpdateNote) {
             musicUpdateNote.textContent = `${cfg.date} 更新`;
           }
+          const videoUpdateNote = document.getElementById('videoUpdateNote');
+          if (videoUpdateNote) {
+            videoUpdateNote.textContent = `${cfg.date} 更新`;
+          }
           const contactUpdateNote = document.getElementById('contactUpdateNote');
           if (contactUpdateNote) {
             contactUpdateNote.textContent = `${cfg.date} 更新`;
@@ -680,7 +684,7 @@
         </div>
         ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
         <div class="song-subpanel__history">
-          <div class="song-subpanel__history-title">履歴</div>
+          <div class="song-subpanel__history-title">History</div>
           <div class="song-subpanel__history-loading">読み込み中...</div>
         </div>
       </div>
@@ -761,7 +765,7 @@
             </div>
             ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
             <div class="song-subpanel__history">
-              <div class="song-subpanel__history-title">履歴</div>
+              <div class="song-subpanel__history-title">History</div>
               ${historyMarkup}
             </div>
           </div>
@@ -786,7 +790,7 @@
             </div>
             ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
             <div class="song-subpanel__history">
-              <div class="song-subpanel__history-title">履歴</div>
+              <div class="song-subpanel__history-title">History</div>
               <div class="song-subpanel__history-empty">${escapeHtml(error.message || "履歴を読み込めませんでした")}</div>
             </div>
           </div>

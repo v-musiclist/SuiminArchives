@@ -3396,7 +3396,6 @@ body:not(.no-anim) .chip {
 }
 
 .live-section{max-width:1200px; margin:24px auto 0; padding:18px 14px 80px;}
-.live-panel{margin:0;}
 .live-list{display:grid; grid-template-columns:repeat(4, minmax(0, 1fr)); gap:16px;}
 .live-card{position:relative; overflow:hidden; border:1px solid var(--line); background:rgba(255,255,255,.03); border-radius:16px; padding:12px; display:flex; flex-direction:column; gap:10px;}
 .live-card__image{width:100%; aspect-ratio:16/9; object-fit:cover; display:block; border-radius:12px; background:var(--card2);}
