@@ -12,7 +12,7 @@
 		"song_title": "アイデンティティ",
 		"singer_name": "宵崎奏,初音ミク",
 		"lyrics_composition_name": "Kanaria",
-		"find_char": "あいでんてぃてぃ\nプロジェクトセカイ カラフルステージ！ feat.初音ミク\nカップヌードル×プロジェクトセカイ コラボ\n \n アイデンティティ \n 宵崎奏,初音ミク \n Kanaria",
+		"find_char": "あいでんてぃてぃ\nプロジェクトセカイ カラフルステージ！ feat. 初音ミク プロセカ\nカップヌードル×プロジェクトセカイ コラボ\n \n アイデンティティ \n 宵崎奏,初音ミク \n Kanaria",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/7_8EpXntvh8&t=1899s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=アイデンティティ"
@@ -84,7 +84,7 @@
 		"song_title": "again",
 		"singer_name": "YUI",
 		"lyrics_composition_name": "YUI",
-		"find_char": "あげいん\n鋼の錬金術師 FULLMETAL ALCHEMIST(2009年)\nオープニングテーマ\n \n again \n YUI \n YUI",
+		"find_char": "あげいん\n鋼の錬金術師 FULLMETAL ALCHEMIST(2009年) ハガレン\nオープニングテーマ\n \n again \n YUI \n YUI",
 		"sing_count": 6,
 		"sing_url": "https://youtu.be/GF8VuInYK64&t=5660s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=again"
@@ -228,7 +228,7 @@
 		"song_title": "嘘",
 		"singer_name": "シド",
 		"lyrics_composition_name": "マオ,ゆうや",
-		"find_char": "うそ\n鋼の錬金術師 FULLMETAL ALCHEMIST\nエンディングテーマ\n \n 嘘 \n シド \n マオ,ゆうや",
+		"find_char": "うそ\n鋼の錬金術師 FULLMETAL ALCHEMIST ハガレン\nエンディングテーマ\n \n 嘘 \n シド \n マオ,ゆうや",
 		"sing_count": 4,
 		"sing_url": "https://youtu.be/3TN6tjfCQDw&t=9110s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=嘘"
@@ -399,7 +399,7 @@
 		"song_title": "カゲロウデイズ",
 		"singer_name": "初音ミク",
 		"lyrics_composition_name": "じん,自然の敵P",
-		"find_char": "かげろうでいず\nカゲロウプロジェクト 楽曲\r\nメカクシティアクターズ　挿入歌\n \n カゲロウデイズ \n 初音ミク \n じん,自然の敵P",
+		"find_char": "かげろうでいず\nカゲロウプロジェクト カゲプロ 楽曲\r\nメカクシティアクターズ　挿入歌\n \n カゲロウデイズ \n 初音ミク \n じん,自然の敵P",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/3TN6tjfCQDw&t=6055s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=カゲロウデイズ"
@@ -408,7 +408,7 @@
 		"song_title": "風といっしょに",
 		"singer_name": "小林幸子",
 		"lyrics_composition_name": "戸田昭吾,たなかひろかず",
-		"find_char": "かぜといっしょに\n劇場版ポケットモンスター ミュウツーの逆襲\nエンディングテーマ\n \n 風といっしょに \n 小林幸子 \n 戸田昭吾,たなかひろかず",
+		"find_char": "かぜといっしょに\n劇場版ポケットモンスター ミュウツーの逆襲\nポケモン\nエンディングテーマ\n \n 風といっしょに \n 小林幸子 \n 戸田昭吾,たなかひろかず",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/Q34amvANA5I&t=5139s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=風といっしょに"
@@ -660,7 +660,7 @@
 		"song_title": "消せない罪",
 		"singer_name": "北出菜奈",
 		"lyrics_composition_name": "北出菜奈,西川進",
-		"find_char": "けせないつみ\n鋼の錬金術師(2003年)\nエンディングテーマ\n \n 消せない罪 \n 北出菜奈 \n 北出菜奈,西川進",
+		"find_char": "けせないつみ\n鋼の錬金術師(2003年) ハガレン\nエンディングテーマ\n \n 消せない罪 \n 北出菜奈 \n 北出菜奈,西川進",
 		"sing_count": 4,
 		"sing_url": "https://youtu.be/LgKkg5Hl584&t=9685s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=消せない罪"
@@ -795,7 +795,7 @@
 		"song_title": "ゴールデンタイムラバー",
 		"singer_name": "スキマスイッチ",
 		"lyrics_composition_name": "スキマスイッチ",
-		"find_char": "ごーるでんたいむらばー\n鋼の錬金術師 FULLMETAL ALCHEMIST\nオープニングテーマ\n \n ゴールデンタイムラバー \n スキマスイッチ \n スキマスイッチ",
+		"find_char": "ごーるでんたいむらばー\n鋼の錬金術師 FULLMETAL ALCHEMIST ハガレン\nオープニングテーマ\n \n ゴールデンタイムラバー \n スキマスイッチ \n スキマスイッチ",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/GnknaZU6Gm8&t=4373s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ゴールデンタイムラバー"
@@ -822,7 +822,7 @@
 		"song_title": "桜ロック",
 		"singer_name": "CHERRYBLOSSOM",
 		"lyrics_composition_name": "MEEKO",
-		"find_char": "さくらろっく\n家庭教師ヒットマンREBORN!\nエンディングテーマ\n \n 桜ロック \n CHERRYBLOSSOM \n MEEKO",
+		"find_char": "さくらろっく\n家庭教師ヒットマンREBORN! リボーン\nエンディングテーマ\n \n 桜ロック \n CHERRYBLOSSOM \n MEEKO",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/bifjIs2UHGI&t=1116s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=桜ロック"
@@ -912,7 +912,7 @@
 		"song_title": "瞬間センチメンタル",
 		"singer_name": "SCANDAL",
 		"lyrics_composition_name": "SCANDAL,小林夏海,田鹿祐一",
-		"find_char": "しゅんかんせんちめんたる\n鋼の錬金術師 FULLMETAL ALCHEMIST(2009年)\nエンディングテーマ\n \n 瞬間センチメンタル \n SCANDAL \n SCANDAL,小林夏海,田鹿祐一",
+		"find_char": "しゅんかんせんちめんたる\n鋼の錬金術師 FULLMETAL ALCHEMIST(2009年) ハガレン\nエンディングテーマ\n \n 瞬間センチメンタル \n SCANDAL \n SCANDAL,小林夏海,田鹿祐一",
 		"sing_count": 4,
 		"sing_url": "https://youtu.be/8SoMZYV-iu8&t=5007s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=瞬間センチメンタル"
@@ -930,7 +930,7 @@
 		"song_title": "少女S",
 		"singer_name": "SCANDAL",
 		"lyrics_composition_name": "TOMOMI,田鹿祐一",
-		"find_char": "しょうじょえす\nBLEACH\nオープニングテーマ\n \n 少女S \n SCANDAL \n TOMOMI,田鹿祐一",
+		"find_char": "しょうじょえす\nBLEACH ブリーチ 鰤\nオープニングテーマ\n \n 少女S \n SCANDAL \n TOMOMI,田鹿祐一",
 		"sing_count": 4,
 		"sing_url": "https://youtu.be/GF8VuInYK64&t=5187s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=少女S"
@@ -1218,7 +1218,7 @@
 		"song_title": "タイプ:ワイルド",
 		"singer_name": "松本梨香",
 		"lyrics_composition_name": "戸田昭吾,たなかひろかず",
-		"find_char": "たいぷわいるど\nポケットモンスター\nエンディングテーマ\n \n タイプ:ワイルド \n 松本梨香 \n 戸田昭吾,たなかひろかず",
+		"find_char": "たいぷわいるど\nポケットモンスター\nポケモン\nエンディングテーマ\n \n タイプ:ワイルド \n 松本梨香 \n 戸田昭吾,たなかひろかず",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/6iF8zhhO20k&t=3108s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=タイプ:ワイルド"
@@ -1317,7 +1317,7 @@
 		"song_title": "小さきもの",
 		"singer_name": "林明日香",
 		"lyrics_composition_name": "三浦徳子,山移高寛",
-		"find_char": "ちいさきもの\n劇場版ポケットモンスター アドバンスジェネレーション\n七夜の願い星 ジラーチ\nエンディングテーマ\n \n 小さきもの \n 林明日香 \n 三浦徳子,山移高寛",
+		"find_char": "ちいさきもの\n劇場版ポケットモンスター アドバンスジェネレーション\n七夜の願い星 ジラーチ ポケモン\nエンディングテーマ\n \n 小さきもの \n 林明日香 \n 三浦徳子,山移高寛",
 		"sing_count": 4,
 		"sing_url": "https://youtu.be/Q34amvANA5I&t=1366s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=小さきもの"
@@ -1821,7 +1821,7 @@
 		"song_title": "Flyway",
 		"singer_name": "望月穂波,鏡音レン,星乃一歌,天馬咲希,日野森志歩",
 		"lyrics_composition_name": "halyosy",
-		"find_char": "ふらいうぇい\nプロジェクトセカイ カラフルステージ！ feat.初音ミク\nLeo/need 楽曲\n \n Flyway \n 望月穂波,鏡音レン,星乃一歌,天馬咲希,日野森志歩 \n halyosy",
+		"find_char": "ふらいうぇい\nプロジェクトセカイ カラフルステージ！ feat. 初音ミク プロセカ\nLeo/need 楽曲\n \n Flyway \n 望月穂波,鏡音レン,星乃一歌,天馬咲希,日野森志歩 \n halyosy",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/6iF8zhhO20k&t=1766s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=Flyway"
@@ -1875,7 +1875,7 @@
 		"song_title": "プラチナ",
 		"singer_name": "坂本真綾",
 		"lyrics_composition_name": "岩里祐穂,菅野よう子",
-		"find_char": "ぷらちな\nカードキャプターさくら\nオープニングテーマ\n \n プラチナ \n 坂本真綾 \n 岩里祐穂,菅野よう子",
+		"find_char": "ぷらちな\nカードキャプターさくら CCさくら\nオープニングテーマ\n \n プラチナ \n 坂本真綾 \n 岩里祐穂,菅野よう子",
 		"sing_count": 5,
 		"sing_url": "https://youtu.be/krIBWDSc3i8&t=4808s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=プラチナ"
@@ -2082,7 +2082,7 @@
 		"song_title": "めざせポケモンマスター",
 		"singer_name": "松本梨香",
 		"lyrics_composition_name": "戸田昭吾,たなかひろかず",
-		"find_char": "めざせぽけもんますたー\nポケットモンスター(1997年)\nオープニングテーマ\n \n めざせポケモンマスター \n 松本梨香 \n 戸田昭吾,たなかひろかず",
+		"find_char": "めざせぽけもんますたー\nポケットモンスター(1997年)\nポケモン\nオープニングテーマ\n \n めざせポケモンマスター \n 松本梨香 \n 戸田昭吾,たなかひろかず",
 		"sing_count": 3,
 		"sing_url": "https://youtu.be/Y_6UDfkIJ0E&t=8489s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=めざせポケモンマスター"
@@ -2109,7 +2109,7 @@
 		"song_title": "メリッサ",
 		"singer_name": "ポルノグラフィティ",
 		"lyrics_composition_name": "新藤晴一,ak.homma",
-		"find_char": "めりっさ\n鋼の錬金術師\nオープニングテーマ\n \n メリッサ \n ポルノグラフィティ \n 新藤晴一,ak.homma",
+		"find_char": "めりっさ\n鋼の錬金術師 ハガレン\nオープニングテーマ\n \n メリッサ \n ポルノグラフィティ \n 新藤晴一,ak.homma",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/kJFM72yd53w&t=8182s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=メリッサ"
@@ -2172,7 +2172,7 @@
 		"song_title": "ももいろの鍵",
 		"singer_name": "桃井愛莉,日野森雫,巡音ルカ,花里みのり,桐谷遥",
 		"lyrics_composition_name": "いよわ",
-		"find_char": "ももいろのかぎ\nプロジェクトセカイ カラフルステージ！ feat.初音ミク\nMORE MORE JUMP! 楽曲\n \n ももいろの鍵 \n 桃井愛莉,日野森雫,巡音ルカ,花里みのり,桐谷遥 \n いよわ",
+		"find_char": "ももいろのかぎ\nプロジェクトセカイ カラフルステージ！ feat. 初音ミク プロセカ\nMORE MORE JUMP! 楽曲\n \n ももいろの鍵 \n 桃井愛莉,日野森雫,巡音ルカ,花里みのり,桐谷遥 \n いよわ",
 		"sing_count": 0,
 		"sing_url": "null",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ももいろの鍵"
@@ -2334,7 +2334,7 @@
 		"song_title": "リライト",
 		"singer_name": "ASIAN KUNG-FU GENERATION",
 		"lyrics_composition_name": "後藤正文",
-		"find_char": "りらいと\n鋼の錬金術師(2003年)\nオープニングテーマ\n \n リライト \n ASIAN KUNG-FU GENERATION \n 後藤正文",
+		"find_char": "りらいと\n鋼の錬金術師(2003年) ハガレン\nオープニングテーマ\n \n リライト \n ASIAN KUNG-FU GENERATION \n 後藤正文",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/bifjIs2UHGI&t=5361s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=リライト"
@@ -2424,7 +2424,7 @@
 		"song_title": "ロウワー",
 		"singer_name": "MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名",
 		"lyrics_composition_name": "ぬゆり,ヌルット,Lanndo",
-		"find_char": "ろうわー\nプロジェクトセカイ カラフルステージ！ feat.初音ミク\n25時、ナイトコードで。 楽曲\n \n ロウワー \n MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名 \n ぬゆり,ヌルット,Lanndo",
+		"find_char": "ろうわー\nプロジェクトセカイ カラフルステージ！ feat. 初音ミク プロセカ\n25時、ナイトコードで。 楽曲\n \n ロウワー \n MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名 \n ぬゆり,ヌルット,Lanndo",
 		"sing_count": 2,
 		"sing_url": "https://youtu.be/ti59E0Y2DW0&t=8208s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ロウワー"
@@ -2460,7 +2460,7 @@
 		"song_title": "Rolling star",
 		"singer_name": "YUI",
 		"lyrics_composition_name": "YUI",
-		"find_char": "ろーりんぐすたー\nBLEACH\nオープニングテーマ\n \n Rolling star \n YUI \n YUI",
+		"find_char": "ろーりんぐすたー\nBLEACH ブリーチ 鰤\nオープニングテーマ\n \n Rolling star \n YUI \n YUI",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/v3H8yDfl-kg&t=4620s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=Rolling star"
