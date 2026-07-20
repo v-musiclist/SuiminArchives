@@ -6310,5 +6310,87 @@
 				"url": "https://youtu.be/NZAgEWQ1X_g&t=4450s"
 			}
 		]
+	},
+	{
+		"live_id": "L065",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=243s"
+			},
+			{
+				"song_id": "S002",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=546s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ナイショの話",
+				"singer": "ClariS",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=923s"
+			},
+			{
+				"song_id": "S004",
+				"title": "Calc.",
+				"singer": "初音ミク",
+				"lyrics_composition": "ジミーサムP,OneRoom",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=1311s"
+			},
+			{
+				"song_id": "S005",
+				"title": "リードコントロール",
+				"singer": "なるみや",
+				"lyrics_composition": "なるみや",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=1681s"
+			},
+			{
+				"song_id": "S006",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=1928s"
+			},
+			{
+				"song_id": "S007",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=2179s"
+			},
+			{
+				"song_id": "S008",
+				"title": "Mela!",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,小林壱誓,peppe,穴見真吾",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=2638s"
+			},
+			{
+				"song_id": "S009",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=3052s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ノーザンクロス",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "岩里祐穂,Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=3512s"
+			},
+			{
+				"song_id": "S011",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/X3fpK8NeUjY&t=3918s"
+			}
+		]
 	}
 ]
