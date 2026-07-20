@@ -6392,5 +6392,52 @@
 				"url": "https://youtu.be/X3fpK8NeUjY&t=3918s"
 			}
 		]
+	},
+	{
+		"live_id": "L066",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "とくべチュ、して",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,浦島健太,菊池博人",
+				"url": "https://youtu.be/sjql-hs9We8&t=432s"
+			},
+			{
+				"song_id": "S002",
+				"title": "少女レイ",
+				"singer": "初音ミク",
+				"lyrics_composition": "みきとP,愛島",
+				"url": "https://youtu.be/sjql-hs9We8&t=994s"
+			},
+			{
+				"song_id": "S003",
+				"title": "secret base〜君がくれたもの〜",
+				"singer": "ZONE",
+				"lyrics_composition": "町田紀彦",
+				"url": "https://youtu.be/sjql-hs9We8&t=1643s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ワールドイズマイン",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/sjql-hs9We8&t=2322s"
+			},
+			{
+				"song_id": "S005",
+				"title": "うたかた花火",
+				"singer": "Supercell",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/sjql-hs9We8&t=2863s"
+			},
+			{
+				"song_id": "S006",
+				"title": "メルティメロディー",
+				"singer": "酔眠はやね,天草フラン",
+				"lyrics_composition": "めろくる",
+				"url": "https://youtu.be/sjql-hs9We8&t=3653s"
+			}
+		]
 	}
 ]
