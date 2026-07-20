@@ -822,7 +822,7 @@
 		"song_title": "桜ロック",
 		"singer_name": "CHERRYBLOSSOM",
 		"lyrics_composition_name": "MEEKO",
-		"find_char": "さくらろっく\n家庭教師ヒットマンREBORN! リボーン\nエンディングテーマ\n \n 桜ロック \n CHERRYBLOSSOM \n MEEKO",
+		"find_char": "さくらろっく\n家庭教師ヒットマンREBORN! リボーン\nエンディングテーマ\n復活 \n 桜ロック \n CHERRYBLOSSOM \n MEEKO",
 		"sing_count": 1,
 		"sing_url": "https://youtu.be/bifjIs2UHGI&t=1116s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=桜ロック"
@@ -2115,6 +2115,15 @@
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=メリッサ"
 	},
 	{
+		"song_title": "メルティメロディー",
+		"singer_name": "酔眠はやね,天草フラン",
+		"lyrics_composition_name": "めろくる",
+		"find_char": "めるてぃめろでぃー\nVocaDuo2025投稿曲\nボカデュオ2025 team メルティフロッピー\n \n メルティメロディー \n 酔眠はやね,天草フラン \n めろくる",
+		"sing_count": 1,
+		"sing_url": "https://youtu.be/sjql-hs9We8&t=3653s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=メルティメロディー"
+	},
+	{
 		"song_title": "メルト",
 		"singer_name": "初音ミク",
 		"lyrics_composition_name": "ryo",
@@ -2284,15 +2293,6 @@
 		"sing_count": 3,
 		"sing_url": "https://youtu.be/QYnf1CMOzpg&t=3270s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ライラック"
-	},
-	{
-		"song_title": "メルティメロディー",
-		"singer_name": "酔眠はやね,天草フラン",
-		"lyrics_composition_name": "めろくる",
-		"find_char": "らっきーからー\nVocaDuo2025投稿曲\nボカデュオ2025 team メルティフロッピー\n \n メルティメロディー \n 酔眠はやね,天草フラン \n めろくる",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/sjql-hs9We8&t=3653s",
-		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=メルティメロディー"
 	},
 	{
 		"song_title": "ラヴィ",
