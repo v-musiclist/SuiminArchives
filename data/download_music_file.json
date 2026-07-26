@@ -6439,5 +6439,101 @@
 				"url": "https://youtu.be/sjql-hs9We8&t=3653s"
 			}
 		]
+	},
+	{
+		"live_id": "L067",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "夏祭り",
+				"singer": "JITTERIN'JINN",
+				"lyrics_composition": "破矢ジンタ",
+				"url": "https://youtu.be/kyjwXpQM_98&t=734s"
+			},
+			{
+				"song_id": "S002",
+				"title": "打上花火",
+				"singer": "DAOKO",
+				"lyrics_composition": "米津玄師 ",
+				"url": "https://youtu.be/kyjwXpQM_98&t=1457s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ファジーネーブル",
+				"singer": "Conton Candy",
+				"lyrics_composition": "Conton Candy",
+				"url": "https://youtu.be/kyjwXpQM_98&t=2056s"
+			},
+			{
+				"song_id": "S004",
+				"title": "烈車戦隊トッキュウジャー",
+				"singer": "伊勢大貴",
+				"lyrics_composition": "渡部紫緒,坂部剛",
+				"url": "https://youtu.be/kyjwXpQM_98&t=2701s"
+			},
+			{
+				"song_id": "S005",
+				"title": "Climax Jump",
+				"singer": "AAA",
+				"lyrics_composition": "藤林聖子,鳴瀬シュウヘイ",
+				"url": "https://youtu.be/kyjwXpQM_98&t=3152s"
+			},
+			{
+				"song_id": "S006",
+				"title": "悲しみをやさしさに",
+				"singer": "little by little",
+				"lyrics_composition": "tetsuhiko,十川知司",
+				"url": "https://youtu.be/kyjwXpQM_98&t=3690s"
+			},
+			{
+				"song_id": "S007",
+				"title": "きみの て",
+				"singer": "Every Little Thing",
+				"lyrics_composition": "持田香織,HIKARI",
+				"url": "https://youtu.be/kyjwXpQM_98&t=4057s"
+			},
+			{
+				"song_id": "S008",
+				"title": "風といっしょに",
+				"singer": "小林幸子",
+				"lyrics_composition": "戸田昭吾,たなかひろかず",
+				"url": "https://youtu.be/kyjwXpQM_98&t=4631s"
+			},
+			{
+				"song_id": "S009",
+				"title": "水流のロック",
+				"singer": "日食なつこ",
+				"lyrics_composition": "日食なつこ",
+				"url": "https://youtu.be/kyjwXpQM_98&t=5612s"
+			},
+			{
+				"song_id": "S010",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/kyjwXpQM_98&t=5874s"
+			},
+			{
+				"song_id": "S011",
+				"title": "モニタリング",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/kyjwXpQM_98&t=6215s"
+			},
+			{
+				"song_id": "S012",
+				"title": "恋はア・ラ・モード",
+				"singer": "桃宮いちご,藍沢みんと,碧川れたす,黄歩鈴,藤原ざくろ",
+				"lyrics_composition": "ホンダタカノブ",
+				"url": "https://youtu.be/kyjwXpQM_98&t=7107s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ライオン",
+				"singer": "May'n,中島愛",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/kyjwXpQM_98&t=7449s"
+			}
+		]
 	}
 ]
