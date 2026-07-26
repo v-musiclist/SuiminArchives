@@ -250,6 +250,10 @@
           if (contactUpdateNote) {
             contactUpdateNote.textContent = `${cfg.date} 更新`;
           }
+          const omakeUpdateNote = document.getElementById('omakeUpdateNote');
+          if (omakeUpdateNote) {
+            omakeUpdateNote.textContent = `${cfg.date} 更新`;
+          }
         }
       }
     } catch (error) {
@@ -358,6 +362,8 @@
         return "video";
       case "contact":
         return "contact";
+      case "omake":
+        return "omake";
       default:
         return "home";
     }
@@ -373,6 +379,8 @@
         return "#video";
       case "contact":
         return "#contact";
+      case "omake":
+        return "#omake";
       default:
         return "#home";
     }
@@ -423,11 +431,17 @@
 
   const liveList = document.getElementById("liveList");
   const songList = document.getElementById("songList");
+  const omakeList = document.getElementById("omakeList");
+  const omakeSortCountBtn = document.getElementById("omakeSortCountBtn");
+  const omakeSortDateBtn = document.getElementById("omakeSortDateBtn");
+  const omakeSortResetBtn = document.getElementById("omakeSortResetBtn");
   const videoList = document.getElementById("videoList");
   const songSearchForm = document.getElementById("songSearchForm");
   const songSearchInput = document.getElementById("songSearchInput");
   let sortedLives = [];
   let musicIndex = new Map();
+  let omakeSortCountState = "default";
+  let omakeSortDateState = "default";
 
   const getLiveIdNumber = (liveId) => {
     const match = String(liveId).match(/(\d+)/);
@@ -513,6 +527,114 @@
     if (!searchSongFlag) return "";
     const karaokeUrl = typeof song?.used_find_song === 'string' ? song.used_find_song.trim() : '';
     return karaokeUrl || "";
+  };
+
+  const parseSingDay = (value) => {
+    const text = String(value ?? "").trim();
+    const match = text.match(/^(\d{2,})年(\d{2})月(\d{2})日$/);
+    if (!match) return 0;
+    const [, year, month, day] = match;
+    return Number(year) * 10000 + Number(month) * 100 + Number(day);
+  };
+
+  const updateOmakeSortButtons = () => {
+    if (!omakeSortCountBtn || !omakeSortDateBtn || !omakeSortResetBtn) return;
+
+    const getArrow = (state) => {
+      if (state === "asc") return "▲";
+      if (state === "desc") return "▼";
+      return "";
+    };
+
+    omakeSortCountBtn.textContent = `歌唱回数 ${getArrow(omakeSortCountState)}`.trim();
+    omakeSortDateBtn.textContent = `日付 ${getArrow(omakeSortDateState)}`.trim();
+
+    omakeSortCountBtn.classList.toggle("active", omakeSortCountState !== "default");
+    omakeSortDateBtn.classList.toggle("active", omakeSortDateState !== "default");
+    omakeSortResetBtn.classList.toggle("active", omakeSortCountState !== "default" || omakeSortDateState !== "default");
+  };
+
+  const sortOmakeItems = (items) => {
+    const compareNumber = (a, b, direction) => {
+      return direction === "asc" ? a - b : b - a;
+    };
+
+    const compareDate = (a, b, direction) => {
+      const left = parseSingDay(a);
+      const right = parseSingDay(b);
+      return direction === "asc" ? left - right : right - left;
+    };
+
+    if (omakeSortCountState === "default" && omakeSortDateState === "default") {
+      return [...items];
+    }
+
+    return [...items].sort((a, b) => {
+      if (omakeSortCountState !== "default") {
+        const result = compareNumber(Number(a?.sing_count ?? 0), Number(b?.sing_count ?? 0), omakeSortCountState);
+        if (result !== 0) return result;
+      }
+
+      if (omakeSortDateState !== "default") {
+        const result = compareDate(a?.sing_day, b?.sing_day, omakeSortDateState);
+        if (result !== 0) return result;
+      }
+
+      return 0;
+    });
+  };
+
+  const renderOmakeSongList = (rows) => {
+    if (!omakeList) return;
+
+    if (!rows.length) {
+      omakeList.innerHTML = '<p class="song-list__empty">対象の曲が見つかりませんでした</p>';
+      return;
+    }
+
+    omakeList.innerHTML = `
+      <div class="song-list__header">
+        <span class="song-list__col song-list__col--title">曲名</span>
+        <span class="song-list__col song-list__col--singer">歌唱回数</span>
+        <span class="song-list__col song-list__col--url">日付</span>
+        <span class="song-list__col song-list__col--detail">URL</span>
+      </div>
+      ${rows.map((song) => {
+        const songUrl = hasSongLink(song) ? String(song.sing_url).trim() : "";
+        const urlLinkMarkup = songUrl
+          ? `<a class="song-list__link" href="${songUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} の動画を開く"><img src="./assets/play.png" alt="再生" /></a>`
+          : '<span class="song-list__empty">URLなし</span>';
+
+        return `
+          <div class="song-list__row">
+            <div class="song-list__cell song-list__cell--title">${escapeHtml(song.song_title || "曲名未登録")}</div>
+            <div class="song-list__cell song-list__cell--singer">${escapeHtml(String(song.sing_count || ""))}</div>
+            <div class="song-list__cell song-list__cell--url">${escapeHtml(song.sing_day || "")} </div>
+            <div class="song-list__cell song-list__cell--detail">${urlLinkMarkup}</div>
+          </div>
+        `;
+      }).join("")}
+    `;
+  };
+
+  const renderOmakeList = async () => {
+    if (!omakeList) return;
+
+    try {
+      const response = await fetch("./data/download_song_file.json");
+      if (!response.ok) throw new Error("OMAKE用の曲データを読み込めませんでした");
+
+      const songs = await response.json();
+      const items = Array.isArray(songs) ? songs : [];
+      const filteredItems = items.filter((song) => {
+        const count = Number(song?.sing_count ?? 0);
+        return count >= 1;
+      });
+
+      renderOmakeSongList(sortOmakeItems(filteredItems));
+    } catch (error) {
+      omakeList.innerHTML = `<p class="song-list__empty">${escapeHtml(error.message)}</p>`;
+    }
   };
 
   const renderSongList = (rows) => {
@@ -869,6 +991,36 @@
     }
   });
 
+  omakeSortCountBtn?.addEventListener("click", () => {
+    if (omakeSortCountState === "default") {
+      omakeSortCountState = "desc";
+    } else if (omakeSortCountState === "desc") {
+      omakeSortCountState = "asc";
+    } else {
+      omakeSortCountState = "default";
+    }
+    updateOmakeSortButtons();
+    renderOmakeList();
+  });
+
+  omakeSortDateBtn?.addEventListener("click", () => {
+    if (omakeSortDateState === "default") {
+      omakeSortDateState = "desc";
+    } else if (omakeSortDateState === "desc") {
+      omakeSortDateState = "asc";
+    } else {
+      omakeSortDateState = "default";
+    }
+    updateOmakeSortButtons();
+    renderOmakeList();
+  });
+
+  omakeSortResetBtn?.addEventListener("click", () => {
+    omakeSortCountState = "default";
+    omakeSortDateState = "default";
+    updateOmakeSortButtons();
+    renderOmakeList();
+  });
   subpanelBackdrop?.addEventListener("click", closeSubpanel);
   subpanelClose?.addEventListener("click", closeSubpanel);
   window.addEventListener("popstate", () => {
@@ -879,7 +1031,9 @@
     if (event.key === "Escape") closeSubpanel();
   });
 
+  updateOmakeSortButtons();
   renderLives();
   renderSongs();
+  renderOmakeList();
   renderVideos();
 })();

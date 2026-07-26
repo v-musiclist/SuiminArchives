@@ -54,6 +54,7 @@
         <button class="tab" data-tab="music" aria-label="SONG TAB">SONG</button>
         <button class="tab" data-tab="video" aria-label="VIDEO TAB">VIDEO</button>
         <button class="tab" data-tab="contact" aria-label="CONTACT TAB">CONTACT</button>
+        <button class="tab" data-tab="omake" aria-label="OMAKE TAB">OMAKE</button>
       </nav>
     </div>
   </div>
@@ -97,6 +98,7 @@
         <button class="tab tab--mobile" data-tab="music">SONG</button>
         <button class="tab tab--mobile" data-tab="video">VIDEO</button>
         <button class="tab tab--mobile" data-tab="contact">CONTACT</button>
+        <button class="tab tab--mobile" data-tab="omake">OMAKE</button>
       </div>
     </div>
   </div>
@@ -175,6 +177,22 @@
             </a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- OMAKEタブ -->
+    <section class="page" data-page="omake" id="omakePage">
+      <div class="card">
+        <div class="card__head">
+          <h2>OMAKE</h2>
+          <p class="muted" id="omakeUpdateNote"></p>
+        </div>
+        <div class="omake-sort-controls">
+          <button class="omake-sort-btn" id="omakeSortCountBtn" type="button" data-sort-key="sing_count" aria-label="歌唱回数でソート">歌唱回数</button>
+          <button class="omake-sort-btn" id="omakeSortDateBtn" type="button" data-sort-key="sing_day" aria-label="日付でソート">日付</button>
+          <button class="omake-sort-btn omake-sort-btn--reset" id="omakeSortResetBtn" type="button" aria-label="ソートをリセット">リセット</button>
+        </div>
+        <div id="omakeList" class="song-list" aria-live="polite">読み込み中...</div>
       </div>
     </section>
   </main>

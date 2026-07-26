@@ -357,6 +357,26 @@ a{color:inherit}
 }
 
 .song-search{display:flex; gap:8px; margin-bottom:12px;}
+.omake-sort-controls{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  margin-bottom:12px;
+}
+.omake-sort-btn{
+  padding:10px 14px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:rgba(255,255,255,.05);
+  color:var(--text);
+  cursor:pointer;
+  transition: transform .2s ease, background .2s ease, border-color .2s ease;
+}
+.omake-sort-btn:hover,
+.omake-sort-btn.active{
+  background:rgba(255,255,255,.08);
+  border-color:var(--accent-strong);
+}
 .song-search__input{
   flex:1;
   padding:10px 12px;
