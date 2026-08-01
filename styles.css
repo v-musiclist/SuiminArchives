@@ -441,7 +441,7 @@ a{color:inherit}
 .omake-list__header,
 .omake-list__row{
   display:grid;
-  grid-template-columns: minmax(0, 2.2fr) minmax(58px, 70px) minmax(58px,110px) 58px;
+  grid-template-columns: minmax(100px, 2.2fr) minmax(58px, 70px) minmax(58px,110px) 58px;
   gap:10px;
   align-items:center;
 }
