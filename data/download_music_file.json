@@ -6535,5 +6535,59 @@
 				"url": "https://youtu.be/kyjwXpQM_98&t=7449s"
 			}
 		]
+	},
+	{
+		"live_id": "L068",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=471s"
+			},
+			{
+				"song_id": "S002",
+				"title": "天ノ弱",
+				"singer": "GUMI",
+				"lyrics_composition": "164",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=1023s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ブラック★ロックシューター",
+				"singer": "初音ミク",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=1487s"
+			},
+			{
+				"song_id": "S004",
+				"title": "キャットラビング",
+				"singer": "可不",
+				"lyrics_composition": "香椎モイミ",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=1991s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ダブルラリアット",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "アゴアニキP",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=2284s"
+			},
+			{
+				"song_id": "S006",
+				"title": "え？あぁ、そう。",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=2648s"
+			},
+			{
+				"song_id": "S007",
+				"title": "ボルテッカー",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27,Project VOLTAGE",
+				"url": "https://youtu.be/rIiwtg0GDDE&t=2882s"
+			}
+		]
 	}
 ]
