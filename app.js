@@ -593,11 +593,11 @@
     }
 
     omakeList.innerHTML = `
-      <div class="song-list__header">
-        <span class="song-list__col song-list__col--title">曲名</span>
-        <span class="song-list__col song-list__col--singer">歌唱回数</span>
-        <span class="song-list__col song-list__col--url">日付</span>
-        <span class="song-list__col song-list__col--detail">URL</span>
+      <div class="omake-list__header">
+        <span class="omake-list__col omake-list__col--title">曲名</span>
+        <span class="omake-list__col omake-list__col--singer">歌唱回数</span>
+        <span class="omake-list__col omake-list__col--url">日付</span>
+        <span class="omake-list__col omake-list__col--detail"  style="text-align: center;">URL</span>
       </div>
       ${rows.map((song) => {
         const songUrl = hasSongLink(song) ? String(song.sing_url).trim() : "";
@@ -606,11 +606,11 @@
           : '<span class="song-list__empty">URLなし</span>';
 
         return `
-          <div class="song-list__row">
-            <div class="song-list__cell song-list__cell--title">${escapeHtml(song.song_title || "曲名未登録")}</div>
-            <div class="song-list__cell song-list__cell--singer">${escapeHtml(String(song.sing_count || ""))}</div>
-            <div class="song-list__cell song-list__cell--url">${escapeHtml(song.sing_day || "")} </div>
-            <div class="song-list__cell song-list__cell--detail">${urlLinkMarkup}</div>
+          <div class="omake-list__row">
+            <div class="omake-list__cell omake-list__cell--title">${escapeHtml(song.song_title || "曲名未登録")}</div>
+            <div class="omake-list__cell omake-list__cell--singer">${escapeHtml(String(song.sing_count || ""))}</div>
+            <div class="omake-list__cell omake-list__cell--url">${escapeHtml(song.sing_day || "")} </div>
+            <div class="omake-list__cell omake-list__cell--detail">${urlLinkMarkup}</div>
           </div>
         `;
       }).join("")}
@@ -945,10 +945,10 @@
 
       liveList.innerHTML = sortedLives.map((live) => `
         <article class="live-card">
-          <div class="live-card__meta">
-            <div class="live-card__setting">${live.live_setting}</div>
+          <div class="live-card__media">
+            <img class="live-card__image" src="${getLiveImageSrc(live)}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" ${makeImageFallbackAttr()} />
+            <span class="live-card__badge">${live.live_setting}</span>
           </div>
-          <img class="live-card__image" src="${getLiveImageSrc(live)}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" ${makeImageFallbackAttr()} />
         </article>
       `).join("");
     } catch (error) {

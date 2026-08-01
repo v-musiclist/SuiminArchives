@@ -437,6 +437,34 @@ a{color:inherit}
 .song-list__detail-btn{font-size:20px; line-height:1;}
 .song-list__link img{width:22px; height:22px; object-fit:contain;}
 
+.omake-list{display:grid; gap:8px;}
+.omake-list__header,
+.omake-list__row{
+  display:grid;
+  grid-template-columns: minmax(0, 2.2fr) minmax(58px, 70px) minmax(58px,110px) 58px;
+  gap:10px;
+  align-items:center;
+}
+.omake-list__header{
+  padding:0 6px 6px;
+  color:var(--muted);
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  border-bottom:1px solid var(--line);
+}
+.omake-list__row{
+  padding:12px 6px;
+  border:1px solid var(--line);
+  border-radius:12px;
+  background:rgba(255,255,255,.03);
+}
+.omake-list__cell{min-width:0; word-break:break-word;}
+.omake-list__cell--title{font-weight:600;}
+.omake-list__cell--singer{color:var(--muted);}
+.omake-list__cell--url,
+.omake-list__cell--detail{display:flex; justify-content:center;}
+
 .song-subpanel{display:grid; gap:14px;}
 .song-subpanel__field{display:grid; gap:6px; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:rgba(255,255,255,.03);}
 .song-subpanel__label{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
@@ -485,18 +513,28 @@ a{color:inherit}
 
 .live-list{display:grid; gap:12px;}
 .live-card{
+  position:relative;
   border:1px solid var(--line);
   background: rgba(255,255,255,.03);
   border-radius:16px;
   overflow:hidden;
 }
-.live-card__meta{
-  display:flex; justify-content:space-between; align-items:center;
-  gap:10px;
-  padding:10px 12px 0;
+.live-card__media{
+  position:relative;
 }
-.live-card__id{font-weight:700; letter-spacing:.04em;}
-.live-card__setting{font-size:12px; color:var(--muted);}
+.live-card__badge{
+  position:absolute;
+  left:8px;
+  bottom:8px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:rgba(15,15,18,.76);
+  border:1px solid rgba(255,255,255,.16);
+  color:var(--text);
+  font-size:11px;
+  letter-spacing:.04em;
+  backdrop-filter:blur(4px);
+}
 .live-card__image{
   display:block;
   width:100%;
