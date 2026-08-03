@@ -673,6 +673,7 @@
                 data-song-title="${escapeHtml(song.song_title || "")}" 
                 data-song-singer="${escapeHtml(song.singer_name || "")}" 
                 data-song-lyrics="${escapeHtml(song.lyrics_composition_name || "")}" 
+                data-song-lyrics-url="${escapeHtml(song.song_lyrics || "")}"
                 data-song-karaoke-url="${escapeHtml(karaokeUrl)}"
                 aria-label="${escapeHtml(song.song_title || "曲")} の詳細を開く"
               >︙</button>
@@ -784,10 +785,19 @@
     resetSubpanelScroll();
 
     const songTitle = String(song?.song_title || "").trim();
-    const karaokeUrl = searchSongFlag ? (song?.karaoke_url || "") : "";
-    const karaokeMarkup = searchSongFlag && karaokeUrl
+        const karaokeUrl = searchSongFlag ? (song?.karaoke_url || "") : "";
+        const karaokeMarkup = searchSongFlag && karaokeUrl
       ? `<a class="song-subpanel__link" href="${karaokeUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} のカラオケ検索を開く">カラオケ検索</a>`
       : "";
+
+        const rawLyricsUrl = song?.lyrics_url || "";
+        const lyricsUrl = (typeof rawLyricsUrl === 'string') ? rawLyricsUrl.trim() : "";
+        const hasLyrics = lyricsUrl && lyricsUrl.toLowerCase() !== "null";
+        const lyricsMarkup = hasLyrics
+      ? `<a class="song-subpanel__link" href="${lyricsUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} の歌詞を開く">歌詞</a>`
+      : "";
+
+        const actionsMarkup = (karaokeMarkup || lyricsMarkup) ? `<div class="song-subpanel__actions">${karaokeMarkup}${lyricsMarkup}</div>` : "";
 
     subpanelContent.innerHTML = `
       <div class="song-subpanel">
@@ -804,7 +814,7 @@
           <div class="song-subpanel__label">作詞・作曲</div>
           <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
         </div>
-        ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
+        ${actionsMarkup}
         <div class="song-subpanel__history">
           <div class="song-subpanel__history-title">History</div>
           <div class="song-subpanel__history-loading">読み込み中...</div>
@@ -885,7 +895,7 @@
               <div class="song-subpanel__label">作詞・作曲</div>
               <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
             </div>
-            ${karaokeMarkup ? `<div class="song-subpanel__actions">${karaokeMarkup}</div>` : ""}
+            ${actionsMarkup}
             <div class="song-subpanel__history">
               <div class="song-subpanel__history-title">History</div>
               ${historyMarkup}
@@ -976,6 +986,7 @@
       song_title: detailButton.getAttribute("data-song-title") || "",
       singer_name: detailButton.getAttribute("data-song-singer") || "",
       lyrics_composition_name: detailButton.getAttribute("data-song-lyrics") || "",
+      lyrics_url: detailButton.getAttribute("data-song-lyrics-url") || "",
       karaoke_url: detailButton.getAttribute("data-song-karaoke-url") || ""
     });
   });

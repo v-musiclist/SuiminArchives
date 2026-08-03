@@ -469,7 +469,7 @@ a{color:inherit}
 .song-subpanel__field{display:grid; gap:6px; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:rgba(255,255,255,.03);}
 .song-subpanel__label{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
 .song-subpanel__value{font-size:15px; line-height:1.6; color:var(--text); overflow-wrap:anywhere;}
-.song-subpanel__actions{display:flex; justify-content:flex-start;}
+.song-subpanel__actions{display:flex; justify-content:flex-start; gap:8px; align-items:center;}
 .song-subpanel__link{display:inline-flex; align-items:center; justify-content:center; padding:10px 14px; border:1px solid var(--line); border-radius:999px; background:var(--accent-a0-12); color:var(--text); text-decoration:none;}
 .song-subpanel__history{display:grid; gap:8px;}
 .song-subpanel__history-title{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em;}
