@@ -6589,5 +6589,136 @@
 				"url": "https://youtu.be/rIiwtg0GDDE&t=2882s"
 			}
 		]
+	},
+	{
+		"live_id": "L069",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ナイショの話",
+				"singer": "ClariS",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/ubDUmvErfHg&t=679s"
+			},
+			{
+				"song_id": "S002",
+				"title": "星間飛行",
+				"singer": "中島愛",
+				"lyrics_composition": "松本隆,菅野よう子",
+				"url": "https://youtu.be/ubDUmvErfHg&t=1095s"
+			},
+			{
+				"song_id": "S003",
+				"title": "心拍数♯0822",
+				"singer": "初音ミク",
+				"lyrics_composition": "蝶々P,papiyon",
+				"url": "https://youtu.be/ubDUmvErfHg&t=1552s"
+			},
+			{
+				"song_id": "S004",
+				"title": "消せない罪",
+				"singer": "北出菜奈",
+				"lyrics_composition": "北出菜奈,西川進",
+				"url": "https://youtu.be/ubDUmvErfHg&t=2361s"
+			},
+			{
+				"song_id": "S005",
+				"title": "花になって",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,穴見真吾",
+				"url": "https://youtu.be/ubDUmvErfHg&t=2776s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Mela!",
+				"singer": "緑黄色社会",
+				"lyrics_composition": "長屋晴子,小林壱誓,peppe,穴見真吾",
+				"url": "https://youtu.be/ubDUmvErfHg&t=3239s"
+			},
+			{
+				"song_id": "S007",
+				"title": "夜に駆ける",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/ubDUmvErfHg&t=3641s"
+			},
+			{
+				"song_id": "S008",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/ubDUmvErfHg&t=4120s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ずうっといっしょ！",
+				"singer": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"lyrics_composition": "こんにちは谷田さん,キタニタツヤ,はるまきごはん",
+				"url": "https://youtu.be/ubDUmvErfHg&t=4577s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/ubDUmvErfHg&t=4893s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ダイダイダイダイダイキライ",
+				"singer": "初音ミク,重音テト",
+				"lyrics_composition": "雨良,Amala",
+				"url": "https://youtu.be/ubDUmvErfHg&t=5193s"
+			},
+			{
+				"song_id": "S012",
+				"title": "トライアングラー",
+				"singer": "坂本真綾",
+				"lyrics_composition": "Gabriela Robin,菅野よう子",
+				"url": "https://youtu.be/ubDUmvErfHg&t=5572s"
+			},
+			{
+				"song_id": "S013",
+				"title": "革命デュアリズム",
+				"singer": "水樹奈々,T.M.Revolution",
+				"lyrics_composition": "Hibiki,上松範康",
+				"url": "https://youtu.be/ubDUmvErfHg&t=6418s"
+			},
+			{
+				"song_id": "S014",
+				"title": "ルカルカ★ナイトフィーバー",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "samfree",
+				"url": "https://youtu.be/ubDUmvErfHg&t=6936s"
+			},
+			{
+				"song_id": "S015",
+				"title": "コイスルオトメ",
+				"singer": "いきものがかり",
+				"lyrics_composition": "水野良樹",
+				"url": "https://youtu.be/ubDUmvErfHg&t=7435s"
+			},
+			{
+				"song_id": "S016",
+				"title": "晩餐歌",
+				"singer": "tuki.",
+				"lyrics_composition": "tuki.",
+				"url": "https://youtu.be/ubDUmvErfHg&t=7930s"
+			},
+			{
+				"song_id": "S017",
+				"title": "空色デイズ",
+				"singer": "中川翔子",
+				"lyrics_composition": "グミ,日向 めぐみ,meg rock,齋藤真也",
+				"url": "https://youtu.be/ubDUmvErfHg&t=8582s"
+			},
+			{
+				"song_id": "S018",
+				"title": "花の塔",
+				"singer": "さユり",
+				"lyrics_composition": "さユり",
+				"url": "https://youtu.be/ubDUmvErfHg&t=8956s"
+			}
+		]
 	}
 ]
