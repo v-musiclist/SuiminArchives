@@ -444,6 +444,7 @@
   let musicIndex = new Map();
   let omakeSortCountState = "default";
   let omakeSortDateState = "default";
+  let omakeSortPriority = [];
 
   const getLiveIdNumber = (liveId) => {
     const match = String(liveId).match(/(\d+)/);
@@ -556,6 +557,41 @@
     omakeSortResetBtn.classList.toggle("active", omakeSortCountState !== "default" || omakeSortDateState !== "default");
   };
 
+  const getActiveOmakeSortPriority = () => {
+    const activePriority = [];
+
+    for (const key of omakeSortPriority) {
+      if (key === "sing_count" && omakeSortCountState !== "default") {
+        activePriority.push(key);
+      }
+      if (key === "sing_day" && omakeSortDateState !== "default") {
+        activePriority.push(key);
+      }
+    }
+
+    omakeSortPriority = activePriority;
+    return activePriority;
+  };
+
+  const setOmakeSortState = (key, nextState) => {
+    const previousState = key === "sing_count" ? omakeSortCountState : omakeSortDateState;
+
+    if (key === "sing_count") {
+      omakeSortCountState = nextState;
+    } else {
+      omakeSortDateState = nextState;
+    }
+
+    if (nextState === "default") {
+      omakeSortPriority = omakeSortPriority.filter((priorityKey) => priorityKey !== key);
+      return;
+    }
+
+    if (previousState === "default" && !omakeSortPriority.includes(key)) {
+      omakeSortPriority.push(key);
+    }
+  };
+
   const sortOmakeItems = (items) => {
     const compareNumber = (a, b, direction) => {
       return direction === "asc" ? a - b : b - a;
@@ -567,18 +603,20 @@
       return direction === "asc" ? left - right : right - left;
     };
 
-    if (omakeSortCountState === "default" && omakeSortDateState === "default") {
+    const activePriority = getActiveOmakeSortPriority();
+    if (!activePriority.length) {
       return [...items];
     }
 
     return [...items].sort((a, b) => {
-      if (omakeSortCountState !== "default") {
-        const result = compareNumber(Number(a?.sing_count ?? 0), Number(b?.sing_count ?? 0), omakeSortCountState);
-        if (result !== 0) return result;
-      }
+      for (const key of activePriority) {
+        const direction = key === "sing_count" ? omakeSortCountState : omakeSortDateState;
+        if (direction === "default") continue;
 
-      if (omakeSortDateState !== "default") {
-        const result = compareDate(a?.sing_day, b?.sing_day, omakeSortDateState);
+        const result = key === "sing_count"
+          ? compareNumber(Number(a?.sing_count ?? 0), Number(b?.sing_count ?? 0), direction)
+          : compareDate(a?.sing_day, b?.sing_day, direction);
+
         if (result !== 0) return result;
       }
 
@@ -1038,25 +1076,25 @@
   });
 
   omakeSortCountBtn?.addEventListener("click", () => {
-    if (omakeSortCountState === "default") {
-      omakeSortCountState = "desc";
-    } else if (omakeSortCountState === "desc") {
-      omakeSortCountState = "asc";
-    } else {
-      omakeSortCountState = "default";
-    }
+    const nextState = omakeSortCountState === "default"
+      ? "desc"
+      : omakeSortCountState === "desc"
+        ? "asc"
+        : "default";
+
+    setOmakeSortState("sing_count", nextState);
     updateOmakeSortButtons();
     renderOmakeList();
   });
 
   omakeSortDateBtn?.addEventListener("click", () => {
-    if (omakeSortDateState === "default") {
-      omakeSortDateState = "desc";
-    } else if (omakeSortDateState === "desc") {
-      omakeSortDateState = "asc";
-    } else {
-      omakeSortDateState = "default";
-    }
+    const nextState = omakeSortDateState === "default"
+      ? "desc"
+      : omakeSortDateState === "desc"
+        ? "asc"
+        : "default";
+
+    setOmakeSortState("sing_day", nextState);
     updateOmakeSortButtons();
     renderOmakeList();
   });
@@ -1064,6 +1102,7 @@
   omakeSortResetBtn?.addEventListener("click", () => {
     omakeSortCountState = "default";
     omakeSortDateState = "default";
+    omakeSortPriority = [];
     updateOmakeSortButtons();
     renderOmakeList();
   });
