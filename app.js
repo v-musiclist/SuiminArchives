@@ -1,6 +1,7 @@
 (() => {
   // config.json から設定を読み込んで設定
   let searchSongFlag = false;
+  let joySongFlag = false;
   let configLoadPromise = null;
   const IMAGE_FALLBACK_SRC = './assets/nodata.png';
 
@@ -28,6 +29,7 @@
       if (config && config[0]) {
         const cfg = config[0];
         searchSongFlag = cfg.search_song_flg === true;
+        joySongFlag = cfg.joy_song_flg === true;
 
         const accentColor = cfg.accent;
         const accentRgb = cfg.color;
@@ -764,8 +766,13 @@
         `).join("")}</div>`
       : '<p class="live-subpanel__empty">このライブの曲情報はまだありません。</p>';
 
+    const joyBadgeMarkup = joySongFlag && live.live_joy === true
+      ? `<span class="live-subpanel__joy-badge">JoySounds</span>`
+      : "";
+
     subpanelContent.innerHTML = `
       <a class="live-subpanel__hero-link" href="${liveUrlWithTimestamp}" target="_blank" rel="noopener noreferrer" aria-label="ライブ動画を開く">
+        ${joyBadgeMarkup}
         <img class="live-subpanel__hero" src="${getLiveImageSrc(live)}" alt="${live.live_id}" ${makeImageFallbackAttr()} />
       </a>
       <p class="live-subpanel__meta">曲リスト</p>
@@ -843,6 +850,9 @@
       const liveTextMap = new Map(
         (Array.isArray(liveData) ? liveData : []).map((liveEntry) => [String(liveEntry?.live_id || "").trim(), liveEntry?.live_text || ""])
       );
+      const liveJoyMap = new Map(
+        (Array.isArray(liveData) ? liveData : []).map((liveEntry) => [String(liveEntry?.live_id || "").trim(), liveEntry?.live_joy === true])
+      );
 
       const historyEntries = [];
       (Array.isArray(musicData) ? musicData : []).forEach((liveEntry) => {
@@ -856,7 +866,8 @@
             liveId,
             songId: historySong?.song_id || "",
             url: historySong?.url || "",
-            liveText: liveTextMap.get(liveId) || ""
+            liveText: liveTextMap.get(liveId) || "",
+            liveJoy: liveJoyMap.get(liveId) === true
           });
         });
       });
@@ -868,18 +879,31 @@
       });
 
       const historyMarkup = historyEntries.length
-        ? `<div class="song-subpanel__history-list">${historyEntries.map((entry, index) => `
-            <div class="song-subpanel__history-item">
+        ? `<div class="song-subpanel__history-list">${historyEntries.map((entry, index) => {
+            const hasJoyBadge = joySongFlag && entry.liveJoy;
+            return `
+            <div class="song-subpanel__history-item${hasJoyBadge ? ' song-subpanel__history-item--with-badge' : ''}">
               <div class="song-subpanel__history-no">${index + 1}</div>
               <div class="song-subpanel__history-live">${escapeHtml(entry.liveText || "ライブ未登録")}</div>
+              ${hasJoyBadge ? `<span class="song-subpanel__history-badge">Joy</span>` : ""}
               <a class="song-subpanel__history-link" href="${entry.url || "#"}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} の履歴動画を開く">
                 <img src="./assets/play.png" alt="再生" />
               </a>
             </div>
-          `).join("")}</div>`
+          `;
+          }).join("")}</div>`
         : '<div class="song-subpanel__history-empty">履歴情報はまだありません。</div>';
 
       if (subpanelContent) {
+        const hasJoyHistory = joySongFlag && historyEntries.some((entry) => entry.liveJoy);
+        const lyricsActionBadge = hasJoyHistory && hasLyrics ? `<span class="song-subpanel__action-badge">JoySounds</span>` : "";
+        const lyricsButtonMarkup = hasLyrics
+          ? `<span class="song-subpanel__link-wrapper"><a class="song-subpanel__link" href="${lyricsUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} の歌詞を開く">歌詞</a>${lyricsActionBadge}</span>`
+          : "";
+        const actionsMarkupWithJoy = (karaokeMarkup || lyricsButtonMarkup)
+          ? `<div class="song-subpanel__actions">${karaokeMarkup}${lyricsButtonMarkup}</div>`
+          : "";
+
         subpanelContent.innerHTML = `
           <div class="song-subpanel">
             <p class="live-subpanel__meta">曲詳細</p>
@@ -895,7 +919,7 @@
               <div class="song-subpanel__label">作詞・作曲</div>
               <div class="song-subpanel__value">${escapeHtml(song?.lyrics_composition_name || "作詞・作曲未登録")}</div>
             </div>
-            ${actionsMarkup}
+            ${actionsMarkupWithJoy}
             <div class="song-subpanel__history">
               <div class="song-subpanel__history-title">History</div>
               ${historyMarkup}
@@ -934,6 +958,10 @@
   const renderLives = async () => {
     if (!liveList) return;
 
+    if (configLoadPromise) {
+      await configLoadPromise;
+    }
+
     try {
       const [liveResponse, musicResponse] = await Promise.all([
         fetch("./data/download_live_file.json"),
@@ -953,14 +981,21 @@
         ])
       );
 
-      liveList.innerHTML = sortedLives.map((live) => `
-        <article class="live-card">
-          <div class="live-card__media">
-            <img class="live-card__image" src="${getLiveImageSrc(live)}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" ${makeImageFallbackAttr()} />
-            <span class="live-card__badge">${live.live_setting}</span>
-          </div>
-        </article>
-      `).join("");
+      liveList.innerHTML = sortedLives.map((live) => {
+        const joyBadgeMarkup = joySongFlag && live.live_joy === true
+          ? `<span class="live-card__joy-badge">JoySounds</span>`
+          : "";
+
+        return `
+          <article class="live-card">
+            <div class="live-card__media">
+              <img class="live-card__image" src="${getLiveImageSrc(live)}" alt="${live.live_id}" data-live-id="${live.live_id}" loading="lazy" ${makeImageFallbackAttr()} />
+              ${joyBadgeMarkup}
+              <span class="live-card__badge">${live.live_setting}</span>
+            </div>
+          </article>
+        `;
+      }).join("");
     } catch (error) {
       liveList.innerHTML = `<p class="live-card__empty">${error.message}</p>`;
     }
