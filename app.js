@@ -767,7 +767,7 @@
       : '<p class="live-subpanel__empty">このライブの曲情報はまだありません。</p>';
 
     const joyBadgeMarkup = joySongFlag && live.live_joy === true
-      ? `<span class="live-subpanel__joy-badge">JoySounds</span>`
+      ? `<span class="live-subpanel__joy-badge">JoySound</span>`
       : "";
 
     subpanelContent.innerHTML = `
@@ -896,7 +896,7 @@
 
       if (subpanelContent) {
         const hasJoyHistory = joySongFlag && historyEntries.some((entry) => entry.liveJoy);
-        const lyricsActionBadge = hasJoyHistory && hasLyrics ? `<span class="song-subpanel__action-badge">JoySounds</span>` : "";
+        const lyricsActionBadge = hasJoyHistory && hasLyrics ? `<span class="song-subpanel__action-badge">JoySound</span>` : "";
         const lyricsButtonMarkup = hasLyrics
           ? `<span class="song-subpanel__link-wrapper"><a class="song-subpanel__link" href="${lyricsUrl}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(songTitle || "曲")} の歌詞を開く">歌詞</a>${lyricsActionBadge}</span>`
           : "";
@@ -983,7 +983,7 @@
 
       liveList.innerHTML = sortedLives.map((live) => {
         const joyBadgeMarkup = joySongFlag && live.live_joy === true
-          ? `<span class="live-card__joy-badge">JoySounds</span>`
+          ? `<span class="live-card__joy-badge">JoySound</span>`
           : "";
 
         return `
