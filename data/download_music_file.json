@@ -6720,5 +6720,101 @@
 				"url": "https://youtu.be/ubDUmvErfHg&t=8956s"
 			}
 		]
+	},
+	{
+		"live_id": "L070",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ラピスラズリ",
+				"singer": "藍井エイル",
+				"lyrics_composition": "Eir,加藤裕介",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=238s"
+			},
+			{
+				"song_id": "S002",
+				"title": "ヒトヒラのハナビラ",
+				"singer": "ステレオポニー",
+				"lyrics_composition": "AIMI",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=739s"
+			},
+			{
+				"song_id": "S003",
+				"title": "泪のムコウ",
+				"singer": "ステレオポニー",
+				"lyrics_composition": "AIMI",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=1093s"
+			},
+			{
+				"song_id": "S004",
+				"title": "鳥の詩",
+				"singer": "Lia",
+				"lyrics_composition": "麻枝准,折戸伸治",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=1632s"
+			},
+			{
+				"song_id": "S005",
+				"title": "きみの て",
+				"singer": "Every Little Thing",
+				"lyrics_composition": "持田香織,HIKARI",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=2262s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Reason",
+				"singer": "玉置成実",
+				"lyrics_composition": "shungo.,y@suo otani",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=2841s"
+			},
+			{
+				"song_id": "S007",
+				"title": "白い雪のプリンセスは",
+				"singer": "初音ミク",
+				"lyrics_composition": "のぼる↑",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=3646s"
+			},
+			{
+				"song_id": "S008",
+				"title": "祝福",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=4060s"
+			},
+			{
+				"song_id": "S009",
+				"title": "ロミオとシンデレラ",
+				"singer": "初音ミク",
+				"lyrics_composition": "doriko,きりたんP",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=4510s"
+			},
+			{
+				"song_id": "S010",
+				"title": "ムーンライト伝説",
+				"singer": "DALI",
+				"lyrics_composition": "小田佳奈子,小諸鉄矢",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=4970s"
+			},
+			{
+				"song_id": "S011",
+				"title": "ロマンティックあげるよ",
+				"singer": "橋本潮",
+				"lyrics_composition": "吉田健美,いけたけし",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=5317s"
+			},
+			{
+				"song_id": "S012",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=5767s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ラピスラズリ",
+				"singer": "藍井エイル",
+				"lyrics_composition": "Eir,加藤裕介",
+				"url": "https://youtu.be/XZVKOcbPCJA&t=6033s"
+			}
+		]
 	}
 ]

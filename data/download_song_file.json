@@ -664,10 +664,10 @@
 		"singer_name": "Every Little Thing",
 		"lyrics_composition_name": "持田香織,HIKARI",
 		"find_char": "きみのて\n \n きみの て \n Every Little Thing \n 持田香織,HIKARI",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/kyjwXpQM_98&t=4057s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=2262s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=きみの て",
-		"sing_day": "26年07月26日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/35300/"
 	},
 	{
@@ -1115,10 +1115,10 @@
 		"singer_name": "YOASOBI",
 		"lyrics_composition_name": "Ayase",
 		"find_char": "しゅくふく\n機動戦士ガンダム 水星の魔女\r\nオープニングテーマ\n \n 祝福 \n YOASOBI \n Ayase",
-		"sing_count": 7,
-		"sing_url": "https://youtu.be/POZerWTfGF4&t=3043s",
+		"sing_count": 8,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=4060s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=祝福",
-		"sing_day": "26年06月07日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/325674/"
 	},
 	{
@@ -1203,10 +1203,10 @@
 		"singer_name": "初音ミク",
 		"lyrics_composition_name": "のぼる↑",
 		"find_char": "しろいゆきのぷりんせすは\n \n 白い雪のプリンセスは \n 初音ミク \n のぼる↑",
-		"sing_count": 7,
-		"sing_url": "https://youtu.be/erVS0hPklSs&t=2355s",
+		"sing_count": 8,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=3646s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=白い雪のプリンセスは",
-		"sing_day": "26年07月05日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/8828.html"
 	},
 	{
@@ -1753,10 +1753,10 @@
 		"singer_name": "Lia",
 		"lyrics_composition_name": "麻枝准,折戸伸治",
 		"find_char": "とりのうた\nAIR 主題歌\n \n 鳥の詩 \n Lia \n 麻枝准,折戸伸治",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/bifjIs2UHGI&t=9405s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=1632s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=鳥の詩",
-		"sing_day": "26年05月03日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/110276/"
 	},
 	{
@@ -1863,10 +1863,10 @@
 		"singer_name": "ステレオポニー",
 		"lyrics_composition_name": "AIMI",
 		"find_char": "なみだのむこう\n機動戦士ガンダム00 -2nd Season-\nオープニングテーマ\n \n 泪のムコウ \n ステレオポニー \n AIMI",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/QYnf1CMOzpg&t=4060s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=1093s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=泪のムコウ",
-		"sing_day": "26年03月29日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/75126/"
 	},
 	{
@@ -1962,10 +1962,10 @@
 		"singer_name": "Buono!",
 		"lyrics_composition_name": "NOBE,しほり",
 		"find_char": "はつこいさいだー\n数学♥女子学園\nエンディングテーマ\n \n 初恋サイダー \n Buono! \n NOBE,しほり",
-		"sing_count": 9,
-		"sing_url": "https://youtu.be/kyjwXpQM_98&t=5874s",
+		"sing_count": 10,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=5767s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=初恋サイダー",
-		"sing_day": "26年07月26日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/124414/"
 	},
 	{
@@ -2143,6 +2143,17 @@
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=パステル・ドレスアップ",
 		"sing_day": "70年01月01日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/57303.html"
+	},
+	{
+		"song_title": "ヒトヒラのハナビラ",
+		"singer_name": "ステレオポニー",
+		"lyrics_composition_name": "AIMI",
+		"find_char": "ひとひらのはなびら\nBLEACH ブリーチ 鰤\nエンディングテーマ\n \n ヒトヒラのハナビラ \n ステレオポニー \n AIMI",
+		"sing_count": 1,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=739s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ヒトヒラのハナビラ",
+		"sing_day": "26年08月16日",
+		"song_lyrics": "https://www.uta-net.com/song/72450/"
 	},
 	{
 		"song_title": "LOVE & ROLL",
@@ -2567,10 +2578,10 @@
 		"singer_name": "DALI",
 		"lyrics_composition_name": "小田佳奈子,小諸鉄矢",
 		"find_char": "むーんらいとでんせつ\n美少女戦士セーラームーン\nオープニングテーマ\n \n ムーンライト伝説 \n DALI \n 小田佳奈子,小諸鉄矢",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/OPgNJUFWd7k&t=8810s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=4970s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ムーンライト伝説",
-		"sing_day": "26年04月05日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/5649/"
 	},
 	{
@@ -2860,6 +2871,17 @@
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/52593.html"
 	},
 	{
+		"song_title": "ラピスラズリ",
+		"singer_name": "藍井エイル",
+		"lyrics_composition_name": "Eir,加藤裕介",
+		"find_char": "らぴすらずり\nアルスラーン戦記\nエンディングテーマ\n \n ラピスラズリ \n 藍井エイル \n Eir,加藤裕介",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=6033s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ラピスラズリ",
+		"sing_day": "26年08月16日",
+		"song_lyrics": "https://www.uta-net.com/song/184699/"
+	},
+	{
 		"song_title": "Realize",
 		"singer_name": "玉置成実",
 		"lyrics_composition_name": "BOUNCEBACK,大谷靖夫",
@@ -2908,10 +2930,10 @@
 		"singer_name": "玉置成実",
 		"lyrics_composition_name": "shungo.,y@suo otani",
 		"find_char": "りーずん\n機動戦士ガンダムSEED DESTINY\nエンディングテーマ\n \n Reason \n 玉置成実 \n shungo.,y@suo otani",
-		"sing_count": 3,
-		"sing_url": "https://youtu.be/Y_6UDfkIJ0E&t=7581s",
+		"sing_count": 4,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=2841s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=Reason",
-		"sing_day": "26年06月01日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/20916/"
 	},
 	{
@@ -3018,10 +3040,10 @@
 		"singer_name": "橋本潮",
 		"lyrics_composition_name": "吉田健美,いけたけし",
 		"find_char": "ろまんてぃっくあげるよ\nドラゴンボール\nエンディングテーマ\n \n ロマンティックあげるよ \n 橋本潮 \n 吉田健美,いけたけし",
-		"sing_count": 7,
-		"sing_url": "https://youtu.be/QYnf1CMOzpg&t=7152s",
+		"sing_count": 8,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=5317s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ロマンティックあげるよ",
-		"sing_day": "26年03月29日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://www.uta-net.com/song/39510/"
 	},
 	{
@@ -3029,10 +3051,10 @@
 		"singer_name": "初音ミク",
 		"lyrics_composition_name": "doriko,きりたんP",
 		"find_char": "ろみおとしんでれら\n \n ロミオとシンデレラ \n 初音ミク \n doriko,きりたんP",
-		"sing_count": 13,
-		"sing_url": "https://youtu.be/erVS0hPklSs&t=4589s",
+		"sing_count": 14,
+		"sing_url": "https://youtu.be/XZVKOcbPCJA&t=4510s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ロミオとシンデレラ",
-		"sing_day": "26年07月05日",
+		"sing_day": "26年08月16日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/4804.html"
 	},
 	{
