@@ -6816,5 +6816,108 @@
 				"url": "https://youtu.be/XZVKOcbPCJA&t=6033s"
 			}
 		]
+	},
+	{
+		"live_id": "L071",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "トリノコシティ",
+				"singer": "初音ミク",
+				"lyrics_composition": "40㍍P,40mP,虎次朗,イナメトオル",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=283s"
+			},
+			{
+				"song_id": "S002",
+				"title": "花に亡霊",
+				"singer": "ヨルシカ",
+				"lyrics_composition": "n-buna,ナブナ",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=776s"
+			},
+			{
+				"song_id": "S003",
+				"title": "微笑みの爆弾",
+				"singer": "馬渡松子",
+				"lyrics_composition": "リーシャウロン,馬渡松子",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=1270s"
+			},
+			{
+				"song_id": "S004",
+				"title": "ray",
+				"singer": "BUMP OF CHICKEN",
+				"lyrics_composition": "藤原基央",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=1679s"
+			},
+			{
+				"song_id": "S005",
+				"title": "鳥の詩",
+				"singer": "Lia",
+				"lyrics_composition": "麻枝准,折戸伸治",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=2191s"
+			},
+			{
+				"song_id": "S006",
+				"title": "again",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=2737s"
+			},
+			{
+				"song_id": "S007",
+				"title": "DAN DAN 心魅かれてく",
+				"singer": "FIELD OF VIEW",
+				"lyrics_composition": "坂井泉水,織田哲郎",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=3132s"
+			},
+			{
+				"song_id": "S008",
+				"title": "Anything Goes!",
+				"singer": "大黒摩季",
+				"lyrics_composition": "藤林聖子,Tatsuo",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=3734s"
+			},
+			{
+				"song_id": "S009",
+				"title": "Climax Jump",
+				"singer": "AAA",
+				"lyrics_composition": "藤林聖子,鳴瀬シュウヘイ",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=4196s"
+			},
+			{
+				"song_id": "S010",
+				"title": "曇天",
+				"singer": "DOES",
+				"lyrics_composition": "氏原ワタル",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=4756s"
+			},
+			{
+				"song_id": "S011",
+				"title": "Rolling star",
+				"singer": "YUI",
+				"lyrics_composition": "YUI",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=5055s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ヒトヒラのハナビラ",
+				"singer": "ステレオポニー",
+				"lyrics_composition": "AIMI",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=5659s"
+			},
+			{
+				"song_id": "S013",
+				"title": "アイワナムチュー",
+				"singer": "asmi",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=6172s"
+			},
+			{
+				"song_id": "S014",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/GVCmsCmpJyw&t=6789s"
+			}
+		]
 	}
 ]
