@@ -114,10 +114,10 @@
 		"singer_name": "IA",
 		"lyrics_composition_name": "Orangestar,蜜柑星P",
 		"find_char": "あすのよぞらしょうかいはん\n \n アスノヨゾラ哨戒班 \n IA \n Orangestar,蜜柑星P \n ",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/7aF_4w5YD8o&t=2519s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=9939s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=アスノヨゾラ哨戒班",
-		"sing_day": "26年09月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/30153.html"
 	},
 	{
@@ -147,10 +147,10 @@
 		"singer_name": "GUMI",
 		"lyrics_composition_name": "164",
 		"find_char": "あまのじゃく\n \n 天ノ弱 \n GUMI \n 164 \n ",
-		"sing_count": 5,
-		"sing_url": "https://youtu.be/rIiwtg0GDDE&t=1023s",
+		"sing_count": 6,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=1596s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=天ノ弱",
-		"sing_day": "26年08月01日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/16301.html"
 	},
 	{
@@ -411,10 +411,10 @@
 		"singer_name": "FripSide",
 		"lyrics_composition_name": "八木沼悟志,yuki-ka",
 		"find_char": "おんりーまいれーるがん\nとある科学の超電磁砲\nオープニングテーマ\n \n only my railgun \n FripSide \n 八木沼悟志,yuki-ka \n ",
-		"sing_count": 14,
-		"sing_url": "https://youtu.be/lbZgZ1MP-lE&t=9288s",
+		"sing_count": 15,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=12188s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=only my railgun",
-		"sing_day": "26年09月06日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/86561/"
 	},
 	{
@@ -433,10 +433,10 @@
 		"singer_name": "Vaundy",
 		"lyrics_composition_name": "Vaundy",
 		"find_char": "かいじゅうのはなうた\n \n 怪獣の花唄 \n Vaundy \n Vaundy \n ",
-		"sing_count": 7,
-		"sing_url": "https://youtu.be/GF8VuInYK64&t=4364s",
+		"sing_count": 8,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=10847s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=怪獣の花唄",
-		"sing_day": "26年06月28日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/285326/"
 	},
 	{
@@ -506,6 +506,17 @@
 		"song_lyrics": "https://www.uta-net.com/song/10537/"
 	},
 	{
+		"song_title": "カタオモイ",
+		"singer_name": "Aimer",
+		"lyrics_composition_name": "内澤崇仁",
+		"find_char": "かたおもい\n \n カタオモイ \n Aimer \n 内澤崇仁 \n ",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=10292s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=カタオモイ",
+		"sing_day": "26年10月04日",
+		"song_lyrics": "https://www.uta-net.com/song/215314/"
+	},
+	{
 		"song_title": "悲しみをやさしさに",
 		"singer_name": "little by little",
 		"lyrics_composition_name": "tetsuhiko,十川知司",
@@ -570,6 +581,17 @@
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=Calc.",
 		"sing_day": "26年09月21日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/11898.html"
+	},
+	{
+		"song_title": "可愛いあの子が気にゐらない",
+		"singer_name": "なるみや",
+		"lyrics_composition_name": "なるみや",
+		"find_char": "かわいいあのこがきにいらない\n \n 可愛いあの子が気にゐらない \n なるみや \n なるみや \n ",
+		"sing_count": 1,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=7213s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=可愛いあの子が気にゐらない",
+		"sing_day": "26年10月04日",
+		"song_lyrics": "https://www.uta-net.com/song/342822/"
 	},
 	{
 		"song_title": "かわいいだけじゃだめですか?",
@@ -686,10 +708,10 @@
 		"singer_name": "あいみょん",
 		"lyrics_composition_name": "あいみょん",
 		"find_char": "きみはろっくをきかない\n \n 君はロックを聴かない \n あいみょん \n あいみょん \n ",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/lbZgZ1MP-lE&t=6777s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=4078s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=君はロックを聴かない",
-		"sing_day": "26年09月06日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/232843/"
 	},
 	{
@@ -972,10 +994,10 @@
 		"singer_name": "ClariS",
 		"lyrics_composition_name": "渡辺翔",
 		"find_char": "こねくと\n魔法少女まどか☆マギカ\nオープニングテーマ\n \n コネクト \n ClariS \n 渡辺翔 \n ",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/7aF_4w5YD8o&t=284s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=5041s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=コネクト",
-		"sing_day": "26年09月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/106990/"
 	},
 	{
@@ -1027,10 +1049,10 @@
 		"singer_name": "いきものがかり",
 		"lyrics_composition_name": "水野良樹,島田昌典",
 		"find_char": "さくら\nDENPO115 NTT CMソング\n日本マクドナルド CMソング\n \n SAKURA \n いきものがかり \n 水野良樹,島田昌典 \n ",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/7aF_4w5YD8o&t=1092s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=2402s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=SAKURA",
-		"sing_day": "26年09月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/37330/"
 	},
 	{
@@ -1049,10 +1071,10 @@
 		"singer_name": "CHERRYBLOSSOM",
 		"lyrics_composition_name": "MEEKO",
 		"find_char": "さくらろっく\n家庭教師ヒットマンREBORN! リボーン\nエンディングテーマ\n復活 \n 桜ロック \n CHERRYBLOSSOM \n MEEKO \n ",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/bifjIs2UHGI&t=1116s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=2992s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=桜ロック",
-		"sing_day": "26年05月03日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/75404/"
 	},
 	{
@@ -1203,10 +1225,10 @@
 		"singer_name": "SCANDAL",
 		"lyrics_composition_name": "TOMOMI,田鹿祐一",
 		"find_char": "しょうじょえす\nBLEACH ブリーチ 鰤\nオープニングテーマ\n \n 少女S \n SCANDAL \n TOMOMI,田鹿祐一 \n ",
-		"sing_count": 4,
-		"sing_url": "https://youtu.be/GF8VuInYK64&t=5187s",
+		"sing_count": 5,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=8420s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=少女S",
-		"sing_day": "26年06月28日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/80446/"
 	},
 	{
@@ -1225,10 +1247,10 @@
 		"singer_name": "GUMI",
 		"lyrics_composition_name": "40㍍P,40mP,虎次朗,イナメトオル",
 		"find_char": "しりょくけんさ\n \n シリョクケンサ \n GUMI \n 40㍍P,40mP,虎次朗,イナメトオル \n ",
-		"sing_count": 3,
-		"sing_url": "https://youtu.be/GnknaZU6Gm8&t=3520s",
+		"sing_count": 4,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=7491s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=シリョクケンサ",
-		"sing_day": "26年04月26日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/17600.html"
 	},
 	{
@@ -1511,10 +1533,10 @@
 		"singer_name": "AKINO",
 		"lyrics_composition_name": "岩里祐穂,菅野よう子",
 		"find_char": "そうせいのあくえりおん\n創聖のアクエリオン\nオープニングテーマ\n \n 創聖のアクエリオン \n AKINO \n 岩里祐穂,菅野よう子 \n ",
-		"sing_count": 7,
-		"sing_url": "https://youtu.be/Y_6UDfkIJ0E&t=9900s",
+		"sing_count": 8,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=1090s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=創聖のアクエリオン",
-		"sing_day": "26年06月01日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/50850/"
 	},
 	{
@@ -1661,6 +1683,17 @@
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/53093.html"
 	},
 	{
+		"song_title": "ダーリンダンス",
+		"singer_name": "初音ミク",
+		"lyrics_composition_name": "かいりきベア",
+		"find_char": "だーりんだんす\n \n ダーリンダンス \n 初音ミク \n かいりきベア \n ",
+		"sing_count": 1,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=6930s",
+		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ダーリンダンス",
+		"sing_day": "26年10月04日",
+		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/42006.html"
+	},
+	{
 		"song_title": "ダーリンダーリン",
 		"singer_name": "夏色花梨",
 		"lyrics_composition_name": "めろくる",
@@ -1797,10 +1830,10 @@
 		"singer_name": "＝LOVE",
 		"lyrics_composition_name": "指原莉乃,浦島健太,菊池博人",
 		"find_char": "とくべちゅして\n=LOVE\n \n とくべチュ、して \n ＝LOVE \n 指原莉乃,浦島健太,菊池博人 \n ",
-		"sing_count": 10,
-		"sing_url": "https://youtu.be/1f8zRcxz-GY&t=9814s",
+		"sing_count": 11,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=5893s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=とくべチュ、して",
-		"sing_day": "26年09月21日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/368288/"
 	},
 	{
@@ -1896,10 +1929,10 @@
 		"singer_name": "ClariS",
 		"lyrics_composition_name": "ryo",
 		"find_char": "ないしょのはなし\n偽物語\nエンディングテーマ\n \n ナイショの話 \n ClariS \n ryo \n ",
-		"sing_count": 4,
-		"sing_url": "https://youtu.be/1f8zRcxz-GY&t=9421s",
+		"sing_count": 5,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=5452s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ナイショの話",
-		"sing_day": "26年09月21日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/124644/"
 	},
 	{
@@ -2105,10 +2138,10 @@
 		"singer_name": "いきものがかり",
 		"lyrics_composition_name": "水野良樹",
 		"find_char": "はなはさくらきみはうつくし\n誠に僭越ながらファーストアルバムを拵えました… リアレンジ\n \n 花は桜 君は美し \n いきものがかり \n 水野良樹 \n ",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/7aF_4w5YD8o&t=693s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=2041s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=花は桜 君は美し",
-		"sing_day": "26年09月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/60661/"
 	},
 	{
@@ -2138,10 +2171,10 @@
 		"singer_name": "ヨルシカ",
 		"lyrics_composition_name": "n-buna,ナブナ",
 		"find_char": "はる\n葬送のフリーレン\nオープニングテーマ\n \n 晴る \n ヨルシカ \n n-buna,ナブナ \n ",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/7aF_4w5YD8o&t=2071s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=4639s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=晴る",
-		"sing_day": "26年09月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/348205/"
 	},
 	{
@@ -2171,10 +2204,10 @@
 		"singer_name": "あいみょん",
 		"lyrics_composition_name": "あいみょん",
 		"find_char": "はるのひ\nクレヨンしんちゃん 新婚旅行ハリケーン 〜失われたひろし〜\n主題歌\n \n ハルノヒ \n あいみょん \n あいみょん \n ",
-		"sing_count": 1,
-		"sing_url": "https://youtu.be/GF8VuInYK64&t=1255s",
+		"sing_count": 2,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=3552s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ハルノヒ",
-		"sing_day": "26年06月28日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/265755/"
 	},
 	{
@@ -2259,10 +2292,10 @@
 		"singer_name": "ステレオポニー",
 		"lyrics_composition_name": "AIMI",
 		"find_char": "ひとひらのはなびら\nBLEACH ブリーチ 鰤\nエンディングテーマ\n \n ヒトヒラのハナビラ \n ステレオポニー \n AIMI \n ",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/GVCmsCmpJyw&t=5659s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=7955s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ヒトヒラのハナビラ",
-		"sing_day": "26年08月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/72450/"
 	},
 	{
@@ -2424,10 +2457,10 @@
 		"singer_name": "いきものがかり",
 		"lyrics_composition_name": "水野良樹",
 		"find_char": "ぶるーばーど\nNARUTO -ナルト- 疾風伝\nオープニングテーマ\n \n ブルーバード \n いきものがかり \n 水野良樹 \n ",
-		"sing_count": 10,
-		"sing_url": "https://youtu.be/7aF_4w5YD8o&t=7733s",
+		"sing_count": 11,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=11649s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ブルーバード",
-		"sing_day": "26年09月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/66961/"
 	},
 	{
@@ -2919,10 +2952,10 @@
 		"singer_name": "YOASOBI",
 		"lyrics_composition_name": "Ayase",
 		"find_char": "よるにかける\n星野舞夜 タナトスの誘惑 原作\n \n 夜に駆ける \n YOASOBI \n Ayase \n ",
-		"sing_count": 5,
-		"sing_url": "https://youtu.be/ubDUmvErfHg&t=3641s",
+		"sing_count": 6,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=11253s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=夜に駆ける",
-		"sing_day": "26年08月09日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/284748/"
 	},
 	{
@@ -2985,10 +3018,10 @@
 		"singer_name": "鏡音レン",
 		"lyrics_composition_name": "すりぃ",
 		"find_char": "らびぃ\n#コンパス 戦闘摂理解析システム\nラヴィ・シュシュマルシュ テーマソング\n \n ラヴィ \n 鏡音レン \n すりぃ \n ",
-		"sing_count": 8,
-		"sing_url": "https://youtu.be/ubDUmvErfHg&t=4893s",
+		"sing_count": 9,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=6650s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ラヴィ",
-		"sing_day": "26年08月09日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/50195.html"
 	},
 	{
@@ -3007,10 +3040,10 @@
 		"singer_name": "藍井エイル",
 		"lyrics_composition_name": "Eir,加藤裕介",
 		"find_char": "らぴすらずり\nアルスラーン戦記\nエンディングテーマ\n \n ラピスラズリ \n 藍井エイル \n Eir,加藤裕介 \n ",
-		"sing_count": 4,
-		"sing_url": "https://youtu.be/1f8zRcxz-GY&t=10190s",
+		"sing_count": 5,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=777s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ラピスラズリ",
-		"sing_day": "26年09月21日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/184699/"
 	},
 	{
@@ -3095,10 +3128,10 @@
 		"singer_name": "BUMP OF CHICKEN",
 		"lyrics_composition_name": "藤原基央",
 		"find_char": "れい\n \n ray \n BUMP OF CHICKEN \n 藤原基央 \n ",
-		"sing_count": 6,
-		"sing_url": "https://youtu.be/lbZgZ1MP-lE&t=5312s",
+		"sing_count": 7,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=9463s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ray",
-		"sing_day": "26年09月06日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/160943/"
 	},
 	{
@@ -3161,10 +3194,10 @@
 		"singer_name": "MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名",
 		"lyrics_composition_name": "ぬゆり,ヌルット,Lanndo",
 		"find_char": "ろうわー\nプロジェクトセカイ カラフルステージ！ feat. 初音ミク プロセカ\n25時、ナイトコードで。 楽曲\n \n ロウワー \n MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名 \n ぬゆり,ヌルット,Lanndo \n ",
-		"sing_count": 3,
-		"sing_url": "https://youtu.be/1f8zRcxz-GY&t=8927s",
+		"sing_count": 4,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=6255s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=ロウワー",
-		"sing_day": "26年09月21日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://w.atwiki.jp/hmiku/pages/46424.html"
 	},
 	{
@@ -3205,10 +3238,10 @@
 		"singer_name": "YUI",
 		"lyrics_composition_name": "YUI",
 		"find_char": "ろーりんぐすたー\nBLEACH ブリーチ 鰤\nオープニングテーマ\n \n Rolling star \n YUI \n YUI \n ",
-		"sing_count": 2,
-		"sing_url": "https://youtu.be/GVCmsCmpJyw&t=5055s",
+		"sing_count": 3,
+		"sing_url": "https://youtu.be/npa_r_khCFU&t=8734s",
 		"used_find_song": "https://www.youtube.com/@uta-cha-oh/search?query=Rolling star",
-		"sing_day": "26年08月23日",
+		"sing_day": "26年10月04日",
 		"song_lyrics": "https://www.uta-net.com/song/48790/"
 	},
 	{
