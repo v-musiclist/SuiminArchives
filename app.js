@@ -3,6 +3,7 @@
   let searchSongFlag = false;
   let joySongFlag = false;
   let configLoadPromise = null;
+  let appConfig = null;
   const IMAGE_FALLBACK_SRC = './assets/nodata.png';
 
   const makeImageFallbackAttr = () => "onerror=\"this.onerror=null;this.src='" + IMAGE_FALLBACK_SRC + "'\"";
@@ -28,6 +29,7 @@
       const config = await response.json();
       if (config && config[0]) {
         const cfg = config[0];
+        appConfig = cfg;
         searchSongFlag = cfg.search_song_flg === true;
         joySongFlag = cfg.joy_song_flg === true;
 
@@ -366,6 +368,8 @@
         return "contact";
       case "omake":
         return "omake";
+      case "omikuji":
+        return "omikuji";
       default:
         return "home";
     }
@@ -383,6 +387,8 @@
         return "#contact";
       case "omake":
         return "#omake";
+      case "omikuji":
+        return "#omikuji";
       default:
         return "#home";
     }
@@ -437,6 +443,9 @@
   const omakeSortCountBtn = document.getElementById("omakeSortCountBtn");
   const omakeSortDateBtn = document.getElementById("omakeSortDateBtn");
   const omakeSortResetBtn = document.getElementById("omakeSortResetBtn");
+  const drawOmikujiBtn = document.getElementById("drawOmikujiBtn");
+  const omikujiResult = document.getElementById("omikujiResult");
+  const randomSongList = document.getElementById("randomSongList");
   const videoList = document.getElementById("videoList");
   const songSearchForm = document.getElementById("songSearchForm");
   const songSearchInput = document.getElementById("songSearchInput");
@@ -445,6 +454,8 @@
   let omakeSortCountState = "default";
   let omakeSortDateState = "default";
   let omakeSortPriority = [];
+  let songDataPromise = null;
+  let cachedOmikuji = null;
 
   const getLiveIdNumber = (liveId) => {
     const match = String(liveId).match(/(\d+)/);
@@ -501,6 +512,107 @@
   };
 
   let allSongs = [];
+
+  const loadSongData = async () => {
+    if (!songDataPromise) {
+      songDataPromise = fetch("./data/download_song_file.json")
+        .then((response) => {
+          if (!response.ok) throw new Error("曲データを読み込めませんでした");
+          return response.json();
+        })
+        .then((songs) => {
+          allSongs = Array.isArray(songs) ? songs : [];
+          return allSongs;
+        })
+        .catch((error) => {
+          songDataPromise = null;
+          throw error;
+        });
+    }
+
+    return songDataPromise;
+  };
+
+  const getLocalDateKey = () => {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = String(now.getMonth() + 1).padStart(2, "0");
+    const day = String(now.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  };
+
+  const drawDailyOmikuji = () => {
+    const date = getLocalDateKey();
+    if (cachedOmikuji?.date === date) return cachedOmikuji.name;
+
+    try {
+      const saved = JSON.parse(localStorage.getItem("suimin-archives-omikuji") || "null");
+      if (saved?.date === date && typeof saved.name === "string") {
+        cachedOmikuji = saved;
+        return saved.name;
+      }
+    } catch {}
+
+    const entries = Object.keys(appConfig || {})
+      .map((key) => key.match(/^omikuji_name_(\d+)$/))
+      .filter(Boolean)
+      .map((match) => {
+        const number = match[1];
+        return {
+          name: appConfig[`omikuji_name_${number}`],
+          probability: Number(appConfig[`omikuji_probability_${number}`])
+        };
+      })
+      .filter((entry) => entry.name && Number.isFinite(entry.probability) && entry.probability > 0);
+    const totalProbability = entries.reduce((total, entry) => total + entry.probability, 0);
+    if (!totalProbability) throw new Error("おみくじの設定がありません");
+
+    const target = Math.random() * totalProbability;
+    let cumulativeProbability = 0;
+    const selected = entries.find((entry) => {
+      cumulativeProbability += entry.probability;
+      return target < cumulativeProbability;
+    }) || entries[entries.length - 1];
+    cachedOmikuji = { date, name: String(selected.name) };
+
+    try {
+      localStorage.setItem("suimin-archives-omikuji", JSON.stringify(cachedOmikuji));
+    } catch {}
+
+    return cachedOmikuji.name;
+  };
+
+  const drawRandomSongs = async () => {
+    const songs = await loadSongData();
+    const candidates = songs.filter((song) => Number(song?.sing_count ?? 0) >= 1);
+    for (let index = candidates.length - 1; index > 0; index -= 1) {
+      const swapIndex = Math.floor(Math.random() * (index + 1));
+      [candidates[index], candidates[swapIndex]] = [candidates[swapIndex], candidates[index]];
+    }
+
+    const selectedSongs = candidates.slice(0, 5);
+    if (!selectedSongs.length) {
+      randomSongList.innerHTML = '<p class="song-list__empty">歌唱履歴がありません</p>';
+      return;
+    }
+
+    randomSongList.innerHTML = selectedSongs.map((song, index) => {
+      const songUrl = hasSongLink(song) ? String(song.sing_url).trim() : "";
+      const linkMarkup = songUrl
+        ? `<a class="omikuji-song__link" href="${escapeHtml(songUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} の動画を開く"><img src="./assets/play.png" alt="再生" /></a>`
+        : "";
+      return `
+        <div class="omikuji-song">
+          <span class="omikuji-song__number">${String(index + 1).padStart(2, "0")}</span>
+          <div class="omikuji-song__info">
+            <span class="omikuji-song__title">${escapeHtml(song.song_title || "曲名未登録")}</span>
+            <span class="omikuji-song__singer">${escapeHtml(song.singer_name || "")}</span>
+          </div>
+          ${linkMarkup}
+        </div>
+      `;
+    }).join("");
+  };
 
   const formatSingerName = (value) => {
     const text = value ?? "";
@@ -661,11 +773,7 @@
     if (!omakeList) return;
 
     try {
-      const response = await fetch("./data/download_song_file.json");
-      if (!response.ok) throw new Error("OMAKE用の曲データを読み込めませんでした");
-
-      const songs = await response.json();
-      const items = Array.isArray(songs) ? songs : [];
+      const items = await loadSongData();
       const filteredItems = items.filter((song) => {
         const count = Number(song?.sing_count ?? 0);
         return count >= 1;
@@ -730,11 +838,7 @@
 
     try {
       await configLoadPromise;
-      const response = await fetch("./data/download_song_file.json");
-      if (!response.ok) throw new Error("曲データを読み込めませんでした");
-
-      const songs = await response.json();
-      allSongs = Array.isArray(songs) ? songs : [];
+      await loadSongData();
       const query = normalizeSearchText(songSearchInput?.value || "");
       const filteredSongs = query
         ? allSongs.filter((song) => getSongSearchText(song).includes(query))
@@ -1105,6 +1209,27 @@
     omakeSortPriority = [];
     updateOmakeSortButtons();
     renderOmakeList();
+  });
+
+  drawOmikujiBtn?.addEventListener("click", async () => {
+    drawOmikujiBtn.disabled = true;
+    try {
+      await configLoadPromise;
+      omikujiResult.textContent = `${drawDailyOmikuji()}（本日分）`;
+    } catch (error) {
+      omikujiResult.textContent = error.message;
+      drawOmikujiBtn.disabled = false;
+      return;
+    }
+    randomSongList.innerHTML = '<p class="song-list__empty">読み込み中...</p>';
+    try {
+      await drawRandomSongs();
+    } catch (error) {
+      randomSongList.innerHTML = `<p class="song-list__empty">${escapeHtml(error.message)}</p>`;
+    } finally {
+      drawOmikujiBtn.textContent = "曲を再抽選";
+      drawOmikujiBtn.disabled = false;
+    }
   });
   subpanelBackdrop?.addEventListener("click", closeSubpanel);
   subpanelClose?.addEventListener("click", closeSubpanel);

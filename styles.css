@@ -377,6 +377,78 @@ a{color:inherit}
   background:rgba(255,255,255,.08);
   border-color:var(--accent-strong);
 }
+.omikuji-layout{
+  display:grid;
+  grid-template-columns:minmax(0, .8fr) minmax(0, 1.2fr);
+  gap:24px;
+  padding:8px 10px 14px;
+}
+.omikuji-section{min-width:0;}
+.omikuji-section--songs{
+  border-left:1px solid var(--line);
+  padding-left:24px;
+}
+.omikuji-section__header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:12px;
+}
+.omikuji-section__title{margin:0 0 14px; font-size:17px;}
+.omikuji-section__header .omikuji-section__title{margin:0;}
+.omikuji-button{
+  min-height:42px;
+  padding:9px 16px;
+  border:1px solid var(--accent-strong);
+  border-radius:999px;
+  background:var(--accent-a0-18);
+  color:var(--text);
+  font:inherit;
+  cursor:pointer;
+  transition:background .2s ease, transform .2s ease;
+}
+.omikuji-button:hover:not(:disabled){background:var(--accent-a0-3); transform:translateY(-1px);}
+.omikuji-button:disabled{opacity:.55; cursor:wait;}
+.omikuji-button--secondary{background:rgba(255,255,255,.05); border-color:var(--line);}
+.omikuji-result{
+  display:flex;
+  align-items:center;
+  min-height:82px;
+  margin-top:14px;
+  padding:14px 16px;
+  border-left:3px solid var(--accent);
+  background:linear-gradient(90deg, var(--accent-a0-12), transparent);
+  font-size:24px;
+  line-height:1.4;
+  overflow-wrap:anywhere;
+}
+.omikuji-song-list{display:grid; gap:7px;}
+.omikuji-song{
+  display:grid;
+  grid-template-columns:34px minmax(0, 1fr) 40px;
+  align-items:center;
+  gap:10px;
+  min-height:58px;
+  padding:8px 10px;
+  border-bottom:1px solid var(--line);
+}
+.omikuji-song__number{color:var(--accent); font-family:'CormorantGaramondRegular',serif; font-size:18px;}
+.omikuji-song__info{display:grid; gap:3px; min-width:0;}
+.omikuji-song__title{overflow-wrap:anywhere;}
+.omikuji-song__singer{color:var(--muted); font-size:12px;}
+.omikuji-song__link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:38px;
+  height:38px;
+  border:1px solid var(--line);
+  border-radius:50%;
+  background:rgba(255,255,255,.05);
+}
+.omikuji-song__link img{width:20px; height:20px; object-fit:contain;}
 .song-search__input{
   flex:1;
   padding:10px 12px;
@@ -436,6 +508,12 @@ a{color:inherit}
 }
 .song-list__detail-btn{font-size:20px; line-height:1;}
 .song-list__link img{width:22px; height:22px; object-fit:contain;}
+
+@media (max-width: 680px){
+  .omikuji-layout{grid-template-columns:1fr; gap:20px; padding:8px 6px 12px;}
+  .omikuji-section--songs{border-left:0; border-top:1px solid var(--line); padding:20px 0 0;}
+  .omikuji-section__header{align-items:flex-start;}
+}
 
 .omake-list{display:grid; gap:8px;}
 .omake-list__header,
