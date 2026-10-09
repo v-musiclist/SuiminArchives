@@ -541,6 +541,11 @@
     return `${year}-${month}-${day}`;
   };
 
+  const formatOmikujiDate = (date) => {
+    const [year, month, day] = date.split("-").map(Number);
+    return `${year}年${month}月${day}日分`;
+  };
+
   const drawDailyOmikuji = () => {
     const date = getLocalDateKey();
     if (cachedOmikuji?.date === date) return cachedOmikuji.name;
@@ -1215,7 +1220,8 @@
     drawOmikujiBtn.disabled = true;
     try {
       await configLoadPromise;
-      omikujiResult.textContent = `${drawDailyOmikuji()}（本日分）`;
+      const name = drawDailyOmikuji();
+      omikujiResult.textContent = `${name}（${formatOmikujiDate(cachedOmikuji.date)}）`;
     } catch (error) {
       omikujiResult.textContent = error.message;
       drawOmikujiBtn.disabled = false;
