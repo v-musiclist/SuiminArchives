@@ -445,6 +445,7 @@
   const omakeSortResetBtn = document.getElementById("omakeSortResetBtn");
   const drawOmikujiBtn = document.getElementById("drawOmikujiBtn");
   const omikujiResult = document.getElementById("omikujiResult");
+  const omikujiResultText = document.getElementById("omikujiResultText");
   const randomSongList = document.getElementById("randomSongList");
   const videoList = document.getElementById("videoList");
   const songSearchForm = document.getElementById("songSearchForm");
@@ -456,6 +457,7 @@
   let omakeSortPriority = [];
   let songDataPromise = null;
   let cachedOmikuji = null;
+  let hasDrawnOmikuji = false;
 
   const getLiveIdNumber = (liveId) => {
     const match = String(liveId).match(/(\d+)/);
@@ -587,7 +589,7 @@
     return cachedOmikuji.name;
   };
 
-  const drawRandomSongs = async () => {
+  const drawRandomSongs = async (isFirstDraw) => {
     const songs = await loadSongData();
     const candidates = songs.filter((song) => Number(song?.sing_count ?? 0) >= 1);
     for (let index = candidates.length - 1; index > 0; index -= 1) {
@@ -603,11 +605,13 @@
 
     randomSongList.innerHTML = selectedSongs.map((song, index) => {
       const songUrl = hasSongLink(song) ? String(song.sing_url).trim() : "";
+      const animationClass = isFirstDraw ? "omikuji-song--draw" : "omikuji-song--redraw";
+      const animationDelay = isFirstDraw ? 800 + index * 150 : index * 60;
       const linkMarkup = songUrl
         ? `<a class="omikuji-song__link" href="${escapeHtml(songUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} の動画を開く"><img src="./assets/play.png" alt="再生" /></a>`
         : "";
       return `
-        <div class="omikuji-song">
+        <div class="omikuji-song ${animationClass}" style="--song-reveal-delay:${animationDelay}ms">
           <span class="omikuji-song__number">${String(index + 1).padStart(2, "0")}</span>
           <div class="omikuji-song__info">
             <span class="omikuji-song__title">${escapeHtml(song.song_title || "曲名未登録")}</span>
@@ -1218,18 +1222,23 @@
 
   drawOmikujiBtn?.addEventListener("click", async () => {
     drawOmikujiBtn.disabled = true;
+    const isFirstDraw = !hasDrawnOmikuji;
     try {
       await configLoadPromise;
       const name = drawDailyOmikuji();
-      omikujiResult.textContent = `${name}（${formatOmikujiDate(cachedOmikuji.date)}）`;
+      hasDrawnOmikuji = true;
+      omikujiResultText.textContent = `${name}（${formatOmikujiDate(cachedOmikuji.date)}）`;
+      omikujiResult.classList.remove("omikuji-result--draw", "omikuji-result--redraw");
+      void omikujiResult.offsetWidth;
+      omikujiResult.classList.add(isFirstDraw ? "omikuji-result--draw" : "omikuji-result--redraw");
     } catch (error) {
-      omikujiResult.textContent = error.message;
+      omikujiResultText.textContent = error.message;
       drawOmikujiBtn.disabled = false;
       return;
     }
     randomSongList.innerHTML = '<p class="song-list__empty">読み込み中...</p>';
     try {
-      await drawRandomSongs();
+      await drawRandomSongs(isFirstDraw);
     } catch (error) {
       randomSongList.innerHTML = `<p class="song-list__empty">${escapeHtml(error.message)}</p>`;
     } finally {
