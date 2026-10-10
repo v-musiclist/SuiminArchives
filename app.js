@@ -552,14 +552,7 @@
     const date = getLocalDateKey();
     if (cachedOmikuji?.date === date) return cachedOmikuji.name;
 
-    try {
-      const saved = JSON.parse(localStorage.getItem("suimin-archives-omikuji") || "null");
-      if (saved?.date === date && typeof saved.name === "string") {
-        cachedOmikuji = saved;
-        return saved.name;
-      }
-    } catch {}
-
+    const storageKey = `omikuji:${window.location.pathname}`;
     const entries = Object.keys(appConfig || {})
       .map((key) => key.match(/^omikuji_name_(\d+)$/))
       .filter(Boolean)
@@ -574,6 +567,14 @@
     const totalProbability = entries.reduce((total, entry) => total + entry.probability, 0);
     if (!totalProbability) throw new Error("おみくじの設定がありません");
 
+    try {
+      const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
+      if (saved?.date === date && entries.some((entry) => entry.name === saved.name)) {
+        cachedOmikuji = saved;
+        return saved.name;
+      }
+    } catch {}
+
     const target = Math.random() * totalProbability;
     let cumulativeProbability = 0;
     const selected = entries.find((entry) => {
@@ -583,7 +584,7 @@
     cachedOmikuji = { date, name: String(selected.name) };
 
     try {
-      localStorage.setItem("suimin-archives-omikuji", JSON.stringify(cachedOmikuji));
+      localStorage.setItem(storageKey, JSON.stringify(cachedOmikuji));
     } catch {}
 
     return cachedOmikuji.name;
