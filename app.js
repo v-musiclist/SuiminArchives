@@ -552,13 +552,14 @@
     const date = getLocalDateKey();
     if (cachedOmikuji?.date === date) return cachedOmikuji.name;
 
-    const storageKey = `omikuji:${window.location.pathname}`;
+    const storageKey = "suimin-archives-omikuji";
     const entries = Object.keys(appConfig || {})
       .map((key) => key.match(/^omikuji_name_(\d+)$/))
       .filter(Boolean)
       .map((match) => {
         const number = match[1];
         return {
+          id: number,
           name: appConfig[`omikuji_name_${number}`],
           probability: Number(appConfig[`omikuji_probability_${number}`])
         };
@@ -569,9 +570,13 @@
 
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey) || "null");
-      if (saved?.date === date && entries.some((entry) => entry.name === saved.name)) {
-        cachedOmikuji = saved;
-        return saved.name;
+      if (saved?.date === date) {
+        const savedEntry = entries.find((entry) => entry.id === String(saved.resultId))
+          || entries.find((entry) => entry.name === saved.name);
+        if (savedEntry) {
+          cachedOmikuji = { date, name: String(savedEntry.name), resultId: savedEntry.id };
+          return cachedOmikuji.name;
+        }
       }
     } catch {}
 
@@ -581,7 +586,7 @@
       cumulativeProbability += entry.probability;
       return target < cumulativeProbability;
     }) || entries[entries.length - 1];
-    cachedOmikuji = { date, name: String(selected.name) };
+    cachedOmikuji = { date, name: String(selected.name), resultId: selected.id };
 
     try {
       localStorage.setItem(storageKey, JSON.stringify(cachedOmikuji));
