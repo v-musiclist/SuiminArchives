@@ -7639,5 +7639,122 @@
 				"url": "https://youtu.be/npa_r_khCFU&t=12188s"
 			}
 		]
+	},
+	{
+		"live_id": "L076",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "たぶん",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/jBRedyS-GxA&t=233s"
+			},
+			{
+				"song_id": "S002",
+				"title": "妄想感傷代償連盟",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/jBRedyS-GxA&t=741s"
+			},
+			{
+				"song_id": "S003",
+				"title": "Believe(玉置成実)",
+				"singer": "玉置成実",
+				"lyrics_composition": "西尾佐栄子,あおい吉勇",
+				"url": "https://youtu.be/jBRedyS-GxA&t=1251s"
+			},
+			{
+				"song_id": "S004",
+				"title": "海賊戦隊ゴーカイジャー",
+				"singer": "松原剛志",
+				"lyrics_composition": "岩里祐穂,持田裕輔 ",
+				"url": "https://youtu.be/jBRedyS-GxA&t=1688s"
+			},
+			{
+				"song_id": "S005",
+				"title": "PRIDE",
+				"singer": "HIGH and MIGHTY COLOR",
+				"lyrics_composition": "HIGH and MIGHTY COLOR",
+				"url": "https://youtu.be/jBRedyS-GxA&t=2073s"
+			},
+			{
+				"song_id": "S006",
+				"title": "アイデンティティ",
+				"singer": "宵崎奏,初音ミク",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/jBRedyS-GxA&t=2585s"
+			},
+			{
+				"song_id": "S007",
+				"title": "紅蓮華",
+				"singer": "LiSA",
+				"lyrics_composition": "LiSA,草野華余子",
+				"url": "https://youtu.be/jBRedyS-GxA&t=2942s"
+			},
+			{
+				"song_id": "S008",
+				"title": "ちゅ、多様性。",
+				"singer": "ano,あの",
+				"lyrics_composition": "ano,あの,真部脩一",
+				"url": "https://youtu.be/jBRedyS-GxA&t=3316s"
+			},
+			{
+				"song_id": "S009",
+				"title": "怪物",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/jBRedyS-GxA&t=3727s"
+			},
+			{
+				"song_id": "S010",
+				"title": "丸の内サディスティック",
+				"singer": "椎名林檎",
+				"lyrics_composition": "椎名林檎",
+				"url": "https://youtu.be/jBRedyS-GxA&t=4033s"
+			},
+			{
+				"song_id": "S011",
+				"title": "Don't say“lazy”",
+				"singer": "桜高軽音部,放課後ティータイム",
+				"lyrics_composition": "大森祥子,前澤寛之",
+				"url": "https://youtu.be/jBRedyS-GxA&t=4341s"
+			},
+			{
+				"song_id": "S012",
+				"title": "ボルテッカー",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27,Project VOLTAGE",
+				"url": "https://youtu.be/jBRedyS-GxA&t=4706s"
+			},
+			{
+				"song_id": "S013",
+				"title": "ハレ晴レユカイ",
+				"singer": "涼宮ハルヒ,長門有希,朝比奈みくる",
+				"lyrics_composition": "畑亜貴,田代智一",
+				"url": "https://youtu.be/jBRedyS-GxA&t=4943s"
+			},
+			{
+				"song_id": "S014",
+				"title": "変わらないもの",
+				"singer": "奥華子",
+				"lyrics_composition": "奥華子",
+				"url": "https://youtu.be/jBRedyS-GxA&t=5269s"
+			},
+			{
+				"song_id": "S015",
+				"title": "アイドル",
+				"singer": "YOASOBI",
+				"lyrics_composition": "Ayase",
+				"url": "https://youtu.be/jBRedyS-GxA&t=5651s"
+			},
+			{
+				"song_id": "S016",
+				"title": "カタオモイ",
+				"singer": "Aimer",
+				"lyrics_composition": "内澤崇仁",
+				"url": "https://youtu.be/jBRedyS-GxA&t=5883s"
+			}
+		]
 	}
 ]
