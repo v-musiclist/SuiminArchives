@@ -197,7 +197,7 @@
 			{
 				"song_id": "S001",
 				"title": "デビルじゃないもん",
-				"singer": "DECO*27,ピノキオピー,ピノキオP",
+				"singer": "初音ミク",
 				"lyrics_composition": "DECO*27,ピノキオピー,ピノキオP",
 				"url": "https://youtu.be/UIIzT2tMonU&t=338s"
 			},
@@ -2634,7 +2634,7 @@
 			{
 				"song_id": "S005",
 				"title": "デビルじゃないもん",
-				"singer": "DECO*27,ピノキオピー,ピノキオP",
+				"singer": "初音ミク",
 				"lyrics_composition": "DECO*27,ピノキオピー,ピノキオP",
 				"url": "https://youtu.be/D7pNWwjKgpI&t=1733s"
 			}
@@ -7754,6 +7754,60 @@
 				"singer": "Aimer",
 				"lyrics_composition": "内澤崇仁",
 				"url": "https://youtu.be/jBRedyS-GxA&t=5883s"
+			}
+		]
+	},
+	{
+		"live_id": "L077",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "ヴァンパイア",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=625s"
+			},
+			{
+				"song_id": "S002",
+				"title": "弱虫モンブラン",
+				"singer": "GUMI",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=1096s"
+			},
+			{
+				"song_id": "S003",
+				"title": "デビルじゃないもん",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27,ピノキオピー,ピノキオP",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=1749s"
+			},
+			{
+				"song_id": "S004",
+				"title": "妄想感傷代償連盟",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=2714s"
+			},
+			{
+				"song_id": "S005",
+				"title": "ラヴィ",
+				"singer": "鏡音レン",
+				"lyrics_composition": "すりぃ",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=3561s"
+			},
+			{
+				"song_id": "S006",
+				"title": "Happy Halloween",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=4542s"
+			},
+			{
+				"song_id": "S007",
+				"title": "あなたをコンセルヴェ",
+				"singer": "天草フラン.酔眠はやね",
+				"lyrics_composition": "てとてと",
+				"url": "https://youtu.be/Co-CFLI3wE8&t=5569s"
 			}
 		]
 	}
