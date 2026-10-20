@@ -7810,5 +7810,115 @@
 				"url": "https://youtu.be/Co-CFLI3wE8&t=5569s"
 			}
 		]
+	},
+	{
+		"live_id": "L078",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "なぜ？謎？！ANSWER",
+				"singer": "熊田茜音,増井優花",
+				"lyrics_composition": "青木久美子,ハマダコウキ",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=369s"
+			},
+			{
+				"song_id": "S002",
+				"title": "少女S",
+				"singer": "SCANDAL",
+				"lyrics_composition": "TOMOMI,田鹿祐一",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=896s"
+			},
+			{
+				"song_id": "S003",
+				"title": "ヒトヒラのハナビラ",
+				"singer": "ステレオポニー",
+				"lyrics_composition": "AIMI",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=1639s"
+			},
+			{
+				"song_id": "S004",
+				"title": "夜鷹の夢",
+				"singer": "Do As Infinity",
+				"lyrics_composition": "川村サイコ,D・A・I",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=2214s"
+			},
+			{
+				"song_id": "S005",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=2844s"
+			},
+			{
+				"song_id": "S006",
+				"title": "小さきもの",
+				"singer": "林明日香",
+				"lyrics_composition": "三浦徳子,山移高寛",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=3246s"
+			},
+			{
+				"song_id": "S007",
+				"title": "鳥の詩",
+				"singer": "Lia",
+				"lyrics_composition": "麻枝准,折戸伸治",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=3722s"
+			},
+			{
+				"song_id": "S008",
+				"title": "扉の向こうへ",
+				"singer": "YeLLOW Generation",
+				"lyrics_composition": "YeLLOW Generation,森元康介",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=4391s"
+			},
+			{
+				"song_id": "S009",
+				"title": "DAN DAN 心魅かれてく",
+				"singer": "FIELD OF VIEW",
+				"lyrics_composition": "坂井泉水,織田哲郎",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=4853s"
+			},
+			{
+				"song_id": "S010",
+				"title": "Butter-Fly",
+				"singer": "和田光司",
+				"lyrics_composition": "千綿偉功",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=5163s"
+			},
+			{
+				"song_id": "S011",
+				"title": "劇薬中毒",
+				"singer": "＝LOVE",
+				"lyrics_composition": "指原莉乃,齋藤奏太",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=5826s"
+			},
+			{
+				"song_id": "S012",
+				"title": "リードコントロール",
+				"singer": "なるみや",
+				"lyrics_composition": "なるみや",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=6539s"
+			},
+			{
+				"song_id": "S013",
+				"title": "Tell Your World",
+				"singer": "初音ミク",
+				"lyrics_composition": "kz",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=6937s"
+			},
+			{
+				"song_id": "S014",
+				"title": "アイデンティティ",
+				"singer": "宵崎奏,初音ミク",
+				"lyrics_composition": "Kanaria",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=7276s"
+			},
+			{
+				"song_id": "S015",
+				"title": "Reason",
+				"singer": "玉置成実",
+				"lyrics_composition": "shungo.,y@suo otani",
+				"url": "https://youtu.be/3_xHw9cSBmA&t=7498s"
+			}
+		]
 	}
 ]
