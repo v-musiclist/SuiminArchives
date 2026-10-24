@@ -1024,7 +1024,7 @@
             songId: historySong?.song_id || "",
             url: historySong?.url || "",
             liveText: liveTextMap.get(liveId) || "",
-            liveJoy: liveJoyMap.get(liveId) === true
+            liveJoy: liveJoyMap.get(liveId) === true && historySong?.exception_joy !== true
           });
         });
       });
