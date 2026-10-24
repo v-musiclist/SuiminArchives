@@ -474,8 +474,22 @@ a{color:inherit}
 }
 .omikuji-song__number{color:var(--accent); font-family:'CormorantGaramondRegular',serif; font-size:18px;}
 .omikuji-song__info{display:grid; gap:3px; min-width:0;}
-.omikuji-song__title{overflow-wrap:anywhere;}
+.omikuji-song__title{
+  padding:0;
+  border:0;
+  background:none;
+  color:inherit;
+  font:inherit;
+  text-align:left;
+  overflow-wrap:anywhere;
+  cursor:pointer;
+}
+.omikuji-song__title:hover{text-decoration:underline;}
+.omikuji-song__title:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
 .omikuji-song__singer{color:var(--muted); font-size:12px;}
+.omikuji-song__copy-status{color:var(--muted); font-size:12px;}
+.omikuji-song__actions{display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;}
+.omikuji-song__actions .song-subpanel__link{height:30px; padding:0 10px; font-size:12px;}
 .omikuji-song__link{
   display:inline-flex;
   align-items:center;

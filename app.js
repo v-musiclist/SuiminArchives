@@ -611,17 +611,30 @@
 
     randomSongList.innerHTML = selectedSongs.map((song, index) => {
       const songUrl = hasSongLink(song) ? String(song.sing_url).trim() : "";
+      const rawLyricsUrl = typeof song?.song_lyrics === "string" ? song.song_lyrics.trim() : "";
+      const lyricsUrl = rawLyricsUrl && rawLyricsUrl.toLowerCase() !== "null" ? rawLyricsUrl : "";
+      const karaokeUrl = getKaraokeLinkUrl(song);
       const animationClass = isFirstDraw ? "omikuji-song--draw" : "omikuji-song--redraw";
       const animationDelay = isFirstDraw ? 800 + index * 150 : index * 60;
       const linkMarkup = songUrl
         ? `<a class="omikuji-song__link" href="${escapeHtml(songUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} の動画を開く"><img src="./assets/play.png" alt="再生" /></a>`
         : "";
+      const actionMarkup = [
+        lyricsUrl
+          ? `<a class="song-subpanel__link" href="${escapeHtml(lyricsUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} の歌詞を開く">歌詞</a>`
+          : "",
+        karaokeUrl
+          ? `<a class="song-subpanel__link" href="${escapeHtml(karaokeUrl)}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(song.song_title || "曲")} のカラオケ検索を開く">カラオケ検索</a>`
+          : ""
+      ].join("");
       return `
         <div class="omikuji-song ${animationClass}" style="--song-reveal-delay:${animationDelay}ms">
           <span class="omikuji-song__number">${String(index + 1).padStart(2, "0")}</span>
           <div class="omikuji-song__info">
-            <span class="omikuji-song__title">${escapeHtml(song.song_title || "曲名未登録")}</span>
+            <button class="omikuji-song__title" type="button" aria-label="${escapeHtml(song.song_title || "曲名未登録")} をコピー">${escapeHtml(song.song_title || "曲名未登録")}</button>
             <span class="omikuji-song__singer">${escapeHtml(song.singer_name || "")}</span>
+            <span class="omikuji-song__copy-status" aria-live="polite"></span>
+            ${actionMarkup ? `<div class="omikuji-song__actions">${actionMarkup}</div>` : ""}
           </div>
           ${linkMarkup}
         </div>
@@ -1224,6 +1237,24 @@
     omakeSortPriority = [];
     updateOmakeSortButtons();
     renderOmakeList();
+  });
+
+  randomSongList?.addEventListener("click", async (event) => {
+    const copyButton = event.target.closest(".omikuji-song__title");
+    if (!copyButton) return;
+
+    const status = copyButton.parentElement.querySelector(".omikuji-song__copy-status");
+    if (!navigator.clipboard?.writeText) {
+      status.textContent = "この環境ではコピーできません";
+      return;
+    }
+
+    try {
+      await navigator.clipboard.writeText(copyButton.textContent);
+      status.textContent = "曲名をコピーしました";
+    } catch {
+      status.textContent = "コピーに失敗しました。ブラウザーの権限を確認してください";
+    }
   });
 
   drawOmikujiBtn?.addEventListener("click", async () => {
