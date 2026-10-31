@@ -8996,5 +8996,106 @@
 				"exception_joy": false
 			}
 		]
+	},
+	{
+		"live_id": "L079",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "Happy Halloween",
+				"singer": "鏡音リン",
+				"lyrics_composition": "Junky",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=315s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S002",
+				"title": "ロウワー",
+				"singer": "MEIKO,暁山瑞希,朝比奈まふゆ,宵崎奏,東雲絵名",
+				"lyrics_composition": "ぬゆり,ヌルット,Lanndo",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=728s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S003",
+				"title": "ヴァンパイア",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=1242s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S004",
+				"title": "聖少女領域",
+				"singer": "ALI PROJECT",
+				"lyrics_composition": "宝野アリカ,片倉三起也",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=1638s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S005",
+				"title": "名前のない怪物",
+				"singer": "EGOIST",
+				"lyrics_composition": "ryo",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=2016s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S006",
+				"title": "Dokkin♢魔法つかいプリキュア！",
+				"singer": "北川理恵",
+				"lyrics_composition": "森雪之丞,奥村愛子",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=2505s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S007",
+				"title": "トウキョウ・シャンディ・ランデヴ",
+				"singer": "花譜",
+				"lyrics_composition": "ツミキ",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=2830s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S008",
+				"title": "紅蓮華",
+				"singer": "LiSA",
+				"lyrics_composition": "LiSA,草野華余子",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=3344s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S009",
+				"title": "革命道中",
+				"singer": "アイナ・ジ・エンド",
+				"lyrics_composition": "アイナ・ジ・エンド,Shin Sakiura",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=3907s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S010",
+				"title": "ボルテッカー",
+				"singer": "初音ミク",
+				"lyrics_composition": "DECO*27,Project VOLTAGE",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=4229s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S011",
+				"title": "Butter-Fly",
+				"singer": "和田光司",
+				"lyrics_composition": "千綿偉功",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=4461s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S012",
+				"title": "なぜ？謎？！ANSWER",
+				"singer": "熊田茜音,増井優花",
+				"lyrics_composition": "青木久美子,ハマダコウキ",
+				"url": "https://youtu.be/0O8gtQ6cmbg&t=4841s",
+				"exception_joy": false
+			}
+		]
 	}
 ]
