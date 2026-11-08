@@ -9097,5 +9097,74 @@
 				"exception_joy": false
 			}
 		]
+	},
+	{
+		"live_id": "L080",
+		"songs": [
+			{
+				"song_id": "S001",
+				"title": "可愛いあの子が気にゐらない",
+				"singer": "なるみや",
+				"lyrics_composition": "なるみや",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=189s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S002",
+				"title": "抜錨",
+				"singer": "巡音ルカ",
+				"lyrics_composition": "ナナホシ管弦楽団,岩見 陸,モナカ",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=676s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S003",
+				"title": "君が好きだと叫びたい",
+				"singer": "BAAD",
+				"lyrics_composition": "山田恭二,多々納好夫",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=1223s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S004",
+				"title": "晴る",
+				"singer": "ヨルシカ",
+				"lyrics_composition": "n-buna,ナブナ",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=1692s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S005",
+				"title": "Calc.",
+				"singer": "初音ミク",
+				"lyrics_composition": "ジミーサムP,OneRoom",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=2292s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S006",
+				"title": "おジャ魔女カーニバル!!",
+				"singer": "MAHO堂",
+				"lyrics_composition": "大森祥子,池毅",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=2629s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S007",
+				"title": "初恋サイダー",
+				"singer": "Buono!",
+				"lyrics_composition": "NOBE,しほり",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=3024s",
+				"exception_joy": false
+			},
+			{
+				"song_id": "S008",
+				"title": "キャットラビング",
+				"singer": "可不",
+				"lyrics_composition": "香椎モイミ",
+				"url": "https://youtu.be/kmNYK7AIWIo&t=3267s",
+				"exception_joy": false
+			}
+		]
 	}
 ]
